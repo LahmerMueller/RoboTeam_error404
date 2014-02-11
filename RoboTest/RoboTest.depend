@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1389210402 source:d:\programmieren\roboter\libraries\avr-libc\malloc.c
+	<stdlib.h>
+	"sectionname.h"
+	"stdlib_private.h"
+	<avr/io.h>
+
+1389210402 d:\programmieren\roboter\libraries\avr-libc\sectionname.h
+
+1389210402 d:\programmieren\roboter\libraries\avr-libc\stdlib_private.h
+	<inttypes.h>
+	<stdlib.h>
+	<avr/io.h>
+	<avr/io.h>
+
+1389210402 source:d:\programmieren\roboter\libraries\avr-libc\realloc.c
+	<stdlib.h>
+	<string.h>
+	"sectionname.h"
+	"stdlib_private.h"
+	<avr/io.h>
+
+1391044776 source:d:\programmieren\roboter\roboteam_error404\robotest\fuse.c
+	<avr/io.h>
+
+1391044776 source:\\user-pc\programmieren\roboter\roboteam_error404\robotest\fuse.c
+	<avr/io.h>
+
+1391542519 source:d:\programmieren\roboter\roboteam_error404\robotest\test.cpp
+	<WProgram.h>
+
+1391542519 d:\programmieren\roboter\libraries\wprogram.h
+	"Arduino.h"
+	"binary.h"
+	"Client.h"
+	"HardwareSerial.h"
+	"IPAddress.h"
+	"new.h"
+	"Platform.h"
+	"Server.h"
+	"Stream.h"
+	"Udp.h"
+	"USBAPI.h"
+	"USBCore.h"
+	"USBDesc.h"
+	"WCharacter.h"
+	"wiring_private.h"
+	"WString.h"
+
+1389210402 d:\programmieren\roboter\libraries\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1389210402 d:\programmieren\roboter\libraries\binary.h
+
+1389210402 d:\programmieren\roboter\libraries\wcharacter.h
+	<ctype.h>
+
+1389210402 d:\programmieren\roboter\libraries\wstring.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1389210402 d:\programmieren\roboter\libraries\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1389210402 d:\programmieren\roboter\libraries\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1389210402 d:\programmieren\roboter\libraries\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1389210402 d:\programmieren\roboter\libraries\printable.h
+	<new.h>
+
+1389210402 d:\programmieren\roboter\libraries\new.h
+	<stdlib.h>
+
+1389210402 d:\programmieren\roboter\libraries\usbapi.h
+
+1389210410 d:\programmieren\roboter\libraries\pins_arduino.h
+	<avr/pgmspace.h>
+
+1389210402 d:\programmieren\roboter\libraries\client.h
+	"Print.h"
+	"Stream.h"
+	"IPAddress.h"
+
+1389210402 d:\programmieren\roboter\libraries\ipaddress.h
+	<Printable.h>
+
+1389210402 d:\programmieren\roboter\libraries\platform.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"Arduino.h"
+	"USBDesc.h"
+	"USBCore.h"
+	"USBAPI.h"
+
+1389210402 d:\programmieren\roboter\libraries\usbdesc.h
+
+1389210402 d:\programmieren\roboter\libraries\usbcore.h
+
+1389210402 d:\programmieren\roboter\libraries\server.h
+
+1389210402 d:\programmieren\roboter\libraries\udp.h
+	<Stream.h>
+	<IPAddress.h>
+
+1389210402 d:\programmieren\roboter\libraries\wiring_private.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	<stdarg.h>
+	"Arduino.h"
+

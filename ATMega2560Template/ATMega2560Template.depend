@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1391543645 source:d:\programmieren\roboter\roboteam_error404\atmega2560template\fuse.c
+	<avr/io.h>
+
+1391544296 source:d:\programmieren\roboter\roboteam_error404\atmega2560template\main.cpp
+	<WProgram.h>
+
+1391542519 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\wprogram.h
+	"Arduino.h"
+	"binary.h"
+	"Client.h"
+	"HardwareSerial.h"
+	"IPAddress.h"
+	"new.h"
+	"Platform.h"
+	"Server.h"
+	"Stream.h"
+	"Udp.h"
+	"USBAPI.h"
+	"USBCore.h"
+	"USBDesc.h"
+	"WCharacter.h"
+	"wiring_private.h"
+	"WString.h"
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\binary.h
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\wcharacter.h
+	<ctype.h>
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\wstring.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\printable.h
+	<new.h>
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\new.h
+	<stdlib.h>
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\usbapi.h
+
+1389210410 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\pins_arduino.h
+	<avr/pgmspace.h>
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\client.h
+	"Print.h"
+	"Stream.h"
+	"IPAddress.h"
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\ipaddress.h
+	<Printable.h>
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\platform.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"Arduino.h"
+	"USBDesc.h"
+	"USBCore.h"
+	"USBAPI.h"
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\usbdesc.h
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\usbcore.h
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\server.h
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\udp.h
+	<Stream.h>
+	<IPAddress.h>
+
+1389210402 d:\programmieren\roboter\roboteam_error404\atmega2560template\libraries\wiring_private.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	<stdarg.h>
+	"Arduino.h"
+

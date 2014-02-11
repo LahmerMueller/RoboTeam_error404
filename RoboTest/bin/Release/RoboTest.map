@@ -1,0 +1,1801 @@
+Archive member included because of file (symbol)
+
+D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                              obj\Release\RoboTeam_error404\RoboTest\Test.o (init)
+D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                              obj\Release\RoboTeam_error404\RoboTest\Test.o (IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char))
+D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                              D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o) (Print::print(char))
+D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (String::operator[](unsigned int) const)
+D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (free)
+D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (realloc)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__mulsi3)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__udivmodsi4)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o (exit)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+                              obj\Release\RoboTeam_error404\RoboTest\Test.o (__do_clear_bss)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+                              obj\Release\RoboTeam_error404\RoboTest\Test.o (__do_global_ctors)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__fixunssfsi)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__subsf3)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__mulsf3)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__divsf3)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__gtsf2)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o) (__gesf2)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__ltsf2)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__lesf2)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__unordsf2)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__floatsisf)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__fixsfsi)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__thenan_sf)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o) (__floatunsisf)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o) (__tablejump__)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o) (__clzsi2)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__pack_f)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__unpack_f)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o) (__clz_tab)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (atol)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (isspace)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (tolower)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (toupper)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+                              D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o) (memcmp)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (memcpy)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (memmove)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (strchr)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (strcmp)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (strcpy)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (strncmp)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (strncpy)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (strrchr)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (strstr)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (itoa)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (ltoa)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o) (__mulsi_const_10)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (ultoa)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o) (utoa)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o) (__ctype_isfalse)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o) (strrev)
+d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o) (__udivmodhi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+__flp               0x2               D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+LOAD obj\Release\RoboTeam_error404\RoboTest\fuse.o
+LOAD obj\Release\RoboTeam_error404\RoboTest\Test.o
+LOAD D:\Programmieren\Roboter\libraries\core.a
+LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
+LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libm.a
+LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
+LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a
+LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x373c
+ *(.vectors)
+ .vectors       0x00000000       0xe4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x000000e4                . = ALIGN (0x2)
+                0x000000e4                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000e4        0x0 linker stubs
+ *(.trampolines*)
+                0x000000e4                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000e4                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000e4        0x2 obj\Release\RoboTeam_error404\RoboTest\Test.o
+ .ctors         0x000000e6        0x2 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x000000e8                __ctors_end = .
+                0x000000e8                __dtors_start = .
+ *(.dtors)
+                0x000000e8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000e8        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x000000e8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000e8       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000f8       0x1a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x000000f8                __do_copy_data
+ .init4         0x00000112       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+                0x00000112                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000122       0x16 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+                0x00000122                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000138        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x00000140        0x4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x00000140                __vector_38
+                0x00000140                __vector_22
+                0x00000140                __vector_28
+                0x00000140                __vector_1
+                0x00000140                __vector_32
+                0x00000140                __vector_34
+                0x00000140                __vector_24
+                0x00000140                __vector_12
+                0x00000140                __vector_55
+                0x00000140                __vector_46
+                0x00000140                __bad_interrupt
+                0x00000140                __vector_6
+                0x00000140                __vector_31
+                0x00000140                __vector_35
+                0x00000140                __vector_39
+                0x00000140                __vector_3
+                0x00000140                __vector_30
+                0x00000140                __vector_45
+                0x00000140                __vector_25
+                0x00000140                __vector_11
+                0x00000140                __vector_54
+                0x00000140                __vector_13
+                0x00000140                __vector_17
+                0x00000140                __vector_19
+                0x00000140                __vector_56
+                0x00000140                __vector_7
+                0x00000140                __vector_49
+                0x00000140                __vector_41
+                0x00000140                __vector_43
+                0x00000140                __vector_27
+                0x00000140                __vector_5
+                0x00000140                __vector_33
+                0x00000140                __vector_47
+                0x00000140                __vector_52
+                0x00000140                __vector_37
+                0x00000140                __vector_4
+                0x00000140                __vector_44
+                0x00000140                __vector_51
+                0x00000140                __vector_9
+                0x00000140                __vector_2
+                0x00000140                __vector_21
+                0x00000140                __vector_15
+                0x00000140                __vector_36
+                0x00000140                __vector_29
+                0x00000140                __vector_40
+                0x00000140                __vector_8
+                0x00000140                __vector_26
+                0x00000140                __vector_48
+                0x00000140                __vector_14
+                0x00000140                __vector_53
+                0x00000140                __vector_10
+                0x00000140                __vector_50
+                0x00000140                __vector_16
+                0x00000140                __vector_18
+                0x00000140                __vector_20
+                0x00000140                __vector_42
+ .text          0x00000144        0x0 obj\Release\RoboTeam_error404\RoboTest\fuse.o
+ .text          0x00000144       0x22 obj\Release\RoboTeam_error404\RoboTest\Test.o
+                0x00000144                __cxa_pure_virtual
+                0x0000015c                main
+ .text          0x00000166        0x0 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .text          0x00000166        0x0 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .text          0x00000166        0x0 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .text          0x00000166        0x0 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .text          0x00000166        0x0 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .text          0x00000166        0x0 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .text          0x00000166        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .text          0x00000166        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x00000166        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .text          0x00000166        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .text          0x00000166        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .text          0x00000166       0x58 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                0x00000166                __fixunssfsi
+ .text          0x000001be      0x354 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                0x00000456                __subsf3
+                0x000004b8                __addsf3
+ .text          0x00000512      0x1f4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                0x00000512                __mulsf3
+ .text          0x00000706      0x158 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                0x00000706                __divsf3
+ .text          0x0000085e       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                0x0000085e                __gtsf2
+ .text          0x000008be       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                0x000008be                __gesf2
+ .text          0x0000091e       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                0x0000091e                __ltsf2
+ .text          0x0000097e       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                0x0000097e                __lesf2
+ .text          0x000009de       0x56 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                0x000009de                __unordsf2
+ .text          0x00000a34       0xbc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                0x00000a34                __floatsisf
+ .text          0x00000af0       0xa8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                0x00000af0                __fixsfsi
+ .text          0x00000b98        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .text          0x00000b98       0xf2 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                0x00000b98                __floatunsisf
+ .text          0x00000c8a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+ .text          0x00000c8a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+ .text          0x00000c8a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+ .text          0x00000c8a       0x9e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+                0x00000c8a                __clzsi2
+ .text          0x00000d28      0x1aa d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+                0x00000d28                __pack_f
+ .text          0x00000ed2       0xf0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+                0x00000ed2                __unpack_f
+ .text          0x00000fc2       0xb2 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000fc2                __fpcmp_parts_f
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .text          0x00001074        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+                0x00001074                . = ALIGN (0x2)
+ *(.text.*)
+ .text.__vector_23
+                0x00001074       0x90 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x00001074                __vector_23
+ .text.millis   0x00001104       0x1c D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x00001104                millis
+ .text.micros   0x00001120       0x4c D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x00001120                micros
+ .text.delay    0x0000116c       0xb2 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x0000116c                delay
+ .text.delayMicroseconds
+                0x0000121e       0x14 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x0000121e                delayMicroseconds
+ .text.init     0x00001232       0xc4 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x00001232                init
+ .text._ZN9IPAddressC2Ehhhh
+                0x000012f6       0x18 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x000012f6                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._ZN9IPAddressC1Ehhhh
+                0x0000130e       0x18 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x0000130e                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._GLOBAL__I__ZN9IPAddressC2Ev
+                0x00001326       0x1e D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .text._ZNK9IPAddress7printToER5Print
+                0x00001344       0x84 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x00001344                IPAddress::printTo(Print&) const
+ .text._ZN9IPAddresseqEPKh
+                0x000013c8       0x1e D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x000013c8                IPAddress::operator==(unsigned char const*)
+ .text._ZN9IPAddressaSEm
+                0x000013e6       0x24 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x000013e6                IPAddress::operator=(unsigned long)
+ .text._ZN9IPAddressaSEPKh
+                0x0000140a       0x1a D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x0000140a                IPAddress::operator=(unsigned char const*)
+ .text._ZN9IPAddressC1EPKh
+                0x00001424       0x22 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x00001424                IPAddress::IPAddress(unsigned char const*)
+ .text._ZN9IPAddressC2EPKh
+                0x00001446       0x22 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x00001446                IPAddress::IPAddress(unsigned char const*)
+ .text._ZN9IPAddressC1Em
+                0x00001468       0x2c D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x00001468                IPAddress::IPAddress(unsigned long)
+ .text._ZN9IPAddressC2Em
+                0x00001494       0x2c D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x00001494                IPAddress::IPAddress(unsigned long)
+ .text._ZN9IPAddressC1Ev
+                0x000014c0       0x14 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x000014c0                IPAddress::IPAddress()
+ .text._ZN9IPAddressC2Ev
+                0x000014d4       0x14 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x000014d4                IPAddress::IPAddress()
+ .text._ZN5Print5writeEPKhj
+                0x000014e8       0x54 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x000014e8                Print::write(unsigned char const*, unsigned int)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x0000153c       0x46 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x0000153c                Print::print(__FlashStringHelper const*)
+ .text._ZN5Print5printEc
+                0x00001582       0x10 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001582                Print::print(char)
+ .text._ZN5Print5printERK9Printable
+                0x00001592       0x16 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001592                Print::print(Printable const&)
+ .text._ZN5Print7printlnEv
+                0x000015a8       0x40 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x000015a8                Print::println()
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x000015e8       0x28 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x000015e8                Print::println(__FlashStringHelper const*)
+ .text._ZN5Print7printlnEc
+                0x00001610       0x30 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001610                Print::println(char)
+ .text._ZN5Print7printlnERK9Printable
+                0x00001640       0x34 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001640                Print::println(Printable const&)
+ .text._ZN5Print5writeEPKc
+                0x00001674       0x38 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001674                Print::write(char const*)
+ .text._ZN5Print11printNumberEmh
+                0x000016ac       0xc8 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x000016ac                Print::printNumber(unsigned long, unsigned char)
+ .text._ZN5Print5printEmi
+                0x00001774       0x1e D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001774                Print::print(unsigned long, int)
+ .text._ZN5Print7printlnEmi
+                0x00001792       0x28 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001792                Print::println(unsigned long, int)
+ .text._ZN5Print5printEji
+                0x000017ba       0x22 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x000017ba                Print::print(unsigned int, int)
+ .text._ZN5Print7printlnEji
+                0x000017dc       0x3a D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x000017dc                Print::println(unsigned int, int)
+ .text._ZN5Print5printEhi
+                0x00001816       0x24 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001816                Print::print(unsigned char, int)
+ .text._ZN5Print7printlnEhi
+                0x0000183a       0x3c D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x0000183a                Print::println(unsigned char, int)
+ .text._ZN5Print5printEli
+                0x00001876       0x80 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001876                Print::print(long, int)
+ .text._ZN5Print7printlnEli
+                0x000018f6       0x28 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x000018f6                Print::println(long, int)
+ .text._ZN5Print5printEii
+                0x0000191e       0x26 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x0000191e                Print::print(int, int)
+ .text._ZN5Print7printlnEii
+                0x00001944       0x3e D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001944                Print::println(int, int)
+ .text._ZN5Print5printEPKc
+                0x00001982        0x6 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001982                Print::print(char const*)
+ .text._ZN5Print10printFloatEdh
+                0x00001988      0x1c8 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001988                Print::printFloat(double, unsigned char)
+ .text._ZN5Print5printEdi
+                0x00001b50        0x6 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001b50                Print::print(double, int)
+ .text._ZN5Print7printlnEdi
+                0x00001b56       0x26 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001b56                Print::println(double, int)
+ .text._ZN5Print7printlnEPKc
+                0x00001b7c       0x26 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001b7c                Print::println(char const*)
+ .text._ZN5Print5printERK6String
+                0x00001ba2       0x66 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001ba2                Print::print(String const&)
+ .text._ZN5Print7printlnERK6String
+                0x00001c08       0x28 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00001c08                Print::println(String const&)
+ .text._ZNK6String6charAtEj
+                0x00001c30       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001c30                String::charAt(unsigned int) const
+ .text._ZN6String9setCharAtEjc
+                0x00001c52       0x1a D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001c52                String::setCharAt(unsigned int, char)
+ .text._ZN6StringixEj
+                0x00001c6c       0x2a D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001c6c                String::operator[](unsigned int)
+ .text._ZNK6StringixEj
+                0x00001c96       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001c96                String::operator[](unsigned int) const
+ .text._ZN6String7replaceEcc
+                0x00001cb8       0x1e D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001cb8                String::replace(char, char)
+ .text._ZNK6String5toIntEv
+                0x00001cd6       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001cd6                String::toInt() const
+ .text._ZN6String4trimEv
+                0x00001cf8       0xb6 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001cf8                String::trim()
+ .text._ZN6String11toUpperCaseEv
+                0x00001dae       0x28 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001dae                String::toUpperCase()
+ .text._ZN6String11toLowerCaseEv
+                0x00001dd6       0x28 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001dd6                String::toLowerCase()
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00001dfe       0x78 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001dfe                String::equalsIgnoreCase(String const&) const
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00001e76       0x9c D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001e76                String::lastIndexOf(String const&, unsigned int) const
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00001f12       0x1c D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001f12                String::lastIndexOf(String const&) const
+ .text._ZNK6String7indexOfERKS_j
+                0x00001f2e       0x3c D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001f2e                String::indexOf(String const&, unsigned int) const
+ .text._ZNK6String7indexOfERKS_
+                0x00001f6a        0xa D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001f6a                String::indexOf(String const&) const
+ .text._ZNK6String11lastIndexOfEcj
+                0x00001f74       0x6e D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001f74                String::lastIndexOf(char, unsigned int) const
+ .text._ZNK6String11lastIndexOfEc
+                0x00001fe2       0x10 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001fe2                String::lastIndexOf(char) const
+ .text._ZNK6String7indexOfEcj
+                0x00001ff2       0x3c D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00001ff2                String::indexOf(char, unsigned int) const
+ .text._ZNK6String7indexOfEc
+                0x0000202e        0xa D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000202e                String::indexOf(char) const
+ .text._ZNK6String8getBytesEPhjj
+                0x00002038       0x5a D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002038                String::getBytes(unsigned char*, unsigned int, unsigned int) const
+ .text._ZNK6String8endsWithERKS_
+                0x00002092       0x44 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002092                String::endsWith(String const&) const
+ .text._ZNK6String6equalsEPKc
+                0x000020d6       0x46 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000020d6                String::equals(char const*) const
+ .text._ZNK6String9compareToERKS_
+                0x0000211c       0x66 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000211c                String::compareTo(String const&) const
+ .text._ZNK6StringgeERKS_
+                0x00002182       0x10 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002182                String::operator>=(String const&) const
+ .text._ZNK6StringleERKS_
+                0x00002192       0x12 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002192                String::operator<=(String const&) const
+ .text._ZNK6StringgtERKS_
+                0x000021a4       0x12 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000021a4                String::operator>(String const&) const
+ .text._ZNK6StringltERKS_
+                0x000021b6        0xe D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000021b6                String::operator<(String const&) const
+ .text._ZNK6String6equalsERKS_
+                0x000021c4       0x2c D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000021c4                String::equals(String const&) const
+ .text._ZNK6String10startsWithERKS_j
+                0x000021f0       0x46 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000021f0                String::startsWith(String const&, unsigned int) const
+ .text._ZNK6String10startsWithERKS_
+                0x00002236       0x26 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002236                String::startsWith(String const&) const
+ .text._ZN6String12changeBufferEj
+                0x0000225c       0x34 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000225c                String::changeBuffer(unsigned int)
+ .text._ZN6String7replaceERKS_S1_
+                0x00002290      0x20a D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002290                String::replace(String const&, String const&)
+ .text._ZN6String7reserveEj
+                0x0000249a       0x38 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000249a                String::reserve(unsigned int)
+ .text._ZN6String6concatEPKcj
+                0x000024d2       0x5a D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000024d2                String::concat(char const*, unsigned int)
+ .text._ZN6String6concatEm
+                0x0000252c       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000252c                String::concat(unsigned long)
+ .text._ZN6String6concatEl
+                0x00002590       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002590                String::concat(long)
+ .text._ZN6String6concatEj
+                0x000025f4       0x5a D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000025f4                String::concat(unsigned int)
+ .text._ZN6String6concatEi
+                0x0000264e       0x62 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000264e                String::concat(int)
+ .text._ZN6String6concatEh
+                0x000026b0       0x58 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000026b0                String::concat(unsigned char)
+ .text._ZN6String6concatEc
+                0x00002708       0x28 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002708                String::concat(char)
+ .text._ZN6String6concatEPKc
+                0x00002730       0x20 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002730                String::concat(char const*)
+ .text._ZN6String6concatERKS_
+                0x00002750       0x10 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002750                String::concat(String const&)
+ .text._ZN6String10invalidateEv
+                0x00002760       0x24 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002760                String::invalidate()
+ .text._ZplRK15StringSumHelperm
+                0x00002784       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002784                operator+(StringSumHelper const&, unsigned long)
+ .text._ZplRK15StringSumHelperl
+                0x000027a6       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000027a6                operator+(StringSumHelper const&, long)
+ .text._ZplRK15StringSumHelperj
+                0x000027c8       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000027c8                operator+(StringSumHelper const&, unsigned int)
+ .text._ZplRK15StringSumHelperi
+                0x000027ea       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000027ea                operator+(StringSumHelper const&, int)
+ .text._ZplRK15StringSumHelperh
+                0x0000280c       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000280c                operator+(StringSumHelper const&, unsigned char)
+ .text._ZplRK15StringSumHelperc
+                0x0000282e       0x22 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000282e                operator+(StringSumHelper const&, char)
+ .text._ZplRK15StringSumHelperPKc
+                0x00002850       0x38 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002850                operator+(StringSumHelper const&, char const*)
+ .text._ZplRK15StringSumHelperRK6String
+                0x00002888       0x2c D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002888                operator+(StringSumHelper const&, String const&)
+ .text._ZN6String4copyEPKcj
+                0x000028b4       0x42 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000028b4                String::copy(char const*, unsigned int)
+ .text._ZN6StringC1EPKc
+                0x000028f6       0x34 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000028f6                String::String(char const*)
+ .text._ZN6StringC2EPKc
+                0x0000292a       0x34 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000292a                String::String(char const*)
+ .text._ZN6StringaSEPKc
+                0x0000295e       0x32 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x0000295e                String::operator=(char const*)
+ .text._ZN6StringC1Emh
+                0x00002990       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002990                String::String(unsigned long, unsigned char)
+ .text._ZN6StringC2Emh
+                0x000029f4       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x000029f4                String::String(unsigned long, unsigned char)
+ .text._ZN6StringC1Elh
+                0x00002a58       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002a58                String::String(long, unsigned char)
+ .text._ZN6StringC2Elh
+                0x00002abc       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002abc                String::String(long, unsigned char)
+ .text._ZN6StringC1Ejh
+                0x00002b20       0x62 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002b20                String::String(unsigned int, unsigned char)
+ .text._ZN6StringC2Ejh
+                0x00002b82       0x62 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002b82                String::String(unsigned int, unsigned char)
+ .text._ZN6StringC1Eih
+                0x00002be4       0x62 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002be4                String::String(int, unsigned char)
+ .text._ZN6StringC2Eih
+                0x00002c46       0x62 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002c46                String::String(int, unsigned char)
+ .text._ZN6StringC1Ehh
+                0x00002ca8       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002ca8                String::String(unsigned char, unsigned char)
+ .text._ZN6StringC2Ehh
+                0x00002d0c       0x64 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002d0c                String::String(unsigned char, unsigned char)
+ .text._ZN6StringC1Ec
+                0x00002d70       0x34 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002d70                String::String(char)
+ .text._ZN6StringC2Ec
+                0x00002da4       0x34 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002da4                String::String(char)
+ .text._ZNK6String9substringEjj
+                0x00002dd8       0x8e D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002dd8                String::substring(unsigned int, unsigned int) const
+ .text._ZNK6String9substringEj
+                0x00002e66       0x18 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002e66                String::substring(unsigned int) const
+ .text._ZN6StringaSERKS_
+                0x00002e7e       0x2e D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002e7e                String::operator=(String const&)
+ .text._ZN6StringC1ERKS_
+                0x00002eac       0x16 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002eac                String::String(String const&)
+ .text._ZN6StringC2ERKS_
+                0x00002ec2       0x16 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002ec2                String::String(String const&)
+ .text._ZN6StringD1Ev
+                0x00002ed8        0xc D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002ed8                String::~String()
+ .text._ZN6StringD2Ev
+                0x00002ee4        0xc D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                0x00002ee4                String::~String()
+ .text.avr-libc
+                0x00002ef0      0x26a D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                0x00002ef0                malloc
+                0x0000302a                free
+ .text.avr-libc
+                0x0000315a      0x1c2 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                0x0000315a                realloc
+ .text.libgcc   0x0000331c       0x3e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+                0x0000331c                __mulsi3
+ .text.libgcc   0x0000335a       0x44 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+                0x0000335a                __udivmodsi4
+ .text.libgcc   0x0000339e        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x0000339e        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000339e        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .text.libgcc   0x0000339e       0x38 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+                0x0000339e                __prologue_saves__
+ .text.libgcc   0x000033d6       0x36 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+                0x000033d6                __epilogue_restores__
+ .text.libgcc   0x0000340c        0xc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+                0x00003410                __tablejump__
+                0x0000340c                __tablejump2__
+ .text.avr-libc
+                0x00003418       0x4e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+                0x00003418                atol
+ .text.avr-libc
+                0x00003466       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+                0x00003466                isspace
+ .text.avr-libc
+                0x00003476       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+                0x00003476                tolower
+ .text.avr-libc
+                0x00003486       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+                0x00003486                toupper
+ .text.avr-libc
+                0x00003496       0x1a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+                0x00003496                memcmp
+ .text.avr-libc
+                0x000034b0       0x12 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+                0x000034b0                memcpy
+ .text.avr-libc
+                0x000034c2       0x24 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+                0x000034c2                memmove
+ .text.avr-libc
+                0x000034e6       0x16 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+                0x000034e6                strchr
+ .text.avr-libc
+                0x000034fc       0x12 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+                0x000034fc                strcmp
+ .text.avr-libc
+                0x0000350e        0xe d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+                0x0000350e                strcpy
+ .text.avr-libc
+                0x0000351c       0x1c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+                0x0000351c                strncmp
+ .text.avr-libc
+                0x00003538       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+                0x00003538                strncpy
+ .text.avr-libc
+                0x00003556       0x16 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+                0x00003556                strrchr
+ .text.avr-libc
+                0x0000356c       0x34 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+                0x0000356c                strstr
+ .text.avr-libc
+                0x000035a0       0x42 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+                0x000035a0                itoa
+ .text.avr-libc
+                0x000035e2       0x68 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                0x000035e2                ltoa
+ .text.avr-libc
+                0x0000364a       0x2a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+                0x0000364a                __mulsi_const_10
+ .text.avr-libc
+                0x00003674       0x4a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                0x00003674                ultoa
+ .text.avr-libc
+                0x000036be       0x2c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+                0x000036be                utoa
+ .text.avr-libc
+                0x000036ea        0x6 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+                0x000036ee                __ctype_istrue
+                0x000036ea                __ctype_isfalse
+ .text.avr-libc
+                0x000036f0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+                0x000036f0                strrev
+ .text.libgcc   0x00003710       0x28 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+                0x00003710                __udivmodhi4
+                0x00003738                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003738        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+                0x00003738                exit
+                0x00003738                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003738        0x4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000373c                _etext = .
+
+.data           0x00800200      0x132 load address 0x0000373c
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ .data          0x00800200        0x0 obj\Release\RoboTeam_error404\RoboTest\fuse.o
+ .data          0x00800200        0x0 obj\Release\RoboTeam_error404\RoboTest\Test.o
+ .data          0x00800200        0x0 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .data          0x00800200        0x0 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .data          0x00800200        0xe D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .data          0x0080020e        0x1 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .data          0x0080020f        0x0 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .data          0x0080020f        0x0 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .data          0x0080020f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .data          0x0080020f        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+                0x0080020f                __thenan_sf
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .data          0x00800217        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00800217      0x100 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+                0x00800217                __clz_tab
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .data          0x00800317        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ *(.data*)
+ .data.__malloc_margin
+                0x00800317        0x2 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                0x00800317                __malloc_margin
+ .data.__malloc_heap_start
+                0x00800319        0x2 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                0x00800319                __malloc_heap_start
+ .data.__malloc_heap_end
+                0x0080031b        0x2 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                0x0080031b                __malloc_heap_end
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV9IPAddress
+                0x0080031d        0x6 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x0080031d                vtable for IPAddress
+ .rodata._ZTV9Printable
+                0x00800323        0x6 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                0x00800323                vtable for Printable
+ .rodata._ZTV5Print
+                0x00800329        0x8 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                0x00800329                vtable for Print
+ *(.gnu.linkonce.d*)
+                0x00800332                . = ALIGN (0x2)
+ *fill*         0x00800331        0x1 00
+                0x00800332                _edata = .
+                0x00800332                PROVIDE (__data_end, .)
+
+.bss            0x00800332       0x1a
+                0x00800332                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800332        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x00800332        0x0 obj\Release\RoboTeam_error404\RoboTest\fuse.o
+ .bss           0x00800332        0x6 obj\Release\RoboTeam_error404\RoboTest\Test.o
+ .bss           0x00800338        0x0 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .bss           0x00800338        0x0 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .bss           0x00800338        0x0 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .bss           0x00800338        0x0 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .bss           0x00800338        0x0 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .bss           0x00800338        0x0 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .bss           0x00800338        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ *(.bss*)
+ .bss.timer0_overflow_count
+                0x00800338        0x4 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x00800338                timer0_overflow_count
+ .bss.timer0_millis
+                0x0080033c        0x4 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                0x0080033c                timer0_millis
+ .bss.timer0_fract
+                0x00800340        0x1 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .bss._ZL11INADDR_NONE
+                0x00800341        0x6 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00800347        0x1 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ *(COMMON)
+ COMMON         0x00800348        0x4 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                0x00800348                __brkval
+                0x0080034a                __flp
+                0x0080034c                PROVIDE (__bss_end, .)
+                0x0000373c                __data_load_start = LOADADDR (.data)
+                0x0000386e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080034c        0x0
+                0x0080034c                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080034c                PROVIDE (__noinit_end, .)
+                0x0080034c                _end = .
+                0x0080034c                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse           0x00820000        0x3
+ *(.fuse)
+ .fuse          0x00820000        0x3 obj\Release\RoboTeam_error404\RoboTest\fuse.o
+                0x00820000                __fuse
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x660
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_aranges
+                0x00000048       0x80 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_aranges
+                0x000000c8       0xf0 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_aranges
+                0x000001b8      0x260 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_aranges
+                0x00000418       0x28 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_aranges
+                0x00000440       0x20 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_aranges
+                0x00000460       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000480       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x000004a0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x000004c0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x000004e0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x00000500       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x00000520       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x00000540       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_aranges
+                0x00000560       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_aranges
+                0x00000580       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_aranges
+                0x000005a0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x000005c0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x000005e0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000600       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000620       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000640       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0xc79
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x8d D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_pubnames
+                0x0000008d      0x13d D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_pubnames
+                0x000001ca      0x200 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_pubnames
+                0x000003ca      0x5bf D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_pubnames
+                0x00000989       0x7f D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_pubnames
+                0x00000a08       0x1e D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_pubnames
+                0x00000a26       0x23 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000a49       0x2c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x00000a75       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x00000a94       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_pubnames
+                0x00000ab3       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x00000ad1       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x00000aef       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x00000b0d       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_pubnames
+                0x00000b2b       0x21 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_pubnames
+                0x00000b4c       0x22 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_pubnames
+                0x00000b6e       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x00000b8e       0x22 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x00000bb0       0x24 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_pubnames
+                0x00000bd4       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x00000bf3       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x00000c12       0x21 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x00000c33       0x26 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_pubnames
+                0x00000c59       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x780a
+ *(.debug_info)
+ .debug_info    0x00000000      0x37a D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_info    0x0000037a      0x897 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_info    0x00000c11     0x1b4b D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_info    0x0000275c     0x21e1 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_info    0x0000493d      0x229 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_info    0x00004b66      0x194 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_info    0x00004cfa       0xb1 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x00004dab      0x47a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_info    0x00005225      0x485 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_info    0x000056aa      0x3fc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_info    0x00005aa6      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_info    0x00005d25      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_info    0x00005fa4      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_info    0x00006223      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_info    0x000064a2      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_info    0x00006721      0x207 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_info    0x00006928      0x2b0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_info    0x00006bd8      0x12c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00006d04      0x206 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x00006f0a      0x117 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_info    0x00007021      0x2df d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_info    0x00007300      0x251 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00007551      0x210 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00007761       0xa9 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x23e4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x17d D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_abbrev  0x0000017d      0x296 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_abbrev  0x00000413      0x336 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_abbrev  0x00000749      0x343 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_abbrev  0x00000a8c      0x10d D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_abbrev  0x00000b99       0xc9 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_abbrev  0x00000c62       0x5d d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x00000cbf      0x1ea d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000ea9      0x21b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x000010c4      0x216 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x000012da      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x00001434      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x0000158e      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x000016e8      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_abbrev  0x00001842      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_abbrev  0x0000199c      0x148 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_abbrev  0x00001ae4      0x17f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00001c63       0xad d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00001d10      0x157 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x00001e67       0xc4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00001f2b      0x1c0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x000020eb      0x154 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x0000223f      0x13b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x0000237a       0x6a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+
+.debug_line     0x00000000     0x3b1b
+ *(.debug_line)
+ .debug_line    0x00000000      0x3dd D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_line    0x000003dd      0x45c D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_line    0x00000839      0x75a D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_line    0x00000f93     0x113e D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_line    0x000020d1      0x32a D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_line    0x000023fb      0x277 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_line    0x00002672       0xa7 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x00002719      0x2af d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_line    0x000029c8      0x239 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_line    0x00002c01      0x1d5 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_line    0x00002dd6       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_line    0x00002ea9       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_line    0x00002f7c       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_line    0x0000304f       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_line    0x00003122       0xcb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_line    0x000031ed      0x135 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_line    0x00003322      0x109 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_line    0x0000342b       0x90 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_line    0x000034bb      0x133 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x000035ee       0xa5 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_line    0x00003693      0x18a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_line    0x0000381d      0x14b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00003968      0x137 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x00003a9f       0x7c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0xa20
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x70 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_frame   0x00000070       0xe0 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_frame   0x00000150      0x1c0 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_frame   0x00000310      0x4a0 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_frame   0x000007b0       0x30 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_frame   0x000007e0       0x20 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_frame   0x00000800       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000820       0x40 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000860       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000880       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_frame   0x000008a0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000008c0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000008e0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_frame   0x00000900       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_frame   0x00000920       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_frame   0x00000940       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_frame   0x00000960       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000980       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x000009a0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_frame   0x000009c0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_frame   0x000009e0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000a00       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000     0x1461
+ *(.debug_str)
+ .debug_str     0x00000000      0x10c D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                                0x152 (size before relaxing)
+ .debug_str     0x0000010c      0x29c D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                                0x356 (size before relaxing)
+ .debug_str     0x000003a8      0xaca D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                                0xc09 (size before relaxing)
+ .debug_str     0x00000e72      0x1da D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                                0x9a5 (size before relaxing)
+ .debug_str     0x0000104c       0xd6 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                                0x155 (size before relaxing)
+ .debug_str     0x00001122       0x5e D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                0x119 (size before relaxing)
+ .debug_str     0x00001180       0x8c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x0000120c      0x147 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x00001353       0x27 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x0000137a       0x35 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x000013af        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x000013b7        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x000013bf        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x000013c7        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x000013cf        0xb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                                0x198 (size before relaxing)
+ .debug_str     0x000013da       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                                0x17b (size before relaxing)
+ .debug_str     0x000013f8        0xa d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_str     0x00001402       0x14 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x00001416       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x00001436       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x00001446        0xb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x00001451       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+ .debug_str     0x00000000       0xf4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000     0x41ba
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x16d D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_loc     0x0000016d      0x2d6 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_loc     0x00000443      0xdb8 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_loc     0x000011fb     0x1f05 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_loc     0x00003100      0x358 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_loc     0x00003458      0x2d0 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_loc     0x00003728       0x34 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x0000375c      0x32a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x00003a86      0x104 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00003b8a       0xc0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_loc     0x00003c4a       0x3c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_loc     0x00003c86       0x3c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_loc     0x00003cc2       0x3c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_loc     0x00003cfe       0x3c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_loc     0x00003d3a       0x3c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_loc     0x00003d76       0xac d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_loc     0x00003e22       0x7e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00003ea0       0x4c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x00003eec       0x94 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00003f80      0x13e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_loc     0x000040be       0xac d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000416a       0x50 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(bin\Release\RoboTest.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x498
+ .debug_ranges  0x00000000       0x40 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+ .debug_ranges  0x00000040       0x78 D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+ .debug_ranges  0x000000b8       0xe8 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+ .debug_ranges  0x000001a0      0x270 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ .debug_ranges  0x00000410       0x20 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+ .debug_ranges  0x00000430       0x18 D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+ .debug_ranges  0x00000448       0x50 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+
+Cross Reference Table
+
+Symbol                                            File
+IPAddress::IPAddress()                            D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::IPAddress()                            D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned char const*)        D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned char const*)        D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                                                  obj\Release\RoboTeam_error404\RoboTest\Test.o
+IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned long)               D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned long)               D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::operator=(unsigned char const*)        D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::operator=(unsigned long)               D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::operator==(unsigned char const*)       D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+IPAddress::printTo(Print&) const                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+Print::print(Printable const&)                    D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(String const&)                       D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(__FlashStringHelper const*)          D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(char const*)                         D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(char)                                D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+Print::print(double, int)                         D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(int, int)                            D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(long, int)                           D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(unsigned char, int)                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+Print::print(unsigned int, int)                   D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::print(unsigned long, int)                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::printFloat(double, unsigned char)          D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::printNumber(unsigned long, unsigned char)  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println()                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(Printable const&)                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(String const&)                     D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(__FlashStringHelper const*)        D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(char const*)                       D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(char)                              D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(double, int)                       D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(int, int)                          D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(long, int)                         D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(unsigned char, int)                D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(unsigned int, int)                 D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::println(unsigned long, int)                D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::write(char const*)                         D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+Print::write(unsigned char const*, unsigned int)  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+String::String(String const&)                     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(String const&)                     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(char const*)                       D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(char const*)                       D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(char)                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(char)                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(int, unsigned char)                D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(int, unsigned char)                D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(long, unsigned char)               D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(long, unsigned char)               D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::changeBuffer(unsigned int)                D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::charAt(unsigned int) const                D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::compareTo(String const&) const            D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(String const&)                     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(char const*)                       D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(char const*, unsigned int)         D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(char)                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(int)                               D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(long)                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(unsigned char)                     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(unsigned int)                      D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::concat(unsigned long)                     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::copy(char const*, unsigned int)           D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::endsWith(String const&) const             D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::equals(String const&) const               D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::equals(char const*) const                 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::equalsIgnoreCase(String const&) const     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::indexOf(String const&) const              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::indexOf(String const&, unsigned int) const D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::indexOf(char) const                       D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::indexOf(char, unsigned int) const         D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::invalidate()                              D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::lastIndexOf(String const&) const          D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::lastIndexOf(String const&, unsigned int) const D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::lastIndexOf(char) const                   D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::lastIndexOf(char, unsigned int) const     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator<(String const&) const            D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator<=(String const&) const           D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator=(String const&)                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator=(char const*)                    D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator>(String const&) const            D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator>=(String const&) const           D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator[](unsigned int)                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::operator[](unsigned int) const            D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+String::replace(String const&, String const&)     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::replace(char, char)                       D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::reserve(unsigned int)                     D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::setCharAt(unsigned int, char)             D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::startsWith(String const&) const           D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::startsWith(String const&, unsigned int) const D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::substring(unsigned int) const             D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::substring(unsigned int, unsigned int) const D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::toInt() const                             D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::toLowerCase()                             D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::toUpperCase()                             D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::trim()                                    D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::~String()                                 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+String::~String()                                 D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+__addsf3                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__bad_interrupt                                   d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__brkval                                          D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+__bss_end                                         d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+__bss_start                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+__clz_tab                                         d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+__clzsi2                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+__ctors_end                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+__ctors_start                                     d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+__ctype_isfalse                                   d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+__ctype_istrue                                    d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+__cxa_pure_virtual                                obj\Release\RoboTeam_error404\RoboTest\Test.o
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+__data_end                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__data_load_start                                 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__data_start                                      d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__divsf3                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__do_clear_bss                                    d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                                                  obj\Release\RoboTeam_error404\RoboTest\Test.o
+__do_copy_data                                    d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+__do_global_ctors                                 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+                                                  obj\Release\RoboTeam_error404\RoboTest\Test.o
+__epilogue_restores__                             d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+__fixsfsi                                         d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__fixunssfsi                                      d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__floatsisf                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__floatunsisf                                     d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__flp                                             D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+__fpcmp_parts_f                                   d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+__fuse                                            obj\Release\RoboTeam_error404\RoboTest\fuse.o
+__gesf2                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+__gtsf2                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__heap_end                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+__heap_start                                      D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+__init                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__lesf2                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__ltsf2                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__malloc_heap_end                                 D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+__malloc_heap_start                               D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+__malloc_margin                                   D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+__mulsf3                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__mulsi3                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__mulsi_const_10                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+__pack_f                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+__prologue_saves__                                d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+__stack                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__subsf3                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__tablejump2__                                    d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+__tablejump__                                     d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+__thenan_sf                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+__udivmodhi4                                      d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+__udivmodsi4                                      d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__unordsf2                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+__unpack_f                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+__vector_1                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_10                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_11                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_12                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_13                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_14                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_15                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_16                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_17                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_18                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_19                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_2                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_20                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_21                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_22                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_23                                       D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_24                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_25                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_26                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_27                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_28                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_29                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_3                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_30                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_31                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_32                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_33                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_34                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_35                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_36                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_37                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_38                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_39                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_4                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_40                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_41                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_42                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_43                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_44                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_45                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_46                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_47                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_48                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_49                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_5                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_50                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_51                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_52                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_53                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_54                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_55                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_56                                       d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_6                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_7                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_8                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_9                                        d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vector_default                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__vectors                                         d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+_exit                                             d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+atol                                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+delay                                             D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+delayMicroseconds                                 D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+exit                                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+free                                              D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+init                                              D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+                                                  obj\Release\RoboTeam_error404\RoboTest\Test.o
+isspace                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+itoa                                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ltoa                                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+main                                              obj\Release\RoboTeam_error404\RoboTest\Test.o
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+malloc                                            D:\Programmieren\Roboter\libraries\core.a(malloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+memcmp                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+memcpy                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+memmove                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+micros                                            D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+millis                                            D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+operator+(StringSumHelper const&, String const&)  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+operator+(StringSumHelper const&, char const*)    D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+operator+(StringSumHelper const&, char)           D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+operator+(StringSumHelper const&, int)            D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+operator+(StringSumHelper const&, long)           D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned char)  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned int)   D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned long)  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+realloc                                           D:\Programmieren\Roboter\libraries\core.a(realloc.c.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+strchr                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+strcmp                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+strcpy                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+strncmp                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+strncpy                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+strrchr                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+strrev                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                                                  d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+strstr                                            d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+timer0_millis                                     D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+timer0_overflow_count                             D:\Programmieren\Roboter\libraries\core.a(wiring.c.o)
+tolower                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+toupper                                           d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+ultoa                                             d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+utoa                                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+                                                  D:\Programmieren\Roboter\libraries\core.a(WString.cpp.o)
+vtable for IPAddress                              D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
+vtable for Print                                  D:\Programmieren\Roboter\libraries\core.a(Print.cpp.o)
+vtable for Printable                              D:\Programmieren\Roboter\libraries\core.a(IPAddress.cpp.o)
