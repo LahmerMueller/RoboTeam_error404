@@ -18,8 +18,8 @@
 #define T1 digitalRead(26)
 #define T2 digitalRead(27)
 
-const int werte[2][4] = {{100, 30, -1, -100},
-                         {-100, -1, 30, 100}};
+const int werte[2][4] = {{100, 10, -10, -100},
+                         {-100, -10, 10, 100}};
 
 int speedR, speedL;
 int old_speedR;
@@ -28,5 +28,9 @@ int old_speedL;
 double drillPlus = 0;
 bool steerDirect;
 bool greenPoint = false;
+bool inSync = false;
+
+volatile int rotR = 0;
+volatile int rotL = 0;
 
 #endif // DEFS_H_INCLUDED

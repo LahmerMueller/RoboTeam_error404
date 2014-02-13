@@ -17,6 +17,11 @@ void setup()
     pinMode(23, INPUT);
     pinMode(24, INPUT);
     pinMode(25, INPUT);
+    pinMode(26, INPUT);
+    pinMode(27, INPUT);
+
+    attachInterrupt(3, rotateR, FALLING);
+    attachInterrupt(2, rotateL, FALLING);
 }
 
 int main()
@@ -25,9 +30,24 @@ int main()
 
     setup();
 
+    int old_rotL = 0;
+    int old_rotR = 0;
+
     while(true)
     {
-        followLine();
+            /*digitalWrite(M1, HIGH);
+            analogWrite(E1, 255);
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 255);*/
+
+            Serial.print("rechts: ");
+            Serial.println(T1);
+            Serial.print("links: ");
+            Serial.println(T1);
+
+            //onTouch();
+
+        //followLine();
     }
 
     return 0;
