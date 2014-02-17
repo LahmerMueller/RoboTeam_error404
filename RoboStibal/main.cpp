@@ -1,11 +1,13 @@
-#include <WProgram.h> //import main Arduino header file
 #include <Wire.h>
+#include <WProgram.h> //import main Arduino header file
 #include "Defs.h"
 #include "Functions.h"
+#include "Accel_ADXL345.h"
 
 void setup()
 {
     Serial.begin(9600);
+    Wire.begin();
 
     pinMode(E1, OUTPUT);
     pinMode(M1, OUTPUT);
@@ -22,6 +24,10 @@ void setup()
 
     attachInterrupt(3, rotateR, FALLING);
     attachInterrupt(2, rotateL, FALLING);
+
+    writeTo(ADXL345, 0);
+    writeTo(ADXL345, 16);
+    writeTo(ADXL345, 8);
 }
 
 int main()
@@ -29,23 +35,15 @@ int main()
     init(); //Don't forget this!
 
     setup();
-
+    Serial.print(1);
     int old_rotL = 0;
     int old_rotR = 0;
 
     while(true)
     {
-            /*digitalWrite(M1, HIGH);
-            analogWrite(E1, 255);
-            digitalWrite(M2, HIGH);
-            analogWrite(E2, 255);*/
-
-            Serial.print("rechts: ");
-            Serial.println(T1);
-            Serial.print("links: ");
-            Serial.println(T1);
-
-            //onTouch();
+        readFrom(ADXL345, accelVal);
+        sprintf(str, "x: %d y: %d z: %d\n", accelVal[0], accelVal[1], accelVal[2]);
+        Serial.print(str);
 
         //followLine();
     }

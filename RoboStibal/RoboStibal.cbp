@@ -51,12 +51,9 @@
 			<Add library="libraries\core.a" />
 			<Add directory="libraries" />
 		</Linker>
-		<Unit filename="Defs.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="Functions.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="Accel_ADXL345.h" />
+		<Unit filename="Defs.h" />
+		<Unit filename="Functions.h" />
 		<Unit filename="fuse.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -76,9 +73,15 @@
 		<Unit filename="libraries/WCharacter.h" />
 		<Unit filename="libraries/WProgram.h" />
 		<Unit filename="libraries/WString.h" />
+		<Unit filename="libraries/Wire.cpp" />
+		<Unit filename="libraries/Wire.h" />
 		<Unit filename="libraries/binary.h" />
 		<Unit filename="libraries/new.h" />
 		<Unit filename="libraries/pins_arduino.h" />
+		<Unit filename="libraries/twi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries/twi.h" />
 		<Unit filename="libraries/wiring_private.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

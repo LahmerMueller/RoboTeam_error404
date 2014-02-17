@@ -2,11 +2,12 @@
 1392036710 source:d:\programmieren\roboter\roboteam_error404\robostibal\fuse.c
 	<avr/io.h>
 
-1392327660 source:d:\programmieren\roboter\roboteam_error404\robostibal\main.cpp
-	<WProgram.h>
+1392669292 source:d:\programmieren\roboter\roboteam_error404\robostibal\main.cpp
 	<Wire.h>
+	<WProgram.h>
 	"Defs.h"
 	"Functions.h"
+	"Accel_ADXL345.h"
 
 1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wprogram.h
 	"Arduino.h"
@@ -112,7 +113,7 @@
 	<stdarg.h>
 	"Arduino.h"
 
-1392327172 d:\programmieren\roboter\roboteam_error404\robostibal\defs.h
+1392651885 d:\programmieren\roboter\roboteam_error404\robostibal\defs.h
 
 1392327303 d:\programmieren\roboter\roboteam_error404\robostibal\functions.h
 
@@ -240,4 +241,27 @@
 1392132771 d:\roboter\roboteam_error404\robostibal\defs.h
 
 1392133014 d:\roboter\roboteam_error404\robostibal\functions.h
+
+1392669347 d:\programmieren\roboter\roboteam_error404\robostibal\accel_adxl345.h
+
+1389210400 source:d:\programmieren\roboter\roboteam_error404\robostibal\libraries\twi.c
+	<math.h>
+	<stdlib.h>
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<compat/twi.h>
+	"Arduino.h"
+	"pins_arduino.h"
+	"twi.h"
+
+1389210400 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\twi.h
+	<inttypes.h>
+
+1389210400 source:d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wire.cpp
+	<stdlib.h>
+	<string.h>
+	<inttypes.h>
+	"twi.h"
+	"Wire.h"
 

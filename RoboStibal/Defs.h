@@ -33,4 +33,7 @@ bool inSync = false;
 volatile int rotR = 0;
 volatile int rotL = 0;
 
+char* str;
+int accelVal[3];
+
 #endif // DEFS_H_INCLUDED
