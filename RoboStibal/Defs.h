@@ -13,7 +13,7 @@
 #define L2 digitalRead(23)
 #define L3 digitalRead(24)
 #define L4 digitalRead(25)
-#define L5 digitalRead(51)
+#define L5 digitalRead(53)
 
 #define T1 digitalRead(26)
 #define T2 digitalRead(27)
@@ -33,7 +33,8 @@ bool inSync = false;
 volatile int rotR = 0;
 volatile int rotL = 0;
 
-char* str;
+char str[512];
 int accelVal[3];
+int calbAccelVal[3];
 
 #endif // DEFS_H_INCLUDED

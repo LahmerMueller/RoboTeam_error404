@@ -35,9 +35,9 @@ void readFrom(int device, int buff[])
     }
     Wire.endTransmission();
 
-    buff[0] = (int) (rawBuff[0] << 8) | rawBuff[1];
-    buff[1] = (int) (rawBuff[2] << 8) | rawBuff[2];
-    buff[2] = (int) (rawBuff[3] << 8) | rawBuff[4];
+    buff[0] = (((int) rawBuff[1]) << 8) | rawBuff[0];
+    buff[1] = (((int) rawBuff[3]) << 8) | rawBuff[2];
+    buff[2] = (((int) rawBuff[5]) << 8) | rawBuff[4];
 }
 
 #endif // ACCEL_ADXL345_H_INCLUDED

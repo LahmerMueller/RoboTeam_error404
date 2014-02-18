@@ -28,6 +28,8 @@ void setup()
     writeTo(ADXL345, 0);
     writeTo(ADXL345, 16);
     writeTo(ADXL345, 8);
+
+    readFrom(ADXL345, calbAccelVal);
 }
 
 int main()
@@ -41,11 +43,13 @@ int main()
 
     while(true)
     {
-        readFrom(ADXL345, accelVal);
-        sprintf(str, "x: %d y: %d z: %d\n", accelVal[0], accelVal[1], accelVal[2]);
-        Serial.print(str);
+        /*readFrom(ADXL345, accelVal);
+        sprintf(str, "%d %d %d", accelVal[0] - calbAccelVal[0], accelVal[1] - calbAccelVal[1], accelVal[2] - calbAccelVal[2]);
+        Serial.println(str);
 
-        //followLine();
+        delay(500);*/
+
+        followLine();
     }
 
     return 0;
