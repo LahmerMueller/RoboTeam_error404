@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1392931122 source:d:\programmieren\roboter\roboteam_error404\com\main.cpp
+	<iostream>
+	<windows.h>
+
