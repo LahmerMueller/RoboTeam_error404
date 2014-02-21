@@ -1,7 +1,9 @@
 #include <iostream>
 #include <windows.h>
+#include <irrlicht.h>
 
 using namespace std;
+using namespace irr;
 
 int main()
 {

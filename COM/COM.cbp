@@ -31,7 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDK/include" />
 		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDK/lib" />
+		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
