@@ -41,17 +41,25 @@ int main()
         return 1;
     }
 
+    IrrlichtDevice *device = createDevice(video::EDT_OPENGL,
+            core::dimension2d<u32>(600, 400), 16, false, false, false);
+
+    video::IVideoDriver* driver = device->getVideoDriver();
+
+    driver->getMaterial2D().TextureLayer[0].BilinearFilter=true;
+	driver->getMaterial2D().AntiAliasing=video::EAAM_FULL_BASIC;
+
     BYTE buffer;
     DWORD bytesRead;
-    char msg[512];
+    int msg = 0;
 
     while(true)
     {
 
         for(int i = 0; ReadFile(hwnd, &buffer, 1, &bytesRead, NULL) && buffer != '\n'; i++)
         {
-            msg[i] = buffer;
-            i++;
+            msg = msg * 10;
+            msg += buffer;
         }
         cout << msg << endl;
 
