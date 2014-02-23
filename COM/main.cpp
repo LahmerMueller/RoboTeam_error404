@@ -5,6 +5,20 @@
 using namespace std;
 using namespace irr;
 
+int serialRead(HANDLE hwnd)
+{
+    int result;
+    BYTE buffer;
+    DWORD bytesRead;
+
+    ReadFile(hwnd, &buffer, 1, &bytesRead, NULL);
+    result = (int)buffer << 8;
+    ReadFile(hwnd, &buffer, 1, &bytesRead, NULL);
+    result = result | (int)buffer;
+
+    return result;
+}
+
 int main()
 {
     HANDLE hwnd;
@@ -55,13 +69,18 @@ int main()
 
     while(true)
     {
-
-        for(int i = 0; ReadFile(hwnd, &buffer, 1, &bytesRead, NULL) && buffer != '\n'; i++)
+        ReadFile(hwnd, &buffer, 1, &bytesRead, NULL);
+        if(buffer == '\n')
         {
-            msg = msg * 10;
-            msg += buffer;
+            cout << serialRead(hwnd) << endl;
         }
-        cout << msg << endl;
 
+
+        driver->beginScene(true, true, video::SColor(255,255,255,255));
+
+        driver->draw2DLine(core::position2d<s32>(96, 100), core::position2d<s32>(96, 205), video::SColor(255, 0, 0, 0));
+
+        driver->endScene();
     }
+    device->drop();
 }

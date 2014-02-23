@@ -1,6 +1,13 @@
 #ifndef FUNCTIONS_H_INCLUDED
 #define FUNCTIONS_H_INCLUDED
 
+void serialWrite(int msg)
+{
+    Serial.write((byte)(msg >> 8));
+    Serial.write((byte) msg);
+    Serial.println();
+}
+
 void rotateR()
 {
     rotR = rotR + 1;

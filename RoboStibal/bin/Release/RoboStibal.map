@@ -2,7 +2,7 @@ Archive member included because of file (symbol)
 
 libraries\core.a(WInterrupts.c.o)
                               obj\Release\main.o (attachInterrupt)
-libraries\core.a(wiring.c.o)  obj\Release\main.o (init)
+libraries\core.a(wiring.c.o)  obj\Release\main.o (delay)
 libraries\core.a(wiring_analog.c.o)
                               obj\Release\main.o (analogWrite)
 libraries\core.a(wiring_digital.c.o)
@@ -70,50 +70,50 @@ d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_fp
                               d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clz.o)
                               d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clzsi2.o) (__clz_tab)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(atol.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(atol.o)
                               libraries\core.a(WString.cpp.o) (atol)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o)
                               libraries\core.a(WString.cpp.o) (isspace)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(tolower.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(tolower.o)
                               libraries\core.a(WString.cpp.o) (tolower)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(toupper.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(toupper.o)
                               libraries\core.a(WString.cpp.o) (toupper)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcmp.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcmp.o)
                               libraries\core.a(IPAddress.cpp.o) (memcmp)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcpy.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcpy.o)
                               libraries\core.a(WString.cpp.o) (memcpy)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memmove.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memmove.o)
                               libraries\core.a(WString.cpp.o) (memmove)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strchr.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strchr.o)
                               libraries\core.a(WString.cpp.o) (strchr)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcmp.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcmp.o)
                               libraries\core.a(WString.cpp.o) (strcmp)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcpy.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcpy.o)
                               libraries\core.a(WString.cpp.o) (strcpy)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncmp.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncmp.o)
                               libraries\core.a(WString.cpp.o) (strncmp)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncpy.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncpy.o)
                               libraries\core.a(WString.cpp.o) (strncpy)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrchr.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrchr.o)
                               libraries\core.a(WString.cpp.o) (strrchr)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strstr.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strstr.o)
                               libraries\core.a(WString.cpp.o) (strstr)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o)
                               libraries\core.a(WString.cpp.o) (itoa)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ltoa.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ltoa.o)
                               libraries\core.a(WString.cpp.o) (ltoa)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(mulsi10.o)
-                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(atol.o) (__mulsi_const_10)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(mulsi10.o)
+                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(atol.o) (__mulsi_const_10)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ultoa.o)
                               libraries\core.a(WString.cpp.o) (ultoa)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(utoa.o)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(utoa.o)
                               libraries\core.a(WString.cpp.o) (utoa)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
-                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o) (__ctype_isfalse)
-d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrev.o)
-                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o) (strrev)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(cty_isfalse.o)
+                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o) (__ctype_isfalse)
+D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrev.o)
+                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o) (strrev)
 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
-                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o) (__udivmodhi4)
+                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o) (__udivmodhi4)
 
 Allocating common symbols
 Common symbol       size              file
@@ -142,9 +142,9 @@ LOAD obj\Release\libraries\Wire.o
 LOAD obj\Release\main.o
 LOAD libraries\core.a
 LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a
-LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libm.a
+LOAD D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libm.a
 LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a
-LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a
+LOAD D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a
 LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a
 
 .hash
@@ -237,7 +237,7 @@ LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x5bb0
+.text           0x00000000     0x5c36
  *(.vectors)
  .vectors       0x00000000       0xe4 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
                 0x00000000                __vectors
@@ -382,622 +382,623 @@ LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.
                 0x000008fa                TwoWire::write(unsigned char const*, unsigned int)
                 0x00000a1a                TwoWire::begin()
                 0x00000a04                TwoWire::requestFrom(int, int, int)
- .text          0x00000a5e      0x672 obj\Release\main.o
+ .text          0x00000a5e      0x6ba obj\Release\main.o
                 0x00000a60                rotateR()
                 0x00000c4c                onTouch()
                 0x00000cc2                followLine()
                 0x00000a5e                __cxa_pure_virtual
-                0x000010b2                main
+                0x000010ea                main
                 0x00000a9e                readFrom(int, int*)
                 0x00000b60                writeTo(int, unsigned char)
                 0x00000b94                setup
                 0x00000a74                rotateL()
- .text          0x000010d0        0x0 libraries\core.a(WInterrupts.c.o)
- .text          0x000010d0        0x0 libraries\core.a(wiring.c.o)
- .text          0x000010d0        0x0 libraries\core.a(wiring_analog.c.o)
- .text          0x000010d0        0x0 libraries\core.a(wiring_digital.c.o)
- .text          0x000010d0        0x0 libraries\core.a(HardwareSerial.cpp.o)
- .text          0x000010d0        0x0 libraries\core.a(IPAddress.cpp.o)
- .text          0x000010d0        0x0 libraries\core.a(Print.cpp.o)
- .text          0x000010d0        0x0 libraries\core.a(WString.cpp.o)
- .text          0x000010d0        0x0 libraries\core.a(malloc.c.o)
- .text          0x000010d0        0x0 libraries\core.a(realloc.c.o)
- .text          0x000010d0        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mulsi3.o)
- .text          0x000010d0        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
- .text          0x000010d0        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
- .text          0x000010d0        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
- .text          0x000010d0        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ctors.o)
- .text          0x000010d0       0x58 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_fixunssfsi.o)
-                0x000010d0                __fixunssfsi
- .text          0x00001128      0x354 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_addsub_sf.o)
-                0x000013c0                __subsf3
-                0x00001422                __addsf3
- .text          0x0000147c      0x1f4 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mul_sf.o)
-                0x0000147c                __mulsf3
- .text          0x00001670      0x158 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_div_sf.o)
-                0x00001670                __divsf3
- .text          0x000017c8       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_gt_sf.o)
-                0x000017c8                __gtsf2
- .text          0x00001828       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ge_sf.o)
-                0x00001828                __gesf2
- .text          0x00001888       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_lt_sf.o)
-                0x00001888                __ltsf2
- .text          0x000018e8       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_le_sf.o)
-                0x000018e8                __lesf2
- .text          0x00001948       0x56 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_unord_sf.o)
-                0x00001948                __unordsf2
- .text          0x0000199e       0xbc d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_si_to_sf.o)
-                0x0000199e                __floatsisf
- .text          0x00001a5a       0xa8 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_sf_to_si.o)
-                0x00001a5a                __fixsfsi
- .text          0x00001b02        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_thenan_sf.o)
- .text          0x00001b02       0xf2 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_usi_to_sf.o)
-                0x00001b02                __floatunsisf
- .text          0x00001bf4        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
- .text          0x00001bf4        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
- .text          0x00001bf4        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_tablejump.o)
- .text          0x00001bf4       0x9e d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clzsi2.o)
-                0x00001bf4                __clzsi2
- .text          0x00001c92      0x1aa d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_pack_sf.o)
-                0x00001c92                __pack_f
- .text          0x00001e3c       0xf0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_unpack_sf.o)
-                0x00001e3c                __unpack_f
- .text          0x00001f2c       0xb2 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_fpcmp_parts_sf.o)
-                0x00001f2c                __fpcmp_parts_f
- .text          0x00001fde        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clz.o)
- .text          0x00001fde       0x4e d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(atol.o)
-                0x00001fde                atol
- .text          0x0000202c        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o)
- .text          0x0000202c        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(tolower.o)
- .text          0x0000202c        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(toupper.o)
- .text          0x0000202c       0x1a d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcmp.o)
-                0x0000202c                memcmp
- .text          0x00002046       0x12 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcpy.o)
-                0x00002046                memcpy
- .text          0x00002058       0x24 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memmove.o)
-                0x00002058                memmove
- .text          0x0000207c       0x16 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strchr.o)
-                0x0000207c                strchr
- .text          0x00002092       0x12 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcmp.o)
-                0x00002092                strcmp
- .text          0x000020a4        0xe d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcpy.o)
-                0x000020a4                strcpy
- .text          0x000020b2       0x1c d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncmp.o)
-                0x000020b2                strncmp
- .text          0x000020ce       0x1e d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncpy.o)
-                0x000020ce                strncpy
- .text          0x000020ec       0x16 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrchr.o)
-                0x000020ec                strrchr
- .text          0x00002102       0x34 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strstr.o)
-                0x00002102                strstr
- .text          0x00002136       0x42 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o)
-                0x00002136                itoa
- .text          0x00002178       0x68 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ltoa.o)
-                0x00002178                ltoa
- .text          0x000021e0       0x2a d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(mulsi10.o)
-                0x000021e0                __mulsi_const_10
- .text          0x0000220a       0x4a d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa.o)
-                0x0000220a                ultoa
- .text          0x00002254       0x2c d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(utoa.o)
-                0x00002254                utoa
- .text          0x00002280        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
- .text          0x00002280       0x20 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrev.o)
-                0x00002280                strrev
- .text          0x000022a0        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
-                0x000022a0                . = ALIGN (0x2)
+                0x000010b2                serialWrite(int)
+ .text          0x00001118        0x0 libraries\core.a(WInterrupts.c.o)
+ .text          0x00001118        0x0 libraries\core.a(wiring.c.o)
+ .text          0x00001118        0x0 libraries\core.a(wiring_analog.c.o)
+ .text          0x00001118        0x0 libraries\core.a(wiring_digital.c.o)
+ .text          0x00001118        0x0 libraries\core.a(HardwareSerial.cpp.o)
+ .text          0x00001118        0x0 libraries\core.a(IPAddress.cpp.o)
+ .text          0x00001118        0x0 libraries\core.a(Print.cpp.o)
+ .text          0x00001118        0x0 libraries\core.a(WString.cpp.o)
+ .text          0x00001118        0x0 libraries\core.a(malloc.c.o)
+ .text          0x00001118        0x0 libraries\core.a(realloc.c.o)
+ .text          0x00001118        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mulsi3.o)
+ .text          0x00001118        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x00001118        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ .text          0x00001118        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+ .text          0x00001118        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ctors.o)
+ .text          0x00001118       0x58 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_fixunssfsi.o)
+                0x00001118                __fixunssfsi
+ .text          0x00001170      0x354 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_addsub_sf.o)
+                0x00001408                __subsf3
+                0x0000146a                __addsf3
+ .text          0x000014c4      0x1f4 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mul_sf.o)
+                0x000014c4                __mulsf3
+ .text          0x000016b8      0x158 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_div_sf.o)
+                0x000016b8                __divsf3
+ .text          0x00001810       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_gt_sf.o)
+                0x00001810                __gtsf2
+ .text          0x00001870       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ge_sf.o)
+                0x00001870                __gesf2
+ .text          0x000018d0       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_lt_sf.o)
+                0x000018d0                __ltsf2
+ .text          0x00001930       0x60 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_le_sf.o)
+                0x00001930                __lesf2
+ .text          0x00001990       0x56 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_unord_sf.o)
+                0x00001990                __unordsf2
+ .text          0x000019e6       0xbc d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_si_to_sf.o)
+                0x000019e6                __floatsisf
+ .text          0x00001aa2       0xa8 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_sf_to_si.o)
+                0x00001aa2                __fixsfsi
+ .text          0x00001b4a        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_thenan_sf.o)
+ .text          0x00001b4a       0xf2 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_usi_to_sf.o)
+                0x00001b4a                __floatunsisf
+ .text          0x00001c3c        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
+ .text          0x00001c3c        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
+ .text          0x00001c3c        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_tablejump.o)
+ .text          0x00001c3c       0x9e d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clzsi2.o)
+                0x00001c3c                __clzsi2
+ .text          0x00001cda      0x1aa d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_pack_sf.o)
+                0x00001cda                __pack_f
+ .text          0x00001e84       0xf0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_unpack_sf.o)
+                0x00001e84                __unpack_f
+ .text          0x00001f74       0xb2 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                0x00001f74                __fpcmp_parts_f
+ .text          0x00002026        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clz.o)
+ .text          0x00002026       0x50 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(atol.o)
+                0x00002026                atol
+ .text          0x00002076        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o)
+ .text          0x00002076        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(tolower.o)
+ .text          0x00002076        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(toupper.o)
+ .text          0x00002076       0x1e D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcmp.o)
+                0x00002076                memcmp
+ .text          0x00002094       0x16 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcpy.o)
+                0x00002094                memcpy
+ .text          0x000020aa       0x26 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memmove.o)
+                0x000020aa                memmove
+ .text          0x000020d0       0x1a D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strchr.o)
+                0x000020d0                strchr
+ .text          0x000020ea       0x16 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcmp.o)
+                0x000020ea                strcmp
+ .text          0x00002100       0x12 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcpy.o)
+                0x00002100                strcpy
+ .text          0x00002112       0x20 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncmp.o)
+                0x00002112                strncmp
+ .text          0x00002132       0x22 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncpy.o)
+                0x00002132                strncpy
+ .text          0x00002154       0x1a D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrchr.o)
+                0x00002154                strrchr
+ .text          0x0000216e       0x3e D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strstr.o)
+                0x0000216e                strstr
+ .text          0x000021ac       0x46 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o)
+                0x000021ac                itoa
+ .text          0x000021f2       0x6a D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ltoa.o)
+                0x000021f2                ltoa
+ .text          0x0000225c       0x2a D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(mulsi10.o)
+                0x0000225c                __mulsi_const_10
+ .text          0x00002286       0x4c D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ultoa.o)
+                0x00002286                ultoa
+ .text          0x000022d2       0x30 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(utoa.o)
+                0x000022d2                utoa
+ .text          0x00002302        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(cty_isfalse.o)
+ .text          0x00002302       0x24 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrev.o)
+                0x00002302                strrev
+ .text          0x00002326        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
+                0x00002326                . = ALIGN (0x2)
  *(.text.*)
  .text.attachInterrupt
-                0x000022a0       0xf8 libraries\core.a(WInterrupts.c.o)
-                0x000022a0                attachInterrupt
+                0x00002326       0xf8 libraries\core.a(WInterrupts.c.o)
+                0x00002326                attachInterrupt
  .text.detachInterrupt
-                0x00002398       0x58 libraries\core.a(WInterrupts.c.o)
-                0x00002398                detachInterrupt
+                0x0000241e       0x58 libraries\core.a(WInterrupts.c.o)
+                0x0000241e                detachInterrupt
  .text.__vector_1
-                0x000023f0       0x62 libraries\core.a(WInterrupts.c.o)
-                0x000023f0                __vector_1
+                0x00002476       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00002476                __vector_1
  .text.__vector_2
-                0x00002452       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002452                __vector_2
+                0x000024d8       0x62 libraries\core.a(WInterrupts.c.o)
+                0x000024d8                __vector_2
  .text.__vector_3
-                0x000024b4       0x62 libraries\core.a(WInterrupts.c.o)
-                0x000024b4                __vector_3
+                0x0000253a       0x62 libraries\core.a(WInterrupts.c.o)
+                0x0000253a                __vector_3
  .text.__vector_4
-                0x00002516       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002516                __vector_4
+                0x0000259c       0x62 libraries\core.a(WInterrupts.c.o)
+                0x0000259c                __vector_4
  .text.__vector_5
-                0x00002578       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002578                __vector_5
+                0x000025fe       0x62 libraries\core.a(WInterrupts.c.o)
+                0x000025fe                __vector_5
  .text.__vector_6
-                0x000025da       0x62 libraries\core.a(WInterrupts.c.o)
-                0x000025da                __vector_6
+                0x00002660       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00002660                __vector_6
  .text.__vector_7
-                0x0000263c       0x62 libraries\core.a(WInterrupts.c.o)
-                0x0000263c                __vector_7
+                0x000026c2       0x62 libraries\core.a(WInterrupts.c.o)
+                0x000026c2                __vector_7
  .text.__vector_8
-                0x0000269e       0x62 libraries\core.a(WInterrupts.c.o)
-                0x0000269e                __vector_8
+                0x00002724       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00002724                __vector_8
  .text.__vector_23
-                0x00002700       0x90 libraries\core.a(wiring.c.o)
-                0x00002700                __vector_23
- .text.millis   0x00002790       0x1c libraries\core.a(wiring.c.o)
-                0x00002790                millis
- .text.micros   0x000027ac       0x4c libraries\core.a(wiring.c.o)
-                0x000027ac                micros
- .text.delay    0x000027f8       0xb2 libraries\core.a(wiring.c.o)
-                0x000027f8                delay
+                0x00002786       0x90 libraries\core.a(wiring.c.o)
+                0x00002786                __vector_23
+ .text.millis   0x00002816       0x1c libraries\core.a(wiring.c.o)
+                0x00002816                millis
+ .text.micros   0x00002832       0x4c libraries\core.a(wiring.c.o)
+                0x00002832                micros
+ .text.delay    0x0000287e       0xb2 libraries\core.a(wiring.c.o)
+                0x0000287e                delay
  .text.delayMicroseconds
-                0x000028aa       0x14 libraries\core.a(wiring.c.o)
-                0x000028aa                delayMicroseconds
- .text.init     0x000028be       0xc4 libraries\core.a(wiring.c.o)
-                0x000028be                init
+                0x00002930       0x14 libraries\core.a(wiring.c.o)
+                0x00002930                delayMicroseconds
+ .text.init     0x00002944       0xc4 libraries\core.a(wiring.c.o)
+                0x00002944                init
  .text.analogReference
-                0x00002982        0x6 libraries\core.a(wiring_analog.c.o)
-                0x00002982                analogReference
+                0x00002a08        0x6 libraries\core.a(wiring_analog.c.o)
+                0x00002a08                analogReference
  .text.analogRead
-                0x00002988       0x68 libraries\core.a(wiring_analog.c.o)
-                0x00002988                analogRead
+                0x00002a0e       0x68 libraries\core.a(wiring_analog.c.o)
+                0x00002a0e                analogRead
  .text.analogWrite
-                0x000029f0      0x1c0 libraries\core.a(wiring_analog.c.o)
-                0x000029f0                analogWrite
- .text.pinMode  0x00002bb0       0x7e libraries\core.a(wiring_digital.c.o)
-                0x00002bb0                pinMode
+                0x00002a76      0x1c0 libraries\core.a(wiring_analog.c.o)
+                0x00002a76                analogWrite
+ .text.pinMode  0x00002c36       0x7e libraries\core.a(wiring_digital.c.o)
+                0x00002c36                pinMode
  .text.turnOffPWM
-                0x00002c2e       0xe8 libraries\core.a(wiring_digital.c.o)
+                0x00002cb4       0xe8 libraries\core.a(wiring_digital.c.o)
  .text.digitalWrite
-                0x00002d16       0x66 libraries\core.a(wiring_digital.c.o)
-                0x00002d16                digitalWrite
+                0x00002d9c       0x66 libraries\core.a(wiring_digital.c.o)
+                0x00002d9c                digitalWrite
  .text.digitalRead
-                0x00002d7c       0x60 libraries\core.a(wiring_digital.c.o)
-                0x00002d7c                digitalRead
+                0x00002e02       0x60 libraries\core.a(wiring_digital.c.o)
+                0x00002e02                digitalRead
  .text._Z11serialEventv
-                0x00002ddc        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x00002ddc                serialEvent()
+                0x00002e62        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x00002e62                serialEvent()
  .text.__vector_25
-                0x00002dde       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00002dde                __vector_25
+                0x00002e64       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00002e64                __vector_25
  .text._Z12serialEvent1v
-                0x00002e5c        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x00002e5c                serialEvent1()
+                0x00002ee2        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x00002ee2                serialEvent1()
  .text.__vector_36
-                0x00002e5e       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00002e5e                __vector_36
+                0x00002ee4       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00002ee4                __vector_36
  .text._Z12serialEvent2v
-                0x00002edc        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x00002edc                serialEvent2()
+                0x00002f62        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x00002f62                serialEvent2()
  .text.__vector_51
-                0x00002ede       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00002ede                __vector_51
+                0x00002f64       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00002f64                __vector_51
  .text._Z12serialEvent3v
-                0x00002f5c        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x00002f5c                serialEvent3()
+                0x00002fe2        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x00002fe2                serialEvent3()
  .text.__vector_54
-                0x00002f5e       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00002f5e                __vector_54
+                0x00002fe4       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00002fe4                __vector_54
  .text._Z14serialEventRunv
-                0x00002fdc       0x92 libraries\core.a(HardwareSerial.cpp.o)
-                0x00002fdc                serialEventRun()
+                0x00003062       0x92 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003062                serialEventRun()
  .text.__vector_26
-                0x0000306e       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x0000306e                __vector_26
+                0x000030f4       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x000030f4                __vector_26
  .text.__vector_37
-                0x000030ec       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x000030ec                __vector_37
+                0x00003172       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003172                __vector_37
  .text.__vector_52
-                0x0000316a       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x0000316a                __vector_52
+                0x000031f0       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x000031f0                __vector_52
  .text.__vector_55
-                0x000031e8       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x000031e8                __vector_55
+                0x0000326e       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x0000326e                __vector_55
  .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
-                0x00003266       0x88 libraries\core.a(HardwareSerial.cpp.o)
-                0x00003266                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x000032ec       0x88 libraries\core.a(HardwareSerial.cpp.o)
+                0x000032ec                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN14HardwareSerialC1EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
-                0x000032ee       0x88 libraries\core.a(HardwareSerial.cpp.o)
-                0x000032ee                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00003374       0x88 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003374                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN14HardwareSerial5beginEm
-                0x00003376      0x10e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003376                HardwareSerial::begin(unsigned long)
+                0x000033fc      0x10e libraries\core.a(HardwareSerial.cpp.o)
+                0x000033fc                HardwareSerial::begin(unsigned long)
  .text._ZN14HardwareSerial5beginEmh
-                0x00003484      0x118 libraries\core.a(HardwareSerial.cpp.o)
-                0x00003484                HardwareSerial::begin(unsigned long, unsigned char)
+                0x0000350a      0x118 libraries\core.a(HardwareSerial.cpp.o)
+                0x0000350a                HardwareSerial::begin(unsigned long, unsigned char)
  .text._ZN14HardwareSerial3endEv
-                0x0000359c       0xcc libraries\core.a(HardwareSerial.cpp.o)
-                0x0000359c                HardwareSerial::end()
+                0x00003622       0xcc libraries\core.a(HardwareSerial.cpp.o)
+                0x00003622                HardwareSerial::end()
  .text._ZN14HardwareSerial9availableEv
-                0x00003668       0x22 libraries\core.a(HardwareSerial.cpp.o)
-                0x00003668                HardwareSerial::available()
+                0x000036ee       0x22 libraries\core.a(HardwareSerial.cpp.o)
+                0x000036ee                HardwareSerial::available()
  .text._ZN14HardwareSerial4peekEv
-                0x0000368a       0x40 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000368a                HardwareSerial::peek()
+                0x00003710       0x40 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003710                HardwareSerial::peek()
  .text._ZN14HardwareSerial4readEv
-                0x000036ca       0x52 libraries\core.a(HardwareSerial.cpp.o)
-                0x000036ca                HardwareSerial::read()
+                0x00003750       0x52 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003750                HardwareSerial::read()
  .text._ZN14HardwareSerial5flushEv
-                0x0000371c       0x20 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000371c                HardwareSerial::flush()
+                0x000037a2       0x20 libraries\core.a(HardwareSerial.cpp.o)
+                0x000037a2                HardwareSerial::flush()
  .text._ZN14HardwareSerial5writeEh
-                0x0000373c       0x80 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000373c                HardwareSerial::write(unsigned char)
+                0x000037c2       0x80 libraries\core.a(HardwareSerial.cpp.o)
+                0x000037c2                HardwareSerial::write(unsigned char)
  .text._ZN14HardwareSerialcvbEv
-                0x000037bc        0x4 libraries\core.a(HardwareSerial.cpp.o)
-                0x000037bc                HardwareSerial::operator bool()
+                0x00003842        0x4 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003842                HardwareSerial::operator bool()
  .text._GLOBAL__I_rx_buffer
-                0x000037c0      0x26c libraries\core.a(HardwareSerial.cpp.o)
+                0x00003846      0x26c libraries\core.a(HardwareSerial.cpp.o)
  .text._ZN9IPAddressC2Ehhhh
-                0x00003a2c       0x18 libraries\core.a(IPAddress.cpp.o)
-                0x00003a2c                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00003ab2       0x18 libraries\core.a(IPAddress.cpp.o)
+                0x00003ab2                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN9IPAddressC1Ehhhh
-                0x00003a44       0x18 libraries\core.a(IPAddress.cpp.o)
-                0x00003a44                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00003aca       0x18 libraries\core.a(IPAddress.cpp.o)
+                0x00003aca                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
  .text._GLOBAL__I__ZN9IPAddressC2Ev
-                0x00003a5c       0x1e libraries\core.a(IPAddress.cpp.o)
+                0x00003ae2       0x1e libraries\core.a(IPAddress.cpp.o)
  .text._ZNK9IPAddress7printToER5Print
-                0x00003a7a       0x84 libraries\core.a(IPAddress.cpp.o)
-                0x00003a7a                IPAddress::printTo(Print&) const
+                0x00003b00       0x84 libraries\core.a(IPAddress.cpp.o)
+                0x00003b00                IPAddress::printTo(Print&) const
  .text._ZN9IPAddresseqEPKh
-                0x00003afe       0x1e libraries\core.a(IPAddress.cpp.o)
-                0x00003afe                IPAddress::operator==(unsigned char const*)
+                0x00003b84       0x1e libraries\core.a(IPAddress.cpp.o)
+                0x00003b84                IPAddress::operator==(unsigned char const*)
  .text._ZN9IPAddressaSEm
-                0x00003b1c       0x24 libraries\core.a(IPAddress.cpp.o)
-                0x00003b1c                IPAddress::operator=(unsigned long)
+                0x00003ba2       0x24 libraries\core.a(IPAddress.cpp.o)
+                0x00003ba2                IPAddress::operator=(unsigned long)
  .text._ZN9IPAddressaSEPKh
-                0x00003b40       0x1a libraries\core.a(IPAddress.cpp.o)
-                0x00003b40                IPAddress::operator=(unsigned char const*)
+                0x00003bc6       0x1a libraries\core.a(IPAddress.cpp.o)
+                0x00003bc6                IPAddress::operator=(unsigned char const*)
  .text._ZN9IPAddressC1EPKh
-                0x00003b5a       0x22 libraries\core.a(IPAddress.cpp.o)
-                0x00003b5a                IPAddress::IPAddress(unsigned char const*)
+                0x00003be0       0x22 libraries\core.a(IPAddress.cpp.o)
+                0x00003be0                IPAddress::IPAddress(unsigned char const*)
  .text._ZN9IPAddressC2EPKh
-                0x00003b7c       0x22 libraries\core.a(IPAddress.cpp.o)
-                0x00003b7c                IPAddress::IPAddress(unsigned char const*)
+                0x00003c02       0x22 libraries\core.a(IPAddress.cpp.o)
+                0x00003c02                IPAddress::IPAddress(unsigned char const*)
  .text._ZN9IPAddressC1Em
-                0x00003b9e       0x2c libraries\core.a(IPAddress.cpp.o)
-                0x00003b9e                IPAddress::IPAddress(unsigned long)
+                0x00003c24       0x2c libraries\core.a(IPAddress.cpp.o)
+                0x00003c24                IPAddress::IPAddress(unsigned long)
  .text._ZN9IPAddressC2Em
-                0x00003bca       0x2c libraries\core.a(IPAddress.cpp.o)
-                0x00003bca                IPAddress::IPAddress(unsigned long)
+                0x00003c50       0x2c libraries\core.a(IPAddress.cpp.o)
+                0x00003c50                IPAddress::IPAddress(unsigned long)
  .text._ZN9IPAddressC1Ev
-                0x00003bf6       0x14 libraries\core.a(IPAddress.cpp.o)
-                0x00003bf6                IPAddress::IPAddress()
+                0x00003c7c       0x14 libraries\core.a(IPAddress.cpp.o)
+                0x00003c7c                IPAddress::IPAddress()
  .text._ZN9IPAddressC2Ev
-                0x00003c0a       0x14 libraries\core.a(IPAddress.cpp.o)
-                0x00003c0a                IPAddress::IPAddress()
+                0x00003c90       0x14 libraries\core.a(IPAddress.cpp.o)
+                0x00003c90                IPAddress::IPAddress()
  .text._ZN5Print5writeEPKhj
-                0x00003c1e       0x54 libraries\core.a(Print.cpp.o)
-                0x00003c1e                Print::write(unsigned char const*, unsigned int)
+                0x00003ca4       0x54 libraries\core.a(Print.cpp.o)
+                0x00003ca4                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print5printEPK19__FlashStringHelper
-                0x00003c72       0x46 libraries\core.a(Print.cpp.o)
-                0x00003c72                Print::print(__FlashStringHelper const*)
+                0x00003cf8       0x46 libraries\core.a(Print.cpp.o)
+                0x00003cf8                Print::print(__FlashStringHelper const*)
  .text._ZN5Print5printEc
-                0x00003cb8       0x10 libraries\core.a(Print.cpp.o)
-                0x00003cb8                Print::print(char)
+                0x00003d3e       0x10 libraries\core.a(Print.cpp.o)
+                0x00003d3e                Print::print(char)
  .text._ZN5Print5printERK9Printable
-                0x00003cc8       0x16 libraries\core.a(Print.cpp.o)
-                0x00003cc8                Print::print(Printable const&)
+                0x00003d4e       0x16 libraries\core.a(Print.cpp.o)
+                0x00003d4e                Print::print(Printable const&)
  .text._ZN5Print7printlnEv
-                0x00003cde       0x40 libraries\core.a(Print.cpp.o)
-                0x00003cde                Print::println()
+                0x00003d64       0x40 libraries\core.a(Print.cpp.o)
+                0x00003d64                Print::println()
  .text._ZN5Print7printlnEPK19__FlashStringHelper
-                0x00003d1e       0x28 libraries\core.a(Print.cpp.o)
-                0x00003d1e                Print::println(__FlashStringHelper const*)
+                0x00003da4       0x28 libraries\core.a(Print.cpp.o)
+                0x00003da4                Print::println(__FlashStringHelper const*)
  .text._ZN5Print7printlnEc
-                0x00003d46       0x30 libraries\core.a(Print.cpp.o)
-                0x00003d46                Print::println(char)
+                0x00003dcc       0x30 libraries\core.a(Print.cpp.o)
+                0x00003dcc                Print::println(char)
  .text._ZN5Print7printlnERK9Printable
-                0x00003d76       0x34 libraries\core.a(Print.cpp.o)
-                0x00003d76                Print::println(Printable const&)
+                0x00003dfc       0x34 libraries\core.a(Print.cpp.o)
+                0x00003dfc                Print::println(Printable const&)
  .text._ZN5Print5writeEPKc
-                0x00003daa       0x38 libraries\core.a(Print.cpp.o)
-                0x00003daa                Print::write(char const*)
+                0x00003e30       0x38 libraries\core.a(Print.cpp.o)
+                0x00003e30                Print::write(char const*)
  .text._ZN5Print11printNumberEmh
-                0x00003de2       0xc8 libraries\core.a(Print.cpp.o)
-                0x00003de2                Print::printNumber(unsigned long, unsigned char)
+                0x00003e68       0xc8 libraries\core.a(Print.cpp.o)
+                0x00003e68                Print::printNumber(unsigned long, unsigned char)
  .text._ZN5Print5printEmi
-                0x00003eaa       0x1e libraries\core.a(Print.cpp.o)
-                0x00003eaa                Print::print(unsigned long, int)
+                0x00003f30       0x1e libraries\core.a(Print.cpp.o)
+                0x00003f30                Print::print(unsigned long, int)
  .text._ZN5Print7printlnEmi
-                0x00003ec8       0x28 libraries\core.a(Print.cpp.o)
-                0x00003ec8                Print::println(unsigned long, int)
+                0x00003f4e       0x28 libraries\core.a(Print.cpp.o)
+                0x00003f4e                Print::println(unsigned long, int)
  .text._ZN5Print5printEji
-                0x00003ef0       0x22 libraries\core.a(Print.cpp.o)
-                0x00003ef0                Print::print(unsigned int, int)
+                0x00003f76       0x22 libraries\core.a(Print.cpp.o)
+                0x00003f76                Print::print(unsigned int, int)
  .text._ZN5Print7printlnEji
-                0x00003f12       0x3a libraries\core.a(Print.cpp.o)
-                0x00003f12                Print::println(unsigned int, int)
+                0x00003f98       0x3a libraries\core.a(Print.cpp.o)
+                0x00003f98                Print::println(unsigned int, int)
  .text._ZN5Print5printEhi
-                0x00003f4c       0x24 libraries\core.a(Print.cpp.o)
-                0x00003f4c                Print::print(unsigned char, int)
+                0x00003fd2       0x24 libraries\core.a(Print.cpp.o)
+                0x00003fd2                Print::print(unsigned char, int)
  .text._ZN5Print7printlnEhi
-                0x00003f70       0x3c libraries\core.a(Print.cpp.o)
-                0x00003f70                Print::println(unsigned char, int)
+                0x00003ff6       0x3c libraries\core.a(Print.cpp.o)
+                0x00003ff6                Print::println(unsigned char, int)
  .text._ZN5Print5printEli
-                0x00003fac       0x80 libraries\core.a(Print.cpp.o)
-                0x00003fac                Print::print(long, int)
+                0x00004032       0x80 libraries\core.a(Print.cpp.o)
+                0x00004032                Print::print(long, int)
  .text._ZN5Print7printlnEli
-                0x0000402c       0x28 libraries\core.a(Print.cpp.o)
-                0x0000402c                Print::println(long, int)
+                0x000040b2       0x28 libraries\core.a(Print.cpp.o)
+                0x000040b2                Print::println(long, int)
  .text._ZN5Print5printEii
-                0x00004054       0x26 libraries\core.a(Print.cpp.o)
-                0x00004054                Print::print(int, int)
+                0x000040da       0x26 libraries\core.a(Print.cpp.o)
+                0x000040da                Print::print(int, int)
  .text._ZN5Print7printlnEii
-                0x0000407a       0x3e libraries\core.a(Print.cpp.o)
-                0x0000407a                Print::println(int, int)
+                0x00004100       0x3e libraries\core.a(Print.cpp.o)
+                0x00004100                Print::println(int, int)
  .text._ZN5Print5printEPKc
-                0x000040b8        0x6 libraries\core.a(Print.cpp.o)
-                0x000040b8                Print::print(char const*)
+                0x0000413e        0x6 libraries\core.a(Print.cpp.o)
+                0x0000413e                Print::print(char const*)
  .text._ZN5Print10printFloatEdh
-                0x000040be      0x1c8 libraries\core.a(Print.cpp.o)
-                0x000040be                Print::printFloat(double, unsigned char)
+                0x00004144      0x1c8 libraries\core.a(Print.cpp.o)
+                0x00004144                Print::printFloat(double, unsigned char)
  .text._ZN5Print5printEdi
-                0x00004286        0x6 libraries\core.a(Print.cpp.o)
-                0x00004286                Print::print(double, int)
+                0x0000430c        0x6 libraries\core.a(Print.cpp.o)
+                0x0000430c                Print::print(double, int)
  .text._ZN5Print7printlnEdi
-                0x0000428c       0x26 libraries\core.a(Print.cpp.o)
-                0x0000428c                Print::println(double, int)
+                0x00004312       0x26 libraries\core.a(Print.cpp.o)
+                0x00004312                Print::println(double, int)
  .text._ZN5Print7printlnEPKc
-                0x000042b2       0x26 libraries\core.a(Print.cpp.o)
-                0x000042b2                Print::println(char const*)
+                0x00004338       0x26 libraries\core.a(Print.cpp.o)
+                0x00004338                Print::println(char const*)
  .text._ZN5Print5printERK6String
-                0x000042d8       0x66 libraries\core.a(Print.cpp.o)
-                0x000042d8                Print::print(String const&)
+                0x0000435e       0x66 libraries\core.a(Print.cpp.o)
+                0x0000435e                Print::print(String const&)
  .text._ZN5Print7printlnERK6String
-                0x0000433e       0x28 libraries\core.a(Print.cpp.o)
-                0x0000433e                Print::println(String const&)
+                0x000043c4       0x28 libraries\core.a(Print.cpp.o)
+                0x000043c4                Print::println(String const&)
  .text._ZNK6String6charAtEj
-                0x00004366       0x22 libraries\core.a(WString.cpp.o)
-                0x00004366                String::charAt(unsigned int) const
+                0x000043ec       0x22 libraries\core.a(WString.cpp.o)
+                0x000043ec                String::charAt(unsigned int) const
  .text._ZN6String9setCharAtEjc
-                0x00004388       0x1a libraries\core.a(WString.cpp.o)
-                0x00004388                String::setCharAt(unsigned int, char)
+                0x0000440e       0x1a libraries\core.a(WString.cpp.o)
+                0x0000440e                String::setCharAt(unsigned int, char)
  .text._ZN6StringixEj
-                0x000043a2       0x2a libraries\core.a(WString.cpp.o)
-                0x000043a2                String::operator[](unsigned int)
+                0x00004428       0x2a libraries\core.a(WString.cpp.o)
+                0x00004428                String::operator[](unsigned int)
  .text._ZNK6StringixEj
-                0x000043cc       0x22 libraries\core.a(WString.cpp.o)
-                0x000043cc                String::operator[](unsigned int) const
+                0x00004452       0x22 libraries\core.a(WString.cpp.o)
+                0x00004452                String::operator[](unsigned int) const
  .text._ZN6String7replaceEcc
-                0x000043ee       0x1e libraries\core.a(WString.cpp.o)
-                0x000043ee                String::replace(char, char)
+                0x00004474       0x1e libraries\core.a(WString.cpp.o)
+                0x00004474                String::replace(char, char)
  .text._ZNK6String5toIntEv
-                0x0000440c       0x22 libraries\core.a(WString.cpp.o)
-                0x0000440c                String::toInt() const
+                0x00004492       0x22 libraries\core.a(WString.cpp.o)
+                0x00004492                String::toInt() const
  .text._ZN6String4trimEv
-                0x0000442e       0xb6 libraries\core.a(WString.cpp.o)
-                0x0000442e                String::trim()
+                0x000044b4       0xb6 libraries\core.a(WString.cpp.o)
+                0x000044b4                String::trim()
  .text._ZN6String11toUpperCaseEv
-                0x000044e4       0x28 libraries\core.a(WString.cpp.o)
-                0x000044e4                String::toUpperCase()
+                0x0000456a       0x28 libraries\core.a(WString.cpp.o)
+                0x0000456a                String::toUpperCase()
  .text._ZN6String11toLowerCaseEv
-                0x0000450c       0x28 libraries\core.a(WString.cpp.o)
-                0x0000450c                String::toLowerCase()
+                0x00004592       0x28 libraries\core.a(WString.cpp.o)
+                0x00004592                String::toLowerCase()
  .text._ZNK6String16equalsIgnoreCaseERKS_
-                0x00004534       0x78 libraries\core.a(WString.cpp.o)
-                0x00004534                String::equalsIgnoreCase(String const&) const
+                0x000045ba       0x78 libraries\core.a(WString.cpp.o)
+                0x000045ba                String::equalsIgnoreCase(String const&) const
  .text._ZNK6String11lastIndexOfERKS_j
-                0x000045ac       0x9c libraries\core.a(WString.cpp.o)
-                0x000045ac                String::lastIndexOf(String const&, unsigned int) const
+                0x00004632       0x9c libraries\core.a(WString.cpp.o)
+                0x00004632                String::lastIndexOf(String const&, unsigned int) const
  .text._ZNK6String11lastIndexOfERKS_
-                0x00004648       0x1c libraries\core.a(WString.cpp.o)
-                0x00004648                String::lastIndexOf(String const&) const
+                0x000046ce       0x1c libraries\core.a(WString.cpp.o)
+                0x000046ce                String::lastIndexOf(String const&) const
  .text._ZNK6String7indexOfERKS_j
-                0x00004664       0x3c libraries\core.a(WString.cpp.o)
-                0x00004664                String::indexOf(String const&, unsigned int) const
+                0x000046ea       0x3c libraries\core.a(WString.cpp.o)
+                0x000046ea                String::indexOf(String const&, unsigned int) const
  .text._ZNK6String7indexOfERKS_
-                0x000046a0        0xa libraries\core.a(WString.cpp.o)
-                0x000046a0                String::indexOf(String const&) const
+                0x00004726        0xa libraries\core.a(WString.cpp.o)
+                0x00004726                String::indexOf(String const&) const
  .text._ZNK6String11lastIndexOfEcj
-                0x000046aa       0x6e libraries\core.a(WString.cpp.o)
-                0x000046aa                String::lastIndexOf(char, unsigned int) const
+                0x00004730       0x6e libraries\core.a(WString.cpp.o)
+                0x00004730                String::lastIndexOf(char, unsigned int) const
  .text._ZNK6String11lastIndexOfEc
-                0x00004718       0x10 libraries\core.a(WString.cpp.o)
-                0x00004718                String::lastIndexOf(char) const
+                0x0000479e       0x10 libraries\core.a(WString.cpp.o)
+                0x0000479e                String::lastIndexOf(char) const
  .text._ZNK6String7indexOfEcj
-                0x00004728       0x3c libraries\core.a(WString.cpp.o)
-                0x00004728                String::indexOf(char, unsigned int) const
+                0x000047ae       0x3c libraries\core.a(WString.cpp.o)
+                0x000047ae                String::indexOf(char, unsigned int) const
  .text._ZNK6String7indexOfEc
-                0x00004764        0xa libraries\core.a(WString.cpp.o)
-                0x00004764                String::indexOf(char) const
+                0x000047ea        0xa libraries\core.a(WString.cpp.o)
+                0x000047ea                String::indexOf(char) const
  .text._ZNK6String8getBytesEPhjj
-                0x0000476e       0x5a libraries\core.a(WString.cpp.o)
-                0x0000476e                String::getBytes(unsigned char*, unsigned int, unsigned int) const
+                0x000047f4       0x5a libraries\core.a(WString.cpp.o)
+                0x000047f4                String::getBytes(unsigned char*, unsigned int, unsigned int) const
  .text._ZNK6String8endsWithERKS_
-                0x000047c8       0x44 libraries\core.a(WString.cpp.o)
-                0x000047c8                String::endsWith(String const&) const
+                0x0000484e       0x44 libraries\core.a(WString.cpp.o)
+                0x0000484e                String::endsWith(String const&) const
  .text._ZNK6String6equalsEPKc
-                0x0000480c       0x46 libraries\core.a(WString.cpp.o)
-                0x0000480c                String::equals(char const*) const
+                0x00004892       0x46 libraries\core.a(WString.cpp.o)
+                0x00004892                String::equals(char const*) const
  .text._ZNK6String9compareToERKS_
-                0x00004852       0x66 libraries\core.a(WString.cpp.o)
-                0x00004852                String::compareTo(String const&) const
+                0x000048d8       0x66 libraries\core.a(WString.cpp.o)
+                0x000048d8                String::compareTo(String const&) const
  .text._ZNK6StringgeERKS_
-                0x000048b8       0x10 libraries\core.a(WString.cpp.o)
-                0x000048b8                String::operator>=(String const&) const
+                0x0000493e       0x10 libraries\core.a(WString.cpp.o)
+                0x0000493e                String::operator>=(String const&) const
  .text._ZNK6StringleERKS_
-                0x000048c8       0x12 libraries\core.a(WString.cpp.o)
-                0x000048c8                String::operator<=(String const&) const
+                0x0000494e       0x12 libraries\core.a(WString.cpp.o)
+                0x0000494e                String::operator<=(String const&) const
  .text._ZNK6StringgtERKS_
-                0x000048da       0x12 libraries\core.a(WString.cpp.o)
-                0x000048da                String::operator>(String const&) const
+                0x00004960       0x12 libraries\core.a(WString.cpp.o)
+                0x00004960                String::operator>(String const&) const
  .text._ZNK6StringltERKS_
-                0x000048ec        0xe libraries\core.a(WString.cpp.o)
-                0x000048ec                String::operator<(String const&) const
+                0x00004972        0xe libraries\core.a(WString.cpp.o)
+                0x00004972                String::operator<(String const&) const
  .text._ZNK6String6equalsERKS_
-                0x000048fa       0x2c libraries\core.a(WString.cpp.o)
-                0x000048fa                String::equals(String const&) const
+                0x00004980       0x2c libraries\core.a(WString.cpp.o)
+                0x00004980                String::equals(String const&) const
  .text._ZNK6String10startsWithERKS_j
-                0x00004926       0x46 libraries\core.a(WString.cpp.o)
-                0x00004926                String::startsWith(String const&, unsigned int) const
+                0x000049ac       0x46 libraries\core.a(WString.cpp.o)
+                0x000049ac                String::startsWith(String const&, unsigned int) const
  .text._ZNK6String10startsWithERKS_
-                0x0000496c       0x26 libraries\core.a(WString.cpp.o)
-                0x0000496c                String::startsWith(String const&) const
+                0x000049f2       0x26 libraries\core.a(WString.cpp.o)
+                0x000049f2                String::startsWith(String const&) const
  .text._ZN6String12changeBufferEj
-                0x00004992       0x34 libraries\core.a(WString.cpp.o)
-                0x00004992                String::changeBuffer(unsigned int)
+                0x00004a18       0x34 libraries\core.a(WString.cpp.o)
+                0x00004a18                String::changeBuffer(unsigned int)
  .text._ZN6String7replaceERKS_S1_
-                0x000049c6      0x20a libraries\core.a(WString.cpp.o)
-                0x000049c6                String::replace(String const&, String const&)
+                0x00004a4c      0x20a libraries\core.a(WString.cpp.o)
+                0x00004a4c                String::replace(String const&, String const&)
  .text._ZN6String7reserveEj
-                0x00004bd0       0x38 libraries\core.a(WString.cpp.o)
-                0x00004bd0                String::reserve(unsigned int)
+                0x00004c56       0x38 libraries\core.a(WString.cpp.o)
+                0x00004c56                String::reserve(unsigned int)
  .text._ZN6String6concatEPKcj
-                0x00004c08       0x5a libraries\core.a(WString.cpp.o)
-                0x00004c08                String::concat(char const*, unsigned int)
+                0x00004c8e       0x5a libraries\core.a(WString.cpp.o)
+                0x00004c8e                String::concat(char const*, unsigned int)
  .text._ZN6String6concatEm
-                0x00004c62       0x64 libraries\core.a(WString.cpp.o)
-                0x00004c62                String::concat(unsigned long)
+                0x00004ce8       0x64 libraries\core.a(WString.cpp.o)
+                0x00004ce8                String::concat(unsigned long)
  .text._ZN6String6concatEl
-                0x00004cc6       0x64 libraries\core.a(WString.cpp.o)
-                0x00004cc6                String::concat(long)
+                0x00004d4c       0x64 libraries\core.a(WString.cpp.o)
+                0x00004d4c                String::concat(long)
  .text._ZN6String6concatEj
-                0x00004d2a       0x5a libraries\core.a(WString.cpp.o)
-                0x00004d2a                String::concat(unsigned int)
+                0x00004db0       0x5a libraries\core.a(WString.cpp.o)
+                0x00004db0                String::concat(unsigned int)
  .text._ZN6String6concatEi
-                0x00004d84       0x62 libraries\core.a(WString.cpp.o)
-                0x00004d84                String::concat(int)
+                0x00004e0a       0x62 libraries\core.a(WString.cpp.o)
+                0x00004e0a                String::concat(int)
  .text._ZN6String6concatEh
-                0x00004de6       0x58 libraries\core.a(WString.cpp.o)
-                0x00004de6                String::concat(unsigned char)
+                0x00004e6c       0x58 libraries\core.a(WString.cpp.o)
+                0x00004e6c                String::concat(unsigned char)
  .text._ZN6String6concatEc
-                0x00004e3e       0x28 libraries\core.a(WString.cpp.o)
-                0x00004e3e                String::concat(char)
+                0x00004ec4       0x28 libraries\core.a(WString.cpp.o)
+                0x00004ec4                String::concat(char)
  .text._ZN6String6concatEPKc
-                0x00004e66       0x20 libraries\core.a(WString.cpp.o)
-                0x00004e66                String::concat(char const*)
+                0x00004eec       0x20 libraries\core.a(WString.cpp.o)
+                0x00004eec                String::concat(char const*)
  .text._ZN6String6concatERKS_
-                0x00004e86       0x10 libraries\core.a(WString.cpp.o)
-                0x00004e86                String::concat(String const&)
+                0x00004f0c       0x10 libraries\core.a(WString.cpp.o)
+                0x00004f0c                String::concat(String const&)
  .text._ZN6String10invalidateEv
-                0x00004e96       0x24 libraries\core.a(WString.cpp.o)
-                0x00004e96                String::invalidate()
+                0x00004f1c       0x24 libraries\core.a(WString.cpp.o)
+                0x00004f1c                String::invalidate()
  .text._ZplRK15StringSumHelperm
-                0x00004eba       0x22 libraries\core.a(WString.cpp.o)
-                0x00004eba                operator+(StringSumHelper const&, unsigned long)
+                0x00004f40       0x22 libraries\core.a(WString.cpp.o)
+                0x00004f40                operator+(StringSumHelper const&, unsigned long)
  .text._ZplRK15StringSumHelperl
-                0x00004edc       0x22 libraries\core.a(WString.cpp.o)
-                0x00004edc                operator+(StringSumHelper const&, long)
+                0x00004f62       0x22 libraries\core.a(WString.cpp.o)
+                0x00004f62                operator+(StringSumHelper const&, long)
  .text._ZplRK15StringSumHelperj
-                0x00004efe       0x22 libraries\core.a(WString.cpp.o)
-                0x00004efe                operator+(StringSumHelper const&, unsigned int)
+                0x00004f84       0x22 libraries\core.a(WString.cpp.o)
+                0x00004f84                operator+(StringSumHelper const&, unsigned int)
  .text._ZplRK15StringSumHelperi
-                0x00004f20       0x22 libraries\core.a(WString.cpp.o)
-                0x00004f20                operator+(StringSumHelper const&, int)
+                0x00004fa6       0x22 libraries\core.a(WString.cpp.o)
+                0x00004fa6                operator+(StringSumHelper const&, int)
  .text._ZplRK15StringSumHelperh
-                0x00004f42       0x22 libraries\core.a(WString.cpp.o)
-                0x00004f42                operator+(StringSumHelper const&, unsigned char)
+                0x00004fc8       0x22 libraries\core.a(WString.cpp.o)
+                0x00004fc8                operator+(StringSumHelper const&, unsigned char)
  .text._ZplRK15StringSumHelperc
-                0x00004f64       0x22 libraries\core.a(WString.cpp.o)
-                0x00004f64                operator+(StringSumHelper const&, char)
+                0x00004fea       0x22 libraries\core.a(WString.cpp.o)
+                0x00004fea                operator+(StringSumHelper const&, char)
  .text._ZplRK15StringSumHelperPKc
-                0x00004f86       0x38 libraries\core.a(WString.cpp.o)
-                0x00004f86                operator+(StringSumHelper const&, char const*)
+                0x0000500c       0x38 libraries\core.a(WString.cpp.o)
+                0x0000500c                operator+(StringSumHelper const&, char const*)
  .text._ZplRK15StringSumHelperRK6String
-                0x00004fbe       0x2c libraries\core.a(WString.cpp.o)
-                0x00004fbe                operator+(StringSumHelper const&, String const&)
+                0x00005044       0x2c libraries\core.a(WString.cpp.o)
+                0x00005044                operator+(StringSumHelper const&, String const&)
  .text._ZN6String4copyEPKcj
-                0x00004fea       0x42 libraries\core.a(WString.cpp.o)
-                0x00004fea                String::copy(char const*, unsigned int)
+                0x00005070       0x42 libraries\core.a(WString.cpp.o)
+                0x00005070                String::copy(char const*, unsigned int)
  .text._ZN6StringC1EPKc
-                0x0000502c       0x34 libraries\core.a(WString.cpp.o)
-                0x0000502c                String::String(char const*)
+                0x000050b2       0x34 libraries\core.a(WString.cpp.o)
+                0x000050b2                String::String(char const*)
  .text._ZN6StringC2EPKc
-                0x00005060       0x34 libraries\core.a(WString.cpp.o)
-                0x00005060                String::String(char const*)
+                0x000050e6       0x34 libraries\core.a(WString.cpp.o)
+                0x000050e6                String::String(char const*)
  .text._ZN6StringaSEPKc
-                0x00005094       0x32 libraries\core.a(WString.cpp.o)
-                0x00005094                String::operator=(char const*)
+                0x0000511a       0x32 libraries\core.a(WString.cpp.o)
+                0x0000511a                String::operator=(char const*)
  .text._ZN6StringC1Emh
-                0x000050c6       0x64 libraries\core.a(WString.cpp.o)
-                0x000050c6                String::String(unsigned long, unsigned char)
+                0x0000514c       0x64 libraries\core.a(WString.cpp.o)
+                0x0000514c                String::String(unsigned long, unsigned char)
  .text._ZN6StringC2Emh
-                0x0000512a       0x64 libraries\core.a(WString.cpp.o)
-                0x0000512a                String::String(unsigned long, unsigned char)
+                0x000051b0       0x64 libraries\core.a(WString.cpp.o)
+                0x000051b0                String::String(unsigned long, unsigned char)
  .text._ZN6StringC1Elh
-                0x0000518e       0x64 libraries\core.a(WString.cpp.o)
-                0x0000518e                String::String(long, unsigned char)
+                0x00005214       0x64 libraries\core.a(WString.cpp.o)
+                0x00005214                String::String(long, unsigned char)
  .text._ZN6StringC2Elh
-                0x000051f2       0x64 libraries\core.a(WString.cpp.o)
-                0x000051f2                String::String(long, unsigned char)
+                0x00005278       0x64 libraries\core.a(WString.cpp.o)
+                0x00005278                String::String(long, unsigned char)
  .text._ZN6StringC1Ejh
-                0x00005256       0x62 libraries\core.a(WString.cpp.o)
-                0x00005256                String::String(unsigned int, unsigned char)
+                0x000052dc       0x62 libraries\core.a(WString.cpp.o)
+                0x000052dc                String::String(unsigned int, unsigned char)
  .text._ZN6StringC2Ejh
-                0x000052b8       0x62 libraries\core.a(WString.cpp.o)
-                0x000052b8                String::String(unsigned int, unsigned char)
+                0x0000533e       0x62 libraries\core.a(WString.cpp.o)
+                0x0000533e                String::String(unsigned int, unsigned char)
  .text._ZN6StringC1Eih
-                0x0000531a       0x62 libraries\core.a(WString.cpp.o)
-                0x0000531a                String::String(int, unsigned char)
+                0x000053a0       0x62 libraries\core.a(WString.cpp.o)
+                0x000053a0                String::String(int, unsigned char)
  .text._ZN6StringC2Eih
-                0x0000537c       0x62 libraries\core.a(WString.cpp.o)
-                0x0000537c                String::String(int, unsigned char)
+                0x00005402       0x62 libraries\core.a(WString.cpp.o)
+                0x00005402                String::String(int, unsigned char)
  .text._ZN6StringC1Ehh
-                0x000053de       0x64 libraries\core.a(WString.cpp.o)
-                0x000053de                String::String(unsigned char, unsigned char)
+                0x00005464       0x64 libraries\core.a(WString.cpp.o)
+                0x00005464                String::String(unsigned char, unsigned char)
  .text._ZN6StringC2Ehh
-                0x00005442       0x64 libraries\core.a(WString.cpp.o)
-                0x00005442                String::String(unsigned char, unsigned char)
+                0x000054c8       0x64 libraries\core.a(WString.cpp.o)
+                0x000054c8                String::String(unsigned char, unsigned char)
  .text._ZN6StringC1Ec
-                0x000054a6       0x34 libraries\core.a(WString.cpp.o)
-                0x000054a6                String::String(char)
+                0x0000552c       0x34 libraries\core.a(WString.cpp.o)
+                0x0000552c                String::String(char)
  .text._ZN6StringC2Ec
-                0x000054da       0x34 libraries\core.a(WString.cpp.o)
-                0x000054da                String::String(char)
+                0x00005560       0x34 libraries\core.a(WString.cpp.o)
+                0x00005560                String::String(char)
  .text._ZNK6String9substringEjj
-                0x0000550e       0x8e libraries\core.a(WString.cpp.o)
-                0x0000550e                String::substring(unsigned int, unsigned int) const
+                0x00005594       0x8e libraries\core.a(WString.cpp.o)
+                0x00005594                String::substring(unsigned int, unsigned int) const
  .text._ZNK6String9substringEj
-                0x0000559c       0x18 libraries\core.a(WString.cpp.o)
-                0x0000559c                String::substring(unsigned int) const
+                0x00005622       0x18 libraries\core.a(WString.cpp.o)
+                0x00005622                String::substring(unsigned int) const
  .text._ZN6StringaSERKS_
-                0x000055b4       0x2e libraries\core.a(WString.cpp.o)
-                0x000055b4                String::operator=(String const&)
+                0x0000563a       0x2e libraries\core.a(WString.cpp.o)
+                0x0000563a                String::operator=(String const&)
  .text._ZN6StringC1ERKS_
-                0x000055e2       0x16 libraries\core.a(WString.cpp.o)
-                0x000055e2                String::String(String const&)
+                0x00005668       0x16 libraries\core.a(WString.cpp.o)
+                0x00005668                String::String(String const&)
  .text._ZN6StringC2ERKS_
-                0x000055f8       0x16 libraries\core.a(WString.cpp.o)
-                0x000055f8                String::String(String const&)
+                0x0000567e       0x16 libraries\core.a(WString.cpp.o)
+                0x0000567e                String::String(String const&)
  .text._ZN6StringD1Ev
-                0x0000560e        0xc libraries\core.a(WString.cpp.o)
-                0x0000560e                String::~String()
+                0x00005694        0xc libraries\core.a(WString.cpp.o)
+                0x00005694                String::~String()
  .text._ZN6StringD2Ev
-                0x0000561a        0xc libraries\core.a(WString.cpp.o)
-                0x0000561a                String::~String()
+                0x000056a0        0xc libraries\core.a(WString.cpp.o)
+                0x000056a0                String::~String()
  .text.avr-libc
-                0x00005626      0x26a libraries\core.a(malloc.c.o)
-                0x00005626                malloc
-                0x00005760                free
+                0x000056ac      0x26a libraries\core.a(malloc.c.o)
+                0x000056ac                malloc
+                0x000057e6                free
  .text.avr-libc
-                0x00005890      0x1c2 libraries\core.a(realloc.c.o)
-                0x00005890                realloc
- .text.libgcc   0x00005a52       0x3e d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mulsi3.o)
-                0x00005a52                __mulsi3
- .text.libgcc   0x00005a90       0x44 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
-                0x00005a90                __udivmodsi4
- .text.libgcc   0x00005ad4        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
- .text.libgcc   0x00005ad4        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00005ad4        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ctors.o)
- .text.libgcc   0x00005ad4       0x38 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
-                0x00005ad4                __prologue_saves__
- .text.libgcc   0x00005b0c       0x36 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
-                0x00005b0c                __epilogue_restores__
- .text.libgcc   0x00005b42        0xc d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_tablejump.o)
-                0x00005b46                __tablejump__
-                0x00005b42                __tablejump2__
- .text.ctype    0x00005b4e       0x10 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o)
-                0x00005b4e                isspace
- .text.ctype    0x00005b5e       0x10 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(tolower.o)
-                0x00005b5e                tolower
- .text.ctype    0x00005b6e       0x10 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(toupper.o)
-                0x00005b6e                toupper
- .text.ctype    0x00005b7e        0x6 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
-                0x00005b82                __ctype_istrue
-                0x00005b7e                __ctype_isfalse
- .text.libgcc   0x00005b84       0x28 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
-                0x00005b84                __udivmodhi4
-                0x00005bac                . = ALIGN (0x2)
+                0x00005916      0x1c2 libraries\core.a(realloc.c.o)
+                0x00005916                realloc
+ .text.libgcc   0x00005ad8       0x3e d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mulsi3.o)
+                0x00005ad8                __mulsi3
+ .text.libgcc   0x00005b16       0x44 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
+                0x00005b16                __udivmodsi4
+ .text.libgcc   0x00005b5a        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x00005b5a        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00005b5a        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ctors.o)
+ .text.libgcc   0x00005b5a       0x38 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
+                0x00005b5a                __prologue_saves__
+ .text.libgcc   0x00005b92       0x36 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
+                0x00005b92                __epilogue_restores__
+ .text.libgcc   0x00005bc8        0xc d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_tablejump.o)
+                0x00005bcc                __tablejump__
+                0x00005bc8                __tablejump2__
+ .text.ctype    0x00005bd4       0x10 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o)
+                0x00005bd4                isspace
+ .text.ctype    0x00005be4       0x10 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(tolower.o)
+                0x00005be4                tolower
+ .text.ctype    0x00005bf4       0x10 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(toupper.o)
+                0x00005bf4                toupper
+ .text.ctype    0x00005c04        0x6 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(cty_isfalse.o)
+                0x00005c08                __ctype_istrue
+                0x00005c04                __ctype_isfalse
+ .text.libgcc   0x00005c0a       0x28 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
+                0x00005c0a                __udivmodhi4
+                0x00005c32                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00005bac        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
-                0x00005bac                exit
-                0x00005bac                _exit
+ .fini9         0x00005c32        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+                0x00005c32                exit
+                0x00005c32                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1016,11 +1017,11 @@ LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00005bac        0x4 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ .fini0         0x00005c32        0x4 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
  *(.fini0)
-                0x00005bb0                _etext = .
+                0x00005c36                _etext = .
 
-.data           0x00800200      0x1a0 load address 0x00005bb0
+.data           0x00800200      0x1a0 load address 0x00005c36
                 0x00800200                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800200        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
@@ -1068,27 +1069,27 @@ LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.
  .data          0x00800265        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_fpcmp_parts_sf.o)
  .data          0x00800265      0x100 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clz.o)
                 0x00800265                __clz_tab
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(atol.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(tolower.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(toupper.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcmp.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcpy.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memmove.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strchr.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcmp.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcpy.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncmp.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncpy.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrchr.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strstr.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ltoa.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(mulsi10.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(utoa.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
- .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(atol.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(tolower.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(toupper.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcmp.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcpy.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memmove.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strchr.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcmp.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcpy.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncmp.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncpy.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrchr.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strstr.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ltoa.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(mulsi10.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ultoa.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(utoa.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(cty_isfalse.o)
+ .data          0x00800365        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrev.o)
  .data          0x00800365        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
  *(.data*)
  .data.analog_reference
@@ -1192,27 +1193,27 @@ LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.
  .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_unpack_sf.o)
  .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_fpcmp_parts_sf.o)
  .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clz.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(atol.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(tolower.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(toupper.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcmp.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcpy.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memmove.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strchr.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcmp.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcpy.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncmp.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncpy.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrchr.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strstr.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ltoa.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(mulsi10.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(utoa.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
- .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(atol.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(tolower.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(toupper.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcmp.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcpy.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memmove.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strchr.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcmp.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcpy.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncmp.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncpy.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrchr.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strstr.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ltoa.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(mulsi10.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ultoa.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(utoa.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(cty_isfalse.o)
+ .bss           0x00800689        0x0 D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrev.o)
  .bss           0x00800689        0x0 d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
  *(.bss*)
  .bss.intFunc   0x00800689       0x10 libraries\core.a(WInterrupts.c.o)
@@ -1265,8 +1266,8 @@ LOAD d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.
                 0x00800951                __brkval
                 0x00800953                __flp
                 0x00800955                PROVIDE (__bss_end, .)
-                0x00005bb0                __data_load_start = LOADADDR (.data)
-                0x00005d50                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00005c36                __data_load_start = LOADADDR (.data)
+                0x00005dd6                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800955        0x0
                 0x00800955                PROVIDE (__noinit_start, .)
@@ -1494,6 +1495,7 @@ HardwareSerial::operator bool()                   libraries\core.a(HardwareSeria
 HardwareSerial::peek()                            libraries\core.a(HardwareSerial.cpp.o)
 HardwareSerial::read()                            libraries\core.a(HardwareSerial.cpp.o)
 HardwareSerial::write(unsigned char)              libraries\core.a(HardwareSerial.cpp.o)
+                                                  obj\Release\main.o
 IPAddress::IPAddress()                            libraries\core.a(IPAddress.cpp.o)
 IPAddress::IPAddress()                            libraries\core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned char const*)        libraries\core.a(IPAddress.cpp.o)
@@ -1525,6 +1527,7 @@ Print::print(unsigned long, int)                  libraries\core.a(Print.cpp.o)
 Print::printFloat(double, unsigned char)          libraries\core.a(Print.cpp.o)
 Print::printNumber(unsigned long, unsigned char)  libraries\core.a(Print.cpp.o)
 Print::println()                                  libraries\core.a(Print.cpp.o)
+                                                  obj\Release\main.o
 Print::println(Printable const&)                  libraries\core.a(Print.cpp.o)
 Print::println(String const&)                     libraries\core.a(Print.cpp.o)
 Print::println(__FlashStringHelper const*)        libraries\core.a(Print.cpp.o)
@@ -1670,9 +1673,9 @@ __clzsi2                                          d:/arduino/arduino/hardware/to
                                                   d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_si_to_sf.o)
 __ctors_end                                       d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ctors.o)
 __ctors_start                                     d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_ctors.o)
-__ctype_isfalse                                   d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o)
-__ctype_istrue                                    d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+__ctype_isfalse                                   D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(cty_isfalse.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o)
+__ctype_istrue                                    D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(cty_isfalse.o)
 __cxa_pure_virtual                                obj\Release\main.o
                                                   libraries\core.a(Print.cpp.o)
                                                   libraries\core.a(IPAddress.cpp.o)
@@ -1808,8 +1811,8 @@ __mulsf3                                          d:/arduino/arduino/hardware/to
                                                   libraries\core.a(Print.cpp.o)
 __mulsi3                                          d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mulsi3.o)
                                                   libraries\core.a(Print.cpp.o)
-__mulsi_const_10                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(mulsi10.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(atol.o)
+__mulsi_const_10                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(mulsi10.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(atol.o)
 __pack_f                                          d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_pack_sf.o)
                                                   d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_usi_to_sf.o)
                                                   d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_si_to_sf.o)
@@ -1841,11 +1844,11 @@ __thenan_sf                                       d:/arduino/arduino/hardware/to
                                                   d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_mul_sf.o)
                                                   d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_addsub_sf.o)
 __udivmodhi4                                      d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodhi4.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(utoa.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(utoa.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o)
 __udivmodsi4                                      d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ultoa.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ltoa.o)
                                                   libraries\core.a(Print.cpp.o)
                                                   libraries\core.a(HardwareSerial.cpp.o)
 __unordsf2                                        d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_unord_sf.o)
@@ -1943,12 +1946,13 @@ analogReference                                   libraries\core.a(wiring_analog
 analogWrite                                       libraries\core.a(wiring_analog.c.o)
                                                   obj\Release\main.o
 analog_reference                                  libraries\core.a(wiring_analog.c.o)
-atol                                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(atol.o)
+atol                                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(atol.o)
                                                   libraries\core.a(WString.cpp.o)
 attachInterrupt                                   libraries\core.a(WInterrupts.c.o)
                                                   obj\Release\main.o
 calbAccelVal                                      obj\Release\main.o
 delay                                             libraries\core.a(wiring.c.o)
+                                                  obj\Release\main.o
 delayMicroseconds                                 libraries\core.a(wiring.c.o)
 detachInterrupt                                   libraries\core.a(WInterrupts.c.o)
 digitalRead                                       libraries\core.a(wiring_digital.c.o)
@@ -1972,23 +1976,23 @@ greenPoint                                        obj\Release\main.o
 inSync                                            obj\Release\main.o
 init                                              libraries\core.a(wiring.c.o)
                                                   obj\Release\main.o
-isspace                                           d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(isspace.o)
+isspace                                           D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(isspace.o)
                                                   libraries\core.a(WString.cpp.o)
-itoa                                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o)
+itoa                                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o)
                                                   libraries\core.a(WString.cpp.o)
-ltoa                                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ltoa                                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ltoa.o)
                                                   libraries\core.a(WString.cpp.o)
 main                                              obj\Release\main.o
                                                   d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
 malloc                                            libraries\core.a(malloc.c.o)
                                                   libraries\core.a(realloc.c.o)
-memcmp                                            d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcmp.o)
+memcmp                                            D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcmp.o)
                                                   libraries\core.a(IPAddress.cpp.o)
-memcpy                                            d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memcpy.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memmove.o)
+memcpy                                            D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memcpy.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memmove.o)
                                                   libraries\core.a(realloc.c.o)
                                                   libraries\core.a(WString.cpp.o)
-memmove                                           d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memmove.o)
+memmove                                           D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(memmove.o)
                                                   libraries\core.a(WString.cpp.o)
 micros                                            libraries\core.a(wiring.c.o)
 millis                                            libraries\core.a(wiring.c.o)
@@ -2025,35 +2029,36 @@ serialEvent1()                                    libraries\core.a(HardwareSeria
 serialEvent2()                                    libraries\core.a(HardwareSerial.cpp.o)
 serialEvent3()                                    libraries\core.a(HardwareSerial.cpp.o)
 serialEventRun()                                  libraries\core.a(HardwareSerial.cpp.o)
+serialWrite(int)                                  obj\Release\main.o
 setup                                             obj\Release\main.o
 speedL                                            obj\Release\main.o
 speedR                                            obj\Release\main.o
 steerDirect                                       obj\Release\main.o
 str                                               obj\Release\main.o
-strchr                                            d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strchr.o)
+strchr                                            D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strchr.o)
                                                   libraries\core.a(WString.cpp.o)
-strcmp                                            d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcmp.o)
+strcmp                                            D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcmp.o)
                                                   libraries\core.a(WString.cpp.o)
-strcpy                                            d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strcpy.o)
+strcpy                                            D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strcpy.o)
                                                   libraries\core.a(WString.cpp.o)
-strncmp                                           d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncmp.o)
+strncmp                                           D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncmp.o)
                                                   libraries\core.a(WString.cpp.o)
-strncpy                                           d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strncpy.o)
+strncpy                                           D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strncpy.o)
                                                   libraries\core.a(WString.cpp.o)
-strrchr                                           d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrchr.o)
+strrchr                                           D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrchr.o)
                                                   libraries\core.a(WString.cpp.o)
-strrev                                            d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strrev.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(utoa.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ltoa.o)
-                                                  d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(itoa.o)
-strstr                                            d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strstr.o)
+strrev                                            D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strrev.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(utoa.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ultoa.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ltoa.o)
+                                                  D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(itoa.o)
+strstr                                            D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(strstr.o)
                                                   libraries\core.a(WString.cpp.o)
 timer0_millis                                     libraries\core.a(wiring.c.o)
 timer0_overflow_count                             libraries\core.a(wiring.c.o)
-tolower                                           d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(tolower.o)
+tolower                                           D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(tolower.o)
                                                   libraries\core.a(WString.cpp.o)
-toupper                                           d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(toupper.o)
+toupper                                           D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(toupper.o)
                                                   libraries\core.a(WString.cpp.o)
 twi_attachSlaveRxEvent                            obj\Release\libraries\twi.o
                                                   obj\Release\libraries\Wire.o
@@ -2076,9 +2081,9 @@ tx_buffer                                         libraries\core.a(HardwareSeria
 tx_buffer1                                        libraries\core.a(HardwareSerial.cpp.o)
 tx_buffer2                                        libraries\core.a(HardwareSerial.cpp.o)
 tx_buffer3                                        libraries\core.a(HardwareSerial.cpp.o)
-ultoa                                             d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ultoa                                             D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(ultoa.o)
                                                   libraries\core.a(WString.cpp.o)
-utoa                                              d:/arduino/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(utoa.o)
+utoa                                              D:\Arduino\Arduino\hardware\tools\avr\avr\lib\libc.a(utoa.o)
                                                   libraries\core.a(WString.cpp.o)
 vtable for HardwareSerial                         libraries\core.a(HardwareSerial.cpp.o)
 vtable for IPAddress                              libraries\core.a(IPAddress.cpp.o)

@@ -49,7 +49,10 @@ int main()
 
         delay(500);*/
 
-        followLine();
+        serialWrite(312);
+        delay(1000);
+
+        //followLine();
     }
 
     return 0;
