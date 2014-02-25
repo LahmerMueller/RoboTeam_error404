@@ -18,17 +18,22 @@
 #define T1 digitalRead(26)
 #define T2 digitalRead(27)
 
-const int werte[2][4] = {{100, 10, -10, -100},
-                         {-100, -10, 10, 100}};
+#define TRIG1 37
+#define PWM1 38
+#define TRIG2 39
+#define PWM2 40
+
+const int werte[2][4] = {{100, 50, 0, -100},
+                         {-100, 0, 50, 100}};
 
 int speedR, speedL;
 int old_speedR;
 int old_speedL;
+bool inSync = false;
 
 double drillPlus = 0;
 bool steerDirect;
 bool greenPoint = false;
-bool inSync = false;
 
 volatile int rotR = 0;
 volatile int rotL = 0;

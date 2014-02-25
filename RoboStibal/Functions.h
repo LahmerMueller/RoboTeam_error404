@@ -43,18 +43,12 @@ private:
 
 void followLine()
 {
-    while(!L5)
+    if(!L5)
     {
+        digitalWrite(M1, LOW);
+        analogWrite(E1, 255);
         digitalWrite(M2, HIGH);
         analogWrite(E2, 255);
-
-        while(L1 && L2 && L3 && L4)
-        {
-            digitalWrite(M1, LOW);
-            analogWrite(E1, 255);
-            digitalWrite(M2, HIGH);
-            analogWrite(E2, 255);
-        }
     }
 
     speedR = 0;
@@ -65,7 +59,7 @@ void followLine()
         speedL = speedL + werte[1][i] * !digitalRead(i + 22);
     }
 
-    if(!L1 || !L4)
+    /*if(!L1 || !L4)
     {
         drillPlus = 0;
     }
@@ -98,7 +92,7 @@ void followLine()
     else if(drillPlus < -99)
     {
         drillPlus = -99;
-    }
+    }*/
 
     if(speedR > 100)
     {
@@ -142,36 +136,46 @@ void followLine()
     old_speedR = speedR;
     old_speedL = speedL;*/
 
-    if(speedR > 0)
-    {
-        digitalWrite(M1, HIGH);
-        analogWrite(E1, 155 + speedR);
-    }
-    else if(speedR < 0)
-    {
-        digitalWrite(M1, LOW);
-        analogWrite(E1, 155 +  (-1) * speedR);
-    }
-    else
+    if(speedR == speedL)
     {
         digitalWrite(M1, HIGH);
         analogWrite(E1, 155);
-    }
-
-    if(speedL > 0)
-    {
         digitalWrite(M2, HIGH);
-        analogWrite(E2, 155 + speedL);
-    }
-    else if(speedL < 0)
-    {
-        digitalWrite(M2, LOW);
-        analogWrite(E2, 155 +  (-1) * speedL);
+        analogWrite(E2, 155);
     }
     else
     {
-        digitalWrite(M2, HIGH);
-        analogWrite(E2, 155);
+        if(speedR > 0)
+        {
+            digitalWrite(M1, HIGH);
+            analogWrite(E1, 155 + speedR);
+        }
+        else if(speedR < 0)
+        {
+            digitalWrite(M1, LOW);
+            analogWrite(E1, 155 +  (-1) * speedR);
+        }
+        else
+        {
+            digitalWrite(M1, HIGH);
+            analogWrite(E1, 0);
+        }
+
+        if(speedL > 0)
+        {
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 155 + speedL);
+        }
+        else if(speedL < 0)
+        {
+            digitalWrite(M2, LOW);
+            analogWrite(E2, 155 +  (-1) * speedL);
+        }
+        else
+        {
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 0);
+        }
     }
 }
 
@@ -198,4 +202,30 @@ void onTouch()
         }
     }
 }
+
+unsigned int ultraschall(byte trig, byte pwm, bool *validRead, boolean raw = false)
+{
+    unsigned int pulse = 0;
+
+    digitalWrite(trig, LOW);
+    digitalWrite(trig, HIGH);
+
+    pulse = pulseIn(pwm, LOW);
+
+    *validRead = true;
+    if(pulse > 50000 || pulse < 0)
+    {
+        *validRead = false;
+    }
+
+    if(raw)
+    {
+        return pulse;
+    }
+    else
+    {
+        return pulse / 50;
+    }
+}
+
 #endif // FUNCTIONS_H_INCLUDED

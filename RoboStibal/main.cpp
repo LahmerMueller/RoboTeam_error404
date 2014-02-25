@@ -13,14 +13,18 @@ void setup()
     pinMode(M1, OUTPUT);
     pinMode(E2, OUTPUT);
     pinMode(M2, OUTPUT);
+    pinMode(PWM1, INPUT);
+    pinMode(TRIG1, OUTPUT);
+    pinMode(PWM2, INPUT);
+    pinMode(TRIG2, OUTPUT);
     pinMode(13, OUTPUT);
 
     pinMode(22, INPUT);
     pinMode(23, INPUT);
     pinMode(24, INPUT);
     pinMode(25, INPUT);
-    pinMode(26, INPUT);
-    pinMode(27, INPUT);
+    pinMode(26, INPUT_PULLUP);
+    pinMode(27, INPUT_PULLUP);
 
     attachInterrupt(3, rotateR, FALLING);
     attachInterrupt(2, rotateL, FALLING);
@@ -40,6 +44,7 @@ int main()
     Serial.print(1);
     int old_rotL = 0;
     int old_rotR = 0;
+    bool *validRead;
 
     while(true)
     {
@@ -49,9 +54,15 @@ int main()
 
         delay(500);*/
 
-        serialWrite(312);
-        delay(1000);
+        /*serialWrite(312);
+        delay(1000);*/
+        Serial.print("rechts: ");
+        Serial.print(T1);
+        Serial.print(" links: ");
+        Serial.println(T2);
 
+        Serial.println();
+        delay(100);
         //followLine();
     }
 
