@@ -18,6 +18,34 @@ void rotateL()
     rotL = rotL + 1;
 }
 
+void rechts(int speed, bool direct)
+{
+    if(speed == 0)
+    {
+        digitalWrite(M1, direct);
+        analogWrite(E1, 0);
+    }
+    else
+    {
+        digitalWrite(M1, direct);
+        analogWrite(E1, speed + 155);
+    }
+}
+
+void links(int speed, bool direct)
+{
+    if(speed == 0)
+    {
+        digitalWrite(M2, direct);
+        analogWrite(E2, 0);
+    }
+    else
+    {
+        digitalWrite(M2, direct);
+        analogWrite(E2, speed + 155);
+    }
+}
+
 class Moto
 {
 public:
@@ -43,164 +71,150 @@ private:
 
 void followLine()
 {
-    if(!L5)
+    if(!L6)
     {
-        digitalWrite(M1, LOW);
-        analogWrite(E1, 255);
-        digitalWrite(M2, HIGH);
-        analogWrite(E2, 255);
-    }
-
-    speedR = 0;
-    speedL = 0;
-    for(int i = 0; i < 4; i++)
-    {
-        speedR = speedR + werte[0][i] * !digitalRead(i + 22);
-        speedL = speedL + werte[1][i] * !digitalRead(i + 22);
-    }
-
-    /*if(!L1 || !L4)
-    {
-        drillPlus = 0;
-    }
-
-    if(speedR > speedL)
-    {
-        if(steerDirect != LEFT)
+        if(!L1 || !L2)
         {
-            steerDirect = LEFT;
-            drillPlus = 0;
+            digitalWrite(M1, LOW);
+            analogWrite(E1, 155);
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 255);
         }
-        speedR += drillPlus;
-        drillPlus += 0.1;
-    }
-    else if(speedL > speedR)
-    {
-        if(steerDirect != RIGHT)
+        else
         {
-            steerDirect = RIGHT;
-            drillPlus = 0;
+            digitalWrite(M1, LOW);
+            analogWrite(E1, 255);
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 255);
         }
-        speedL -= drillPlus;
-        drillPlus -= 0.1;
     }
-
-    if(drillPlus > 99)
-    {
-        drillPlus = 99;
-    }
-    else if(drillPlus < -99)
-    {
-        drillPlus = -99;
-    }*/
-
-    if(speedR > 100)
-    {
-        speedR = 100;
-    }
-    else if(speedR < -100)
-    {
-        speedR = -100;
-    }
-
-    if(speedL > 100)
-    {
-        speedL = 100;
-    }
-    else if(speedL < -100)
-    {
-        speedL = -100;
-    }
-
-    /*if(speedL < 0 && speedR < 0)
-    {*/
-        Serial.print("SpeedR: ");
-        Serial.println(speedR);
-
-        Serial.print("SpeedL: ");
-        Serial.println(speedL);
-
-        Serial.print("drillPlus: ");
-        Serial.println(drillPlus);
-    //}
-    /*else if(old_speedL != speedL)
-    {
-
-        Serial.print("SpeedR: ");
-        Serial.println(speedR);
-
-        Serial.print("SpeedL: ");
-        Serial.println(speedL);
-    }
-
-    old_speedR = speedR;
-    old_speedL = speedL;*/
-
-    if(speedR == speedL)
+    else if(!L1)
     {
         digitalWrite(M1, HIGH);
-        analogWrite(E1, 155);
-        digitalWrite(M2, HIGH);
-        analogWrite(E2, 155);
+        analogWrite(E1, 255);
+        digitalWrite(M2, LOW);
+        analogWrite(E2, 255);
     }
     else
     {
-        if(speedR > 0)
+        speedR = 0;
+        speedL = 0;
+        for(int i = 0; i < 4; i++)
         {
-            digitalWrite(M1, HIGH);
-            analogWrite(E1, 155 + speedR);
-        }
-        else if(speedR < 0)
-        {
-            digitalWrite(M1, LOW);
-            analogWrite(E1, 155 +  (-1) * speedR);
-        }
-        else
-        {
-            digitalWrite(M1, HIGH);
-            analogWrite(E1, 0);
+            speedR = speedR + werte[0][i] * !digitalRead(i + 22);
+            speedL = speedL + werte[1][i] * !digitalRead(i + 22);
         }
 
-        if(speedL > 0)
+        if(speedR > 100)
         {
-            digitalWrite(M2, HIGH);
-            analogWrite(E2, 155 + speedL);
+            speedR = 100;
         }
-        else if(speedL < 0)
+        else if(speedR < -100)
         {
-            digitalWrite(M2, LOW);
-            analogWrite(E2, 155 +  (-1) * speedL);
+            speedR = -100;
+        }
+
+        if(speedL > 100)
+        {
+            speedL = 100;
+        }
+        else if(speedL < -100)
+        {
+            speedL = -100;
+        }
+
+        if(speedR == speedL)
+        {
+            digitalWrite(M1, HIGH);
+            analogWrite(E1, 155);
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 155);
         }
         else
         {
-            digitalWrite(M2, HIGH);
-            analogWrite(E2, 0);
+            if(speedR > 0)
+            {
+                digitalWrite(M1, HIGH);
+                analogWrite(E1, 155 + speedR);
+            }
+            else if(speedR < 0)
+            {
+                digitalWrite(M1, LOW);
+                analogWrite(E1, 155 +  (-1) * speedR);
+            }
+            else
+            {
+                digitalWrite(M1, (speedL < 0));
+                analogWrite(E1, 10);
+            }
+
+            if(speedL > 0)
+            {
+                digitalWrite(M2, HIGH);
+                analogWrite(E2, 155 + speedL);
+            }
+            else if(speedL < 0)
+            {
+                digitalWrite(M2, LOW);
+                analogWrite(E2, 155 +  (-1) * speedL);
+            }
+            else
+            {
+                digitalWrite(M2, (speedR < 0));
+                analogWrite(E2, 10);
+            }
         }
+    }
+}
+
+void followLineV2()
+{
+    if(!L5)
+    {
+        rechts(0, LOW);
+        links(100, HIGH);
+    }
+    else if(L1 && L2 && L3 && L4 && L5)
+    {
+        rechts(100, HIGH);
+        links(100, HIGH);
+    }
+    else if(!L4)
+    {
+        rechts(100, LOW);
+        links(100, HIGH);
+    }
+    else if(!L1)
+    {
+        rechts(100, HIGH);
+        links(100, LOW);
+    }
+    else if(!L3)
+    {
+        rechts(0, LOW);
+        links(100, HIGH);
+    }
+    else if(!L2)
+    {
+        rechts(100, HIGH);
+        links(0, LOW);
     }
 }
 
 void onTouch()
 {
-    if(T1 || T2)
-    {
-        while(true)
+
+        while(!T2)
         {
-        while(T1)
-        {
-            digitalWrite(M1, LOW);
-            analogWrite(E1, 255);
-            digitalWrite(M2, LOW);
-            analogWrite(E2, 0);
+            rechts(100, LOW);
+            links(-55, HIGH);
         }
-        while(!T1)
-        {
-            digitalWrite(M1, HIGH);
-            analogWrite(E1, 255);
-            digitalWrite(M2, HIGH);
-            analogWrite(E2, 225);
-        }
-        }
-    }
+        /*while(T1)
+        {*/
+            rechts(100, HIGH);
+            links(-55, LOW);
+        //}
+
 }
 
 unsigned int ultraschall(byte trig, byte pwm, bool *validRead, boolean raw = false)

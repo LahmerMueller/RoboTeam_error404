@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1392036710 source:d:\programmieren\roboter\roboteam_error404\robostibal\fuse.c
+1393424978 source:d:\programmieren\roboter\roboteam_error404\robostibal\fuse.c
 	<avr/io.h>
 
-1392669292 source:d:\programmieren\roboter\roboteam_error404\robostibal\main.cpp
+1393449798 source:d:\programmieren\roboter\roboteam_error404\robostibal\main.cpp
 	<Wire.h>
 	<WProgram.h>
 	"Defs.h"
 	"Functions.h"
 	"Accel_ADXL345.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wprogram.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wprogram.h
 	"Arduino.h"
 	"binary.h"
 	"Client.h"
@@ -27,7 +27,7 @@
 	"wiring_private.h"
 	"WString.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\arduino.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\arduino.h
 	<stdlib.h>
 	<string.h>
 	<math.h>
@@ -40,52 +40,52 @@
 	"HardwareSerial.h"
 	"pins_arduino.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\binary.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\binary.h
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wcharacter.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wcharacter.h
 	<ctype.h>
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wstring.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wstring.h
 	<stdlib.h>
 	<string.h>
 	<ctype.h>
 	<avr/pgmspace.h>
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\hardwareserial.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\hardwareserial.h
 	<inttypes.h>
 	"Stream.h"
 	"USBAPI.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\stream.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\stream.h
 	<inttypes.h>
 	"Print.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\print.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\print.h
 	<inttypes.h>
 	<stdio.h>
 	"WString.h"
 	"Printable.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\printable.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\printable.h
 	<new.h>
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\new.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\new.h
 	<stdlib.h>
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\usbapi.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\usbapi.h
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\pins_arduino.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\pins_arduino.h
 	<avr/pgmspace.h>
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\client.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\client.h
 	"Print.h"
 	"Stream.h"
 	"IPAddress.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\ipaddress.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\ipaddress.h
 	<Printable.h>
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\platform.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\platform.h
 	<inttypes.h>
 	<avr/pgmspace.h>
 	<avr/eeprom.h>
@@ -96,28 +96,28 @@
 	"USBCore.h"
 	"USBAPI.h"
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\usbdesc.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\usbdesc.h
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\usbcore.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\usbcore.h
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\server.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\server.h
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\udp.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\udp.h
 	<Stream.h>
 	<IPAddress.h>
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wiring_private.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wiring_private.h
 	<avr/io.h>
 	<avr/interrupt.h>
 	<stdio.h>
 	<stdarg.h>
 	"Arduino.h"
 
-1392651885 d:\programmieren\roboter\roboteam_error404\robostibal\defs.h
+1393448039 d:\programmieren\roboter\roboteam_error404\robostibal\defs.h
 
-1392327303 d:\programmieren\roboter\roboteam_error404\robostibal\functions.h
+1393450538 d:\programmieren\roboter\roboteam_error404\robostibal\functions.h
 
-1392036710 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wire.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wire.h
 	<inttypes.h>
 	"Stream.h"
 
@@ -242,9 +242,9 @@
 
 1392133014 d:\roboter\roboteam_error404\robostibal\functions.h
 
-1392669347 d:\programmieren\roboter\roboteam_error404\robostibal\accel_adxl345.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\accel_adxl345.h
 
-1389210400 source:d:\programmieren\roboter\roboteam_error404\robostibal\libraries\twi.c
+1393424978 source:d:\programmieren\roboter\roboteam_error404\robostibal\libraries\twi.c
 	<math.h>
 	<stdlib.h>
 	<inttypes.h>
@@ -255,10 +255,10 @@
 	"pins_arduino.h"
 	"twi.h"
 
-1389210400 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\twi.h
+1393424978 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\twi.h
 	<inttypes.h>
 
-1389210400 source:d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wire.cpp
+1393424978 source:d:\programmieren\roboter\roboteam_error404\robostibal\libraries\wire.cpp
 	<stdlib.h>
 	<string.h>
 	<inttypes.h>

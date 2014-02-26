@@ -9,11 +9,12 @@
 #define E2 6
 #define M2 7
 
-#define L1 digitalRead(22)
-#define L2 digitalRead(23)
-#define L3 digitalRead(24)
-#define L4 digitalRead(25)
-#define L5 digitalRead(53)
+#define L1 digitalRead(53)
+#define L2 digitalRead(22)
+#define L3 digitalRead(23)
+#define L4 digitalRead(24)
+#define L5 digitalRead(25)
+#define L6 digitalRead(52)
 
 #define T1 digitalRead(26)
 #define T2 digitalRead(27)

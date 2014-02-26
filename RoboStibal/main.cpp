@@ -26,8 +26,8 @@ void setup()
     pinMode(26, INPUT_PULLUP);
     pinMode(27, INPUT_PULLUP);
 
-    attachInterrupt(3, rotateR, FALLING);
-    attachInterrupt(2, rotateL, FALLING);
+    attachInterrupt(5, rotateR, FALLING);
+    attachInterrupt(4, rotateL, FALLING);
 
     writeTo(ADXL345, 0);
     writeTo(ADXL345, 16);
@@ -56,14 +56,31 @@ int main()
 
         /*serialWrite(312);
         delay(1000);*/
-        Serial.print("rechts: ");
+        /*Serial.print("rechts: ");
         Serial.print(T1);
         Serial.print(" links: ");
         Serial.println(T2);
 
         Serial.println();
-        delay(100);
+        delay(100);*/
         //followLine();
+
+        /*while(rotR < 75)
+        {
+            rechts(1, HIGH);
+            links(1, HIGH);
+        }
+        rechts(0, LOW);
+        links(0, LOW);
+
+        Serial.print("rechts: ");
+        Serial.print(rotR);
+        Serial.print(" links: ");
+        Serial.println(rotL);*/
+
+        /*rechts(100, HIGH);
+        links(100, HIGH);*/
+        onTouch();
     }
 
     return 0;
