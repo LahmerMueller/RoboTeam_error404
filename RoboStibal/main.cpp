@@ -42,9 +42,6 @@ int main()
 
     setup();
     Serial.print(1);
-    int old_rotL = 0;
-    int old_rotR = 0;
-    bool *validRead;
 
     while(true)
     {
@@ -63,7 +60,7 @@ int main()
 
         Serial.println();
         delay(100);*/
-        //followLine();
+        followLine();
 
         /*while(rotR < 75)
         {
@@ -80,7 +77,7 @@ int main()
 
         /*rechts(100, HIGH);
         links(100, HIGH);*/
-        onTouch();
+        //onTouch();
     }
 
     return 0;

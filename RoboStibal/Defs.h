@@ -1,6 +1,7 @@
 #ifndef DEFS_H_INCLUDED
 #define DEFS_H_INCLUDED
 
+#define ONLINE 3
 #define RIGHT 1
 #define LEFT 0
 
@@ -28,19 +29,18 @@ const int werte[2][4] = {{100, 50, 0, -100},
                          {-100, 0, 50, 100}};
 
 int speedR, speedL;
-int old_speedR;
-int old_speedL;
-bool inSync = false;
 
-double drillPlus = 0;
-bool steerDirect;
-bool greenPoint = false;
+volatile int rotR = 0, rotL = 0;
 
-volatile int rotR = 0;
-volatile int rotL = 0;
+bool *validRead;
 
 char str[512];
 int accelVal[3];
 int calbAccelVal[3];
+
+/// 3 = Online, 1 = Right, 0 = Left
+int lastLight = 3;
+bool inter = false;
+int rotSeek;
 
 #endif // DEFS_H_INCLUDED

@@ -18,6 +18,15 @@ void rotateL()
     rotL = rotL + 1;
 }
 
+bool anySensor()
+{
+    if(!L1 || !L2 || !L3 || !L4 || !L5 || !L6 || !T1 || !T2)
+    {
+        return true;
+    }
+    return false;
+}
+
 void rechts(int speed, bool direct)
 {
     if(speed == 0)
@@ -46,31 +55,58 @@ void links(int speed, bool direct)
     }
 }
 
-class Moto
+void rotateMoto(int moto, bool withInter)
 {
-public:
-    void resetRot()
-    {
-        my_rotateL = rotL;
-        my_rotateR = rotR;
-    }
-
-    void onFwdSync(int speed, bool direct)
-    {
-
-        digitalWrite(M1, direct);
-        analogWrite(E1, speed);
-        digitalWrite(M2, direct);
-        analogWrite(E2, speed);
-    }
-
-private:
-    int my_rotateR;
-    int my_rotateL;
-};
+    if()
+}
 
 void followLine()
 {
+    if(!L2 || !L3 || !L4 || !L5)
+    {
+        lastLight = ONLINE;
+    }
+
+    if(lastLight != ONLINE && (rotR - rotSeek) > 25)
+    {
+        if(lastLight == RIGHT)
+        {
+            lastLight = ONLINE;
+            rotSeek = rotR;
+            inter = anySensor();
+            while((rotR - rotSeek) < 150 && !inter)
+            {
+                rechts(50, LOW);
+                links(50, HIGH);
+                inter = anySensor();
+            }
+            rotSeek = rotR;
+            while((rotR - rotSeek) < 150 && !inter)
+            {
+                rechts(50, HIGH);
+                links(50, LOW);
+                inter = anySensor();
+            }
+        }
+        else if(lastLight == LEFT)
+        {
+            lastLight = ONLINE;
+            rotSeek = rotR;
+            while((rotR - rotSeek) < 150 && !inter)
+            {
+                rechts(50, HIGH);
+                links(50, LOW);
+                inter = anySensor();
+            }
+            rotSeek = rotR;
+            while((rotR - rotSeek) < 150 && !inter)
+            {
+                rechts(50, LOW);
+                links(50, HIGH);
+                inter = anySensor();
+            }
+        }
+    }
     if(!L6)
     {
         if(!L1 || !L2)
@@ -87,6 +123,9 @@ void followLine()
             digitalWrite(M2, HIGH);
             analogWrite(E2, 255);
         }
+
+        lastLight = RIGHT;
+        rotSeek = rotR;
     }
     else if(!L1)
     {
@@ -94,6 +133,9 @@ void followLine()
         analogWrite(E1, 255);
         digitalWrite(M2, LOW);
         analogWrite(E2, 255);
+
+        lastLight = LEFT;
+        rotSeek = rotR;
     }
     else
     {
@@ -167,54 +209,12 @@ void followLine()
     }
 }
 
-void followLineV2()
-{
-    if(!L5)
-    {
-        rechts(0, LOW);
-        links(100, HIGH);
-    }
-    else if(L1 && L2 && L3 && L4 && L5)
-    {
-        rechts(100, HIGH);
-        links(100, HIGH);
-    }
-    else if(!L4)
-    {
-        rechts(100, LOW);
-        links(100, HIGH);
-    }
-    else if(!L1)
-    {
-        rechts(100, HIGH);
-        links(100, LOW);
-    }
-    else if(!L3)
-    {
-        rechts(0, LOW);
-        links(100, HIGH);
-    }
-    else if(!L2)
-    {
-        rechts(100, HIGH);
-        links(0, LOW);
-    }
-}
-
 void onTouch()
 {
+    if(!T1 || !T2)
+    {
 
-        while(!T2)
-        {
-            rechts(100, LOW);
-            links(-55, HIGH);
-        }
-        /*while(T1)
-        {*/
-            rechts(100, HIGH);
-            links(-55, LOW);
-        //}
-
+    }
 }
 
 unsigned int ultraschall(byte trig, byte pwm, bool *validRead, boolean raw = false)
