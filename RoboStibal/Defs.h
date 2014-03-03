@@ -1,7 +1,11 @@
 #ifndef DEFS_H_INCLUDED
 #define DEFS_H_INCLUDED
 
-#define ONLINE 3
+#define TPROP 2.667
+#define DPROP 12.5
+
+#define STRAIGHT 2
+#define ONLINE 2
 #define RIGHT 1
 #define LEFT 0
 

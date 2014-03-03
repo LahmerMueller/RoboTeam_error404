@@ -43,8 +43,8 @@ int main()
     setup();
     Serial.print(1);
 
-    while(true)
-    {
+    //while(true)
+    //{
         /*readFrom(ADXL345, accelVal);
         sprintf(str, "%d %d %d", accelVal[0] - calbAccelVal[0], accelVal[1] - calbAccelVal[1], accelVal[2] - calbAccelVal[2]);
         Serial.println(str);
@@ -60,7 +60,7 @@ int main()
 
         Serial.println();
         delay(100);*/
-        followLine();
+        //followLine();
 
         /*while(rotR < 75)
         {
@@ -78,7 +78,20 @@ int main()
         /*rechts(100, HIGH);
         links(100, HIGH);*/
         //onTouch();
+    //}
+    /*int myrotR = rotR;
+    while((rotR - myrotR) < 360)
+    {
+        rechts(50, HIGH);
+        links(50, HIGH);
     }
+    rechts(-135, LOW);
+    links(-135, LOW);*/
 
+    /*fahreCm(STRAIGHT, 50, HIGH, 10);
+    rechts(-135, LOW);
+    links(-135, LOW);
+    delay(200);
+    onFwd(STRAIGHT, 0, LOW);*/
     return 0;
 }

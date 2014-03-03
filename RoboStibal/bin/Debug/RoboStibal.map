@@ -239,7 +239,7 @@ LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x6874
+.text           0x00000000     0x6a44
  *(.vectors)
  .vectors       0x00000000       0xe4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
                 0x00000000                __vectors
@@ -387,667 +387,671 @@ LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
                 0x0000108c                TwoWire::begin()
                 0x00000aa2                Stream::Stream()
                 0x00000fd6                TwoWire::requestFrom(int, int, int)
- .text          0x00001122      0xb3a obj\Debug\main.o
-                0x00001130                rotateR()
-                0x000013fe                rechts(int, bool)
-                0x00001454                onTouch()
-                0x000013a8                links(int, bool)
-                0x000015f4                followLine()
-                0x000014a6                followLineV2()
-                0x0000128c                ultraschall(unsigned char, unsigned char, bool*, unsigned char)
-                0x00001122                __cxa_pure_virtual
-                0x00001bf2                main
-                0x0000132a                anySensor()
-                0x000011d6                setup
-                0x00001150                rotateL()
-                0x00001c18                serialWrite(int)
- .text          0x00001c5c        0x0 libraries\core.a(WInterrupts.c.o)
- .text          0x00001c5c        0x0 libraries\core.a(wiring.c.o)
- .text          0x00001c5c        0x0 libraries\core.a(wiring_analog.c.o)
- .text          0x00001c5c        0x0 libraries\core.a(wiring_digital.c.o)
- .text          0x00001c5c        0x0 libraries\core.a(wiring_pulse.c.o)
- .text          0x00001c5c        0x0 libraries\core.a(HardwareSerial.cpp.o)
- .text          0x00001c5c        0x0 libraries\core.a(IPAddress.cpp.o)
- .text          0x00001c5c        0x0 libraries\core.a(Print.cpp.o)
- .text          0x00001c5c        0x0 libraries\core.a(WString.cpp.o)
- .text          0x00001c5c        0x0 libraries\core.a(malloc.c.o)
- .text          0x00001c5c        0x0 libraries\core.a(realloc.c.o)
- .text          0x00001c5c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
- .text          0x00001c5c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
- .text          0x00001c5c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
- .text          0x00001c5c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .text          0x00001c5c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
- .text          0x00001c5c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
- .text          0x00001c5c       0x58 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
-                0x00001c5c                __fixunssfsi
- .text          0x00001cb4      0x354 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-                0x00001f4c                __subsf3
-                0x00001fae                __addsf3
- .text          0x00002008      0x1f4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                0x00002008                __mulsf3
- .text          0x000021fc      0x158 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
-                0x000021fc                __divsf3
- .text          0x00002354       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
-                0x00002354                __gtsf2
- .text          0x000023b4       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                0x000023b4                __gesf2
- .text          0x00002414       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
-                0x00002414                __ltsf2
- .text          0x00002474       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
-                0x00002474                __lesf2
- .text          0x000024d4       0x56 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
-                0x000024d4                __unordsf2
- .text          0x0000252a       0xbc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
-                0x0000252a                __floatsisf
- .text          0x000025e6       0xa8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                0x000025e6                __fixsfsi
- .text          0x0000268e        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .text          0x0000268e       0xf2 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
-                0x0000268e                __floatunsisf
- .text          0x00002780        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
- .text          0x00002780        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
- .text          0x00002780        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
- .text          0x00002780       0x9e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
-                0x00002780                __clzsi2
- .text          0x0000281e      0x1aa d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
-                0x0000281e                __pack_f
- .text          0x000029c8       0xf0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
-                0x000029c8                __unpack_f
- .text          0x00002ab8       0xb2 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
-                0x00002ab8                __fpcmp_parts_f
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
- .text          0x00002b6a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
-                0x00002b6a                . = ALIGN (0x2)
+ .text          0x00001122      0xd0a obj\Debug\main.o
+                0x0000116c                rotateR()
+                0x000015fe                rechts(int, bool)
+                0x00001500                onTouch()
+                0x000015a8                links(int, bool)
+                0x000017ca                followLine()
+                0x00001122                TwoWire::write(int)
+                0x000016c4                rotateMoto(int, int, int, int, bool)
+                0x00001462                ultraschall(unsigned char, unsigned char, bool*, unsigned char)
+                0x0000115e                __cxa_pure_virtual
+                0x00001dc2                main
+                0x00001212                readFrom(int, int*)
+                0x0000152a                anySensor()
+                0x00001330                writeTo(int, unsigned char)
+                0x00001378                setup
+                0x0000118c                rotateL()
+                0x00001654                onFwd(int, int, bool)
+                0x00001de8                serialWrite(int)
+ .text          0x00001e2c        0x0 libraries\core.a(WInterrupts.c.o)
+ .text          0x00001e2c        0x0 libraries\core.a(wiring.c.o)
+ .text          0x00001e2c        0x0 libraries\core.a(wiring_analog.c.o)
+ .text          0x00001e2c        0x0 libraries\core.a(wiring_digital.c.o)
+ .text          0x00001e2c        0x0 libraries\core.a(wiring_pulse.c.o)
+ .text          0x00001e2c        0x0 libraries\core.a(HardwareSerial.cpp.o)
+ .text          0x00001e2c        0x0 libraries\core.a(IPAddress.cpp.o)
+ .text          0x00001e2c        0x0 libraries\core.a(Print.cpp.o)
+ .text          0x00001e2c        0x0 libraries\core.a(WString.cpp.o)
+ .text          0x00001e2c        0x0 libraries\core.a(malloc.c.o)
+ .text          0x00001e2c        0x0 libraries\core.a(realloc.c.o)
+ .text          0x00001e2c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .text          0x00001e2c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ .text          0x00001e2c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x00001e2c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .text          0x00001e2c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .text          0x00001e2c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .text          0x00001e2c       0x58 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                0x00001e2c                __fixunssfsi
+ .text          0x00001e84      0x354 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                0x0000211c                __subsf3
+                0x0000217e                __addsf3
+ .text          0x000021d8      0x1f4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                0x000021d8                __mulsf3
+ .text          0x000023cc      0x158 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                0x000023cc                __divsf3
+ .text          0x00002524       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                0x00002524                __gtsf2
+ .text          0x00002584       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                0x00002584                __gesf2
+ .text          0x000025e4       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                0x000025e4                __ltsf2
+ .text          0x00002644       0x60 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                0x00002644                __lesf2
+ .text          0x000026a4       0x56 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                0x000026a4                __unordsf2
+ .text          0x000026fa       0xbc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                0x000026fa                __floatsisf
+ .text          0x000027b6       0xa8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                0x000027b6                __fixsfsi
+ .text          0x0000285e        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .text          0x0000285e       0xf2 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                0x0000285e                __floatunsisf
+ .text          0x00002950        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+ .text          0x00002950        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+ .text          0x00002950        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+ .text          0x00002950       0x9e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+                0x00002950                __clzsi2
+ .text          0x000029ee      0x1aa d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+                0x000029ee                __pack_f
+ .text          0x00002b98       0xf0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+                0x00002b98                __unpack_f
+ .text          0x00002c88       0xb2 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                0x00002c88                __fpcmp_parts_f
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+ .text          0x00002d3a        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+                0x00002d3a                . = ALIGN (0x2)
  *(.text.*)
  .text.attachInterrupt
-                0x00002b6a       0xf8 libraries\core.a(WInterrupts.c.o)
-                0x00002b6a                attachInterrupt
+                0x00002d3a       0xf8 libraries\core.a(WInterrupts.c.o)
+                0x00002d3a                attachInterrupt
  .text.detachInterrupt
-                0x00002c62       0x58 libraries\core.a(WInterrupts.c.o)
-                0x00002c62                detachInterrupt
+                0x00002e32       0x58 libraries\core.a(WInterrupts.c.o)
+                0x00002e32                detachInterrupt
  .text.__vector_1
-                0x00002cba       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002cba                __vector_1
+                0x00002e8a       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00002e8a                __vector_1
  .text.__vector_2
-                0x00002d1c       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002d1c                __vector_2
+                0x00002eec       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00002eec                __vector_2
  .text.__vector_3
-                0x00002d7e       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002d7e                __vector_3
+                0x00002f4e       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00002f4e                __vector_3
  .text.__vector_4
-                0x00002de0       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002de0                __vector_4
+                0x00002fb0       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00002fb0                __vector_4
  .text.__vector_5
-                0x00002e42       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002e42                __vector_5
+                0x00003012       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00003012                __vector_5
  .text.__vector_6
-                0x00002ea4       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002ea4                __vector_6
+                0x00003074       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00003074                __vector_6
  .text.__vector_7
-                0x00002f06       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002f06                __vector_7
+                0x000030d6       0x62 libraries\core.a(WInterrupts.c.o)
+                0x000030d6                __vector_7
  .text.__vector_8
-                0x00002f68       0x62 libraries\core.a(WInterrupts.c.o)
-                0x00002f68                __vector_8
+                0x00003138       0x62 libraries\core.a(WInterrupts.c.o)
+                0x00003138                __vector_8
  .text.__vector_23
-                0x00002fca       0x90 libraries\core.a(wiring.c.o)
-                0x00002fca                __vector_23
- .text.millis   0x0000305a       0x1c libraries\core.a(wiring.c.o)
-                0x0000305a                millis
- .text.micros   0x00003076       0x4c libraries\core.a(wiring.c.o)
-                0x00003076                micros
- .text.delay    0x000030c2       0xb2 libraries\core.a(wiring.c.o)
-                0x000030c2                delay
+                0x0000319a       0x90 libraries\core.a(wiring.c.o)
+                0x0000319a                __vector_23
+ .text.millis   0x0000322a       0x1c libraries\core.a(wiring.c.o)
+                0x0000322a                millis
+ .text.micros   0x00003246       0x4c libraries\core.a(wiring.c.o)
+                0x00003246                micros
+ .text.delay    0x00003292       0xb2 libraries\core.a(wiring.c.o)
+                0x00003292                delay
  .text.delayMicroseconds
-                0x00003174       0x14 libraries\core.a(wiring.c.o)
-                0x00003174                delayMicroseconds
- .text.init     0x00003188       0xc4 libraries\core.a(wiring.c.o)
-                0x00003188                init
+                0x00003344       0x14 libraries\core.a(wiring.c.o)
+                0x00003344                delayMicroseconds
+ .text.init     0x00003358       0xc4 libraries\core.a(wiring.c.o)
+                0x00003358                init
  .text.analogReference
-                0x0000324c        0x6 libraries\core.a(wiring_analog.c.o)
-                0x0000324c                analogReference
+                0x0000341c        0x6 libraries\core.a(wiring_analog.c.o)
+                0x0000341c                analogReference
  .text.analogRead
-                0x00003252       0x68 libraries\core.a(wiring_analog.c.o)
-                0x00003252                analogRead
+                0x00003422       0x68 libraries\core.a(wiring_analog.c.o)
+                0x00003422                analogRead
  .text.analogWrite
-                0x000032ba      0x1c0 libraries\core.a(wiring_analog.c.o)
-                0x000032ba                analogWrite
- .text.pinMode  0x0000347a       0x7e libraries\core.a(wiring_digital.c.o)
-                0x0000347a                pinMode
+                0x0000348a      0x1c0 libraries\core.a(wiring_analog.c.o)
+                0x0000348a                analogWrite
+ .text.pinMode  0x0000364a       0x7e libraries\core.a(wiring_digital.c.o)
+                0x0000364a                pinMode
  .text.turnOffPWM
-                0x000034f8       0xe8 libraries\core.a(wiring_digital.c.o)
+                0x000036c8       0xe8 libraries\core.a(wiring_digital.c.o)
  .text.digitalWrite
-                0x000035e0       0x66 libraries\core.a(wiring_digital.c.o)
-                0x000035e0                digitalWrite
+                0x000037b0       0x66 libraries\core.a(wiring_digital.c.o)
+                0x000037b0                digitalWrite
  .text.digitalRead
-                0x00003646       0x60 libraries\core.a(wiring_digital.c.o)
-                0x00003646                digitalRead
- .text.pulseIn  0x000036a6      0x138 libraries\core.a(wiring_pulse.c.o)
-                0x000036a6                pulseIn
+                0x00003816       0x60 libraries\core.a(wiring_digital.c.o)
+                0x00003816                digitalRead
+ .text.pulseIn  0x00003876      0x138 libraries\core.a(wiring_pulse.c.o)
+                0x00003876                pulseIn
  .text._Z11serialEventv
-                0x000037de        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x000037de                serialEvent()
+                0x000039ae        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x000039ae                serialEvent()
  .text.__vector_25
-                0x000037e0       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x000037e0                __vector_25
+                0x000039b0       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x000039b0                __vector_25
  .text._Z12serialEvent1v
-                0x0000385e        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000385e                serialEvent1()
+                0x00003a2e        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003a2e                serialEvent1()
  .text.__vector_36
-                0x00003860       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003860                __vector_36
+                0x00003a30       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003a30                __vector_36
  .text._Z12serialEvent2v
-                0x000038de        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x000038de                serialEvent2()
+                0x00003aae        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003aae                serialEvent2()
  .text.__vector_51
-                0x000038e0       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x000038e0                __vector_51
+                0x00003ab0       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003ab0                __vector_51
  .text._Z12serialEvent3v
-                0x0000395e        0x2 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000395e                serialEvent3()
+                0x00003b2e        0x2 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003b2e                serialEvent3()
  .text.__vector_54
-                0x00003960       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003960                __vector_54
+                0x00003b30       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003b30                __vector_54
  .text._Z14serialEventRunv
-                0x000039de       0x92 libraries\core.a(HardwareSerial.cpp.o)
-                0x000039de                serialEventRun()
+                0x00003bae       0x92 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003bae                serialEventRun()
  .text.__vector_26
-                0x00003a70       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003a70                __vector_26
+                0x00003c40       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003c40                __vector_26
  .text.__vector_37
-                0x00003aee       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003aee                __vector_37
+                0x00003cbe       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003cbe                __vector_37
  .text.__vector_52
-                0x00003b6c       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003b6c                __vector_52
+                0x00003d3c       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003d3c                __vector_52
  .text.__vector_55
-                0x00003bea       0x7e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003bea                __vector_55
+                0x00003dba       0x7e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003dba                __vector_55
  .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
-                0x00003c68       0x88 libraries\core.a(HardwareSerial.cpp.o)
-                0x00003c68                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00003e38       0x88 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003e38                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN14HardwareSerialC1EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
-                0x00003cf0       0x88 libraries\core.a(HardwareSerial.cpp.o)
-                0x00003cf0                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00003ec0       0x88 libraries\core.a(HardwareSerial.cpp.o)
+                0x00003ec0                HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN14HardwareSerial5beginEm
-                0x00003d78      0x10e libraries\core.a(HardwareSerial.cpp.o)
-                0x00003d78                HardwareSerial::begin(unsigned long)
+                0x00003f48      0x10e libraries\core.a(HardwareSerial.cpp.o)
+                0x00003f48                HardwareSerial::begin(unsigned long)
  .text._ZN14HardwareSerial5beginEmh
-                0x00003e86      0x118 libraries\core.a(HardwareSerial.cpp.o)
-                0x00003e86                HardwareSerial::begin(unsigned long, unsigned char)
+                0x00004056      0x118 libraries\core.a(HardwareSerial.cpp.o)
+                0x00004056                HardwareSerial::begin(unsigned long, unsigned char)
  .text._ZN14HardwareSerial3endEv
-                0x00003f9e       0xcc libraries\core.a(HardwareSerial.cpp.o)
-                0x00003f9e                HardwareSerial::end()
+                0x0000416e       0xcc libraries\core.a(HardwareSerial.cpp.o)
+                0x0000416e                HardwareSerial::end()
  .text._ZN14HardwareSerial9availableEv
-                0x0000406a       0x22 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000406a                HardwareSerial::available()
+                0x0000423a       0x22 libraries\core.a(HardwareSerial.cpp.o)
+                0x0000423a                HardwareSerial::available()
  .text._ZN14HardwareSerial4peekEv
-                0x0000408c       0x40 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000408c                HardwareSerial::peek()
+                0x0000425c       0x40 libraries\core.a(HardwareSerial.cpp.o)
+                0x0000425c                HardwareSerial::peek()
  .text._ZN14HardwareSerial4readEv
-                0x000040cc       0x52 libraries\core.a(HardwareSerial.cpp.o)
-                0x000040cc                HardwareSerial::read()
+                0x0000429c       0x52 libraries\core.a(HardwareSerial.cpp.o)
+                0x0000429c                HardwareSerial::read()
  .text._ZN14HardwareSerial5flushEv
-                0x0000411e       0x20 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000411e                HardwareSerial::flush()
+                0x000042ee       0x20 libraries\core.a(HardwareSerial.cpp.o)
+                0x000042ee                HardwareSerial::flush()
  .text._ZN14HardwareSerial5writeEh
-                0x0000413e       0x80 libraries\core.a(HardwareSerial.cpp.o)
-                0x0000413e                HardwareSerial::write(unsigned char)
+                0x0000430e       0x80 libraries\core.a(HardwareSerial.cpp.o)
+                0x0000430e                HardwareSerial::write(unsigned char)
  .text._ZN14HardwareSerialcvbEv
-                0x000041be        0x4 libraries\core.a(HardwareSerial.cpp.o)
-                0x000041be                HardwareSerial::operator bool()
+                0x0000438e        0x4 libraries\core.a(HardwareSerial.cpp.o)
+                0x0000438e                HardwareSerial::operator bool()
  .text._GLOBAL__I_rx_buffer
-                0x000041c2      0x26c libraries\core.a(HardwareSerial.cpp.o)
+                0x00004392      0x26c libraries\core.a(HardwareSerial.cpp.o)
  .text._ZN9IPAddressC2Ehhhh
-                0x0000442e       0x18 libraries\core.a(IPAddress.cpp.o)
-                0x0000442e                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+                0x000045fe       0x18 libraries\core.a(IPAddress.cpp.o)
+                0x000045fe                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN9IPAddressC1Ehhhh
-                0x00004446       0x18 libraries\core.a(IPAddress.cpp.o)
-                0x00004446                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00004616       0x18 libraries\core.a(IPAddress.cpp.o)
+                0x00004616                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
  .text._GLOBAL__I__ZN9IPAddressC2Ev
-                0x0000445e       0x1e libraries\core.a(IPAddress.cpp.o)
+                0x0000462e       0x1e libraries\core.a(IPAddress.cpp.o)
  .text._ZNK9IPAddress7printToER5Print
-                0x0000447c       0x84 libraries\core.a(IPAddress.cpp.o)
-                0x0000447c                IPAddress::printTo(Print&) const
+                0x0000464c       0x84 libraries\core.a(IPAddress.cpp.o)
+                0x0000464c                IPAddress::printTo(Print&) const
  .text._ZN9IPAddresseqEPKh
-                0x00004500       0x1e libraries\core.a(IPAddress.cpp.o)
-                0x00004500                IPAddress::operator==(unsigned char const*)
+                0x000046d0       0x1e libraries\core.a(IPAddress.cpp.o)
+                0x000046d0                IPAddress::operator==(unsigned char const*)
  .text._ZN9IPAddressaSEm
-                0x0000451e       0x24 libraries\core.a(IPAddress.cpp.o)
-                0x0000451e                IPAddress::operator=(unsigned long)
+                0x000046ee       0x24 libraries\core.a(IPAddress.cpp.o)
+                0x000046ee                IPAddress::operator=(unsigned long)
  .text._ZN9IPAddressaSEPKh
-                0x00004542       0x1a libraries\core.a(IPAddress.cpp.o)
-                0x00004542                IPAddress::operator=(unsigned char const*)
+                0x00004712       0x1a libraries\core.a(IPAddress.cpp.o)
+                0x00004712                IPAddress::operator=(unsigned char const*)
  .text._ZN9IPAddressC1EPKh
-                0x0000455c       0x22 libraries\core.a(IPAddress.cpp.o)
-                0x0000455c                IPAddress::IPAddress(unsigned char const*)
+                0x0000472c       0x22 libraries\core.a(IPAddress.cpp.o)
+                0x0000472c                IPAddress::IPAddress(unsigned char const*)
  .text._ZN9IPAddressC2EPKh
-                0x0000457e       0x22 libraries\core.a(IPAddress.cpp.o)
-                0x0000457e                IPAddress::IPAddress(unsigned char const*)
+                0x0000474e       0x22 libraries\core.a(IPAddress.cpp.o)
+                0x0000474e                IPAddress::IPAddress(unsigned char const*)
  .text._ZN9IPAddressC1Em
-                0x000045a0       0x2c libraries\core.a(IPAddress.cpp.o)
-                0x000045a0                IPAddress::IPAddress(unsigned long)
+                0x00004770       0x2c libraries\core.a(IPAddress.cpp.o)
+                0x00004770                IPAddress::IPAddress(unsigned long)
  .text._ZN9IPAddressC2Em
-                0x000045cc       0x2c libraries\core.a(IPAddress.cpp.o)
-                0x000045cc                IPAddress::IPAddress(unsigned long)
+                0x0000479c       0x2c libraries\core.a(IPAddress.cpp.o)
+                0x0000479c                IPAddress::IPAddress(unsigned long)
  .text._ZN9IPAddressC1Ev
-                0x000045f8       0x14 libraries\core.a(IPAddress.cpp.o)
-                0x000045f8                IPAddress::IPAddress()
+                0x000047c8       0x14 libraries\core.a(IPAddress.cpp.o)
+                0x000047c8                IPAddress::IPAddress()
  .text._ZN9IPAddressC2Ev
-                0x0000460c       0x14 libraries\core.a(IPAddress.cpp.o)
-                0x0000460c                IPAddress::IPAddress()
+                0x000047dc       0x14 libraries\core.a(IPAddress.cpp.o)
+                0x000047dc                IPAddress::IPAddress()
  .text._ZN5Print5writeEPKhj
-                0x00004620       0x54 libraries\core.a(Print.cpp.o)
-                0x00004620                Print::write(unsigned char const*, unsigned int)
+                0x000047f0       0x54 libraries\core.a(Print.cpp.o)
+                0x000047f0                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print5printEPK19__FlashStringHelper
-                0x00004674       0x46 libraries\core.a(Print.cpp.o)
-                0x00004674                Print::print(__FlashStringHelper const*)
+                0x00004844       0x46 libraries\core.a(Print.cpp.o)
+                0x00004844                Print::print(__FlashStringHelper const*)
  .text._ZN5Print5printEc
-                0x000046ba       0x10 libraries\core.a(Print.cpp.o)
-                0x000046ba                Print::print(char)
+                0x0000488a       0x10 libraries\core.a(Print.cpp.o)
+                0x0000488a                Print::print(char)
  .text._ZN5Print5printERK9Printable
-                0x000046ca       0x16 libraries\core.a(Print.cpp.o)
-                0x000046ca                Print::print(Printable const&)
+                0x0000489a       0x16 libraries\core.a(Print.cpp.o)
+                0x0000489a                Print::print(Printable const&)
  .text._ZN5Print7printlnEv
-                0x000046e0       0x40 libraries\core.a(Print.cpp.o)
-                0x000046e0                Print::println()
+                0x000048b0       0x40 libraries\core.a(Print.cpp.o)
+                0x000048b0                Print::println()
  .text._ZN5Print7printlnEPK19__FlashStringHelper
-                0x00004720       0x28 libraries\core.a(Print.cpp.o)
-                0x00004720                Print::println(__FlashStringHelper const*)
+                0x000048f0       0x28 libraries\core.a(Print.cpp.o)
+                0x000048f0                Print::println(__FlashStringHelper const*)
  .text._ZN5Print7printlnEc
-                0x00004748       0x30 libraries\core.a(Print.cpp.o)
-                0x00004748                Print::println(char)
+                0x00004918       0x30 libraries\core.a(Print.cpp.o)
+                0x00004918                Print::println(char)
  .text._ZN5Print7printlnERK9Printable
-                0x00004778       0x34 libraries\core.a(Print.cpp.o)
-                0x00004778                Print::println(Printable const&)
+                0x00004948       0x34 libraries\core.a(Print.cpp.o)
+                0x00004948                Print::println(Printable const&)
  .text._ZN5Print5writeEPKc
-                0x000047ac       0x38 libraries\core.a(Print.cpp.o)
-                0x000047ac                Print::write(char const*)
+                0x0000497c       0x38 libraries\core.a(Print.cpp.o)
+                0x0000497c                Print::write(char const*)
  .text._ZN5Print11printNumberEmh
-                0x000047e4       0xc8 libraries\core.a(Print.cpp.o)
-                0x000047e4                Print::printNumber(unsigned long, unsigned char)
+                0x000049b4       0xc8 libraries\core.a(Print.cpp.o)
+                0x000049b4                Print::printNumber(unsigned long, unsigned char)
  .text._ZN5Print5printEmi
-                0x000048ac       0x1e libraries\core.a(Print.cpp.o)
-                0x000048ac                Print::print(unsigned long, int)
+                0x00004a7c       0x1e libraries\core.a(Print.cpp.o)
+                0x00004a7c                Print::print(unsigned long, int)
  .text._ZN5Print7printlnEmi
-                0x000048ca       0x28 libraries\core.a(Print.cpp.o)
-                0x000048ca                Print::println(unsigned long, int)
+                0x00004a9a       0x28 libraries\core.a(Print.cpp.o)
+                0x00004a9a                Print::println(unsigned long, int)
  .text._ZN5Print5printEji
-                0x000048f2       0x22 libraries\core.a(Print.cpp.o)
-                0x000048f2                Print::print(unsigned int, int)
+                0x00004ac2       0x22 libraries\core.a(Print.cpp.o)
+                0x00004ac2                Print::print(unsigned int, int)
  .text._ZN5Print7printlnEji
-                0x00004914       0x3a libraries\core.a(Print.cpp.o)
-                0x00004914                Print::println(unsigned int, int)
+                0x00004ae4       0x3a libraries\core.a(Print.cpp.o)
+                0x00004ae4                Print::println(unsigned int, int)
  .text._ZN5Print5printEhi
-                0x0000494e       0x24 libraries\core.a(Print.cpp.o)
-                0x0000494e                Print::print(unsigned char, int)
+                0x00004b1e       0x24 libraries\core.a(Print.cpp.o)
+                0x00004b1e                Print::print(unsigned char, int)
  .text._ZN5Print7printlnEhi
-                0x00004972       0x3c libraries\core.a(Print.cpp.o)
-                0x00004972                Print::println(unsigned char, int)
+                0x00004b42       0x3c libraries\core.a(Print.cpp.o)
+                0x00004b42                Print::println(unsigned char, int)
  .text._ZN5Print5printEli
-                0x000049ae       0x80 libraries\core.a(Print.cpp.o)
-                0x000049ae                Print::print(long, int)
+                0x00004b7e       0x80 libraries\core.a(Print.cpp.o)
+                0x00004b7e                Print::print(long, int)
  .text._ZN5Print7printlnEli
-                0x00004a2e       0x28 libraries\core.a(Print.cpp.o)
-                0x00004a2e                Print::println(long, int)
+                0x00004bfe       0x28 libraries\core.a(Print.cpp.o)
+                0x00004bfe                Print::println(long, int)
  .text._ZN5Print5printEii
-                0x00004a56       0x26 libraries\core.a(Print.cpp.o)
-                0x00004a56                Print::print(int, int)
+                0x00004c26       0x26 libraries\core.a(Print.cpp.o)
+                0x00004c26                Print::print(int, int)
  .text._ZN5Print7printlnEii
-                0x00004a7c       0x3e libraries\core.a(Print.cpp.o)
-                0x00004a7c                Print::println(int, int)
+                0x00004c4c       0x3e libraries\core.a(Print.cpp.o)
+                0x00004c4c                Print::println(int, int)
  .text._ZN5Print5printEPKc
-                0x00004aba        0x6 libraries\core.a(Print.cpp.o)
-                0x00004aba                Print::print(char const*)
+                0x00004c8a        0x6 libraries\core.a(Print.cpp.o)
+                0x00004c8a                Print::print(char const*)
  .text._ZN5Print10printFloatEdh
-                0x00004ac0      0x1c8 libraries\core.a(Print.cpp.o)
-                0x00004ac0                Print::printFloat(double, unsigned char)
+                0x00004c90      0x1c8 libraries\core.a(Print.cpp.o)
+                0x00004c90                Print::printFloat(double, unsigned char)
  .text._ZN5Print5printEdi
-                0x00004c88        0x6 libraries\core.a(Print.cpp.o)
-                0x00004c88                Print::print(double, int)
+                0x00004e58        0x6 libraries\core.a(Print.cpp.o)
+                0x00004e58                Print::print(double, int)
  .text._ZN5Print7printlnEdi
-                0x00004c8e       0x26 libraries\core.a(Print.cpp.o)
-                0x00004c8e                Print::println(double, int)
+                0x00004e5e       0x26 libraries\core.a(Print.cpp.o)
+                0x00004e5e                Print::println(double, int)
  .text._ZN5Print7printlnEPKc
-                0x00004cb4       0x26 libraries\core.a(Print.cpp.o)
-                0x00004cb4                Print::println(char const*)
+                0x00004e84       0x26 libraries\core.a(Print.cpp.o)
+                0x00004e84                Print::println(char const*)
  .text._ZN5Print5printERK6String
-                0x00004cda       0x66 libraries\core.a(Print.cpp.o)
-                0x00004cda                Print::print(String const&)
+                0x00004eaa       0x66 libraries\core.a(Print.cpp.o)
+                0x00004eaa                Print::print(String const&)
  .text._ZN5Print7printlnERK6String
-                0x00004d40       0x28 libraries\core.a(Print.cpp.o)
-                0x00004d40                Print::println(String const&)
+                0x00004f10       0x28 libraries\core.a(Print.cpp.o)
+                0x00004f10                Print::println(String const&)
  .text._ZNK6String6charAtEj
-                0x00004d68       0x22 libraries\core.a(WString.cpp.o)
-                0x00004d68                String::charAt(unsigned int) const
+                0x00004f38       0x22 libraries\core.a(WString.cpp.o)
+                0x00004f38                String::charAt(unsigned int) const
  .text._ZN6String9setCharAtEjc
-                0x00004d8a       0x1a libraries\core.a(WString.cpp.o)
-                0x00004d8a                String::setCharAt(unsigned int, char)
+                0x00004f5a       0x1a libraries\core.a(WString.cpp.o)
+                0x00004f5a                String::setCharAt(unsigned int, char)
  .text._ZN6StringixEj
-                0x00004da4       0x2a libraries\core.a(WString.cpp.o)
-                0x00004da4                String::operator[](unsigned int)
+                0x00004f74       0x2a libraries\core.a(WString.cpp.o)
+                0x00004f74                String::operator[](unsigned int)
  .text._ZNK6StringixEj
-                0x00004dce       0x22 libraries\core.a(WString.cpp.o)
-                0x00004dce                String::operator[](unsigned int) const
+                0x00004f9e       0x22 libraries\core.a(WString.cpp.o)
+                0x00004f9e                String::operator[](unsigned int) const
  .text._ZN6String7replaceEcc
-                0x00004df0       0x1e libraries\core.a(WString.cpp.o)
-                0x00004df0                String::replace(char, char)
+                0x00004fc0       0x1e libraries\core.a(WString.cpp.o)
+                0x00004fc0                String::replace(char, char)
  .text._ZNK6String5toIntEv
-                0x00004e0e       0x22 libraries\core.a(WString.cpp.o)
-                0x00004e0e                String::toInt() const
+                0x00004fde       0x22 libraries\core.a(WString.cpp.o)
+                0x00004fde                String::toInt() const
  .text._ZN6String4trimEv
-                0x00004e30       0xb6 libraries\core.a(WString.cpp.o)
-                0x00004e30                String::trim()
+                0x00005000       0xb6 libraries\core.a(WString.cpp.o)
+                0x00005000                String::trim()
  .text._ZN6String11toUpperCaseEv
-                0x00004ee6       0x28 libraries\core.a(WString.cpp.o)
-                0x00004ee6                String::toUpperCase()
+                0x000050b6       0x28 libraries\core.a(WString.cpp.o)
+                0x000050b6                String::toUpperCase()
  .text._ZN6String11toLowerCaseEv
-                0x00004f0e       0x28 libraries\core.a(WString.cpp.o)
-                0x00004f0e                String::toLowerCase()
+                0x000050de       0x28 libraries\core.a(WString.cpp.o)
+                0x000050de                String::toLowerCase()
  .text._ZNK6String16equalsIgnoreCaseERKS_
-                0x00004f36       0x78 libraries\core.a(WString.cpp.o)
-                0x00004f36                String::equalsIgnoreCase(String const&) const
+                0x00005106       0x78 libraries\core.a(WString.cpp.o)
+                0x00005106                String::equalsIgnoreCase(String const&) const
  .text._ZNK6String11lastIndexOfERKS_j
-                0x00004fae       0x9c libraries\core.a(WString.cpp.o)
-                0x00004fae                String::lastIndexOf(String const&, unsigned int) const
+                0x0000517e       0x9c libraries\core.a(WString.cpp.o)
+                0x0000517e                String::lastIndexOf(String const&, unsigned int) const
  .text._ZNK6String11lastIndexOfERKS_
-                0x0000504a       0x1c libraries\core.a(WString.cpp.o)
-                0x0000504a                String::lastIndexOf(String const&) const
+                0x0000521a       0x1c libraries\core.a(WString.cpp.o)
+                0x0000521a                String::lastIndexOf(String const&) const
  .text._ZNK6String7indexOfERKS_j
-                0x00005066       0x3c libraries\core.a(WString.cpp.o)
-                0x00005066                String::indexOf(String const&, unsigned int) const
+                0x00005236       0x3c libraries\core.a(WString.cpp.o)
+                0x00005236                String::indexOf(String const&, unsigned int) const
  .text._ZNK6String7indexOfERKS_
-                0x000050a2        0xa libraries\core.a(WString.cpp.o)
-                0x000050a2                String::indexOf(String const&) const
+                0x00005272        0xa libraries\core.a(WString.cpp.o)
+                0x00005272                String::indexOf(String const&) const
  .text._ZNK6String11lastIndexOfEcj
-                0x000050ac       0x6e libraries\core.a(WString.cpp.o)
-                0x000050ac                String::lastIndexOf(char, unsigned int) const
+                0x0000527c       0x6e libraries\core.a(WString.cpp.o)
+                0x0000527c                String::lastIndexOf(char, unsigned int) const
  .text._ZNK6String11lastIndexOfEc
-                0x0000511a       0x10 libraries\core.a(WString.cpp.o)
-                0x0000511a                String::lastIndexOf(char) const
+                0x000052ea       0x10 libraries\core.a(WString.cpp.o)
+                0x000052ea                String::lastIndexOf(char) const
  .text._ZNK6String7indexOfEcj
-                0x0000512a       0x3c libraries\core.a(WString.cpp.o)
-                0x0000512a                String::indexOf(char, unsigned int) const
+                0x000052fa       0x3c libraries\core.a(WString.cpp.o)
+                0x000052fa                String::indexOf(char, unsigned int) const
  .text._ZNK6String7indexOfEc
-                0x00005166        0xa libraries\core.a(WString.cpp.o)
-                0x00005166                String::indexOf(char) const
+                0x00005336        0xa libraries\core.a(WString.cpp.o)
+                0x00005336                String::indexOf(char) const
  .text._ZNK6String8getBytesEPhjj
-                0x00005170       0x5a libraries\core.a(WString.cpp.o)
-                0x00005170                String::getBytes(unsigned char*, unsigned int, unsigned int) const
+                0x00005340       0x5a libraries\core.a(WString.cpp.o)
+                0x00005340                String::getBytes(unsigned char*, unsigned int, unsigned int) const
  .text._ZNK6String8endsWithERKS_
-                0x000051ca       0x44 libraries\core.a(WString.cpp.o)
-                0x000051ca                String::endsWith(String const&) const
+                0x0000539a       0x44 libraries\core.a(WString.cpp.o)
+                0x0000539a                String::endsWith(String const&) const
  .text._ZNK6String6equalsEPKc
-                0x0000520e       0x46 libraries\core.a(WString.cpp.o)
-                0x0000520e                String::equals(char const*) const
+                0x000053de       0x46 libraries\core.a(WString.cpp.o)
+                0x000053de                String::equals(char const*) const
  .text._ZNK6String9compareToERKS_
-                0x00005254       0x66 libraries\core.a(WString.cpp.o)
-                0x00005254                String::compareTo(String const&) const
+                0x00005424       0x66 libraries\core.a(WString.cpp.o)
+                0x00005424                String::compareTo(String const&) const
  .text._ZNK6StringgeERKS_
-                0x000052ba       0x10 libraries\core.a(WString.cpp.o)
-                0x000052ba                String::operator>=(String const&) const
+                0x0000548a       0x10 libraries\core.a(WString.cpp.o)
+                0x0000548a                String::operator>=(String const&) const
  .text._ZNK6StringleERKS_
-                0x000052ca       0x12 libraries\core.a(WString.cpp.o)
-                0x000052ca                String::operator<=(String const&) const
+                0x0000549a       0x12 libraries\core.a(WString.cpp.o)
+                0x0000549a                String::operator<=(String const&) const
  .text._ZNK6StringgtERKS_
-                0x000052dc       0x12 libraries\core.a(WString.cpp.o)
-                0x000052dc                String::operator>(String const&) const
+                0x000054ac       0x12 libraries\core.a(WString.cpp.o)
+                0x000054ac                String::operator>(String const&) const
  .text._ZNK6StringltERKS_
-                0x000052ee        0xe libraries\core.a(WString.cpp.o)
-                0x000052ee                String::operator<(String const&) const
+                0x000054be        0xe libraries\core.a(WString.cpp.o)
+                0x000054be                String::operator<(String const&) const
  .text._ZNK6String6equalsERKS_
-                0x000052fc       0x2c libraries\core.a(WString.cpp.o)
-                0x000052fc                String::equals(String const&) const
+                0x000054cc       0x2c libraries\core.a(WString.cpp.o)
+                0x000054cc                String::equals(String const&) const
  .text._ZNK6String10startsWithERKS_j
-                0x00005328       0x46 libraries\core.a(WString.cpp.o)
-                0x00005328                String::startsWith(String const&, unsigned int) const
+                0x000054f8       0x46 libraries\core.a(WString.cpp.o)
+                0x000054f8                String::startsWith(String const&, unsigned int) const
  .text._ZNK6String10startsWithERKS_
-                0x0000536e       0x26 libraries\core.a(WString.cpp.o)
-                0x0000536e                String::startsWith(String const&) const
+                0x0000553e       0x26 libraries\core.a(WString.cpp.o)
+                0x0000553e                String::startsWith(String const&) const
  .text._ZN6String12changeBufferEj
-                0x00005394       0x34 libraries\core.a(WString.cpp.o)
-                0x00005394                String::changeBuffer(unsigned int)
+                0x00005564       0x34 libraries\core.a(WString.cpp.o)
+                0x00005564                String::changeBuffer(unsigned int)
  .text._ZN6String7replaceERKS_S1_
-                0x000053c8      0x20a libraries\core.a(WString.cpp.o)
-                0x000053c8                String::replace(String const&, String const&)
+                0x00005598      0x20a libraries\core.a(WString.cpp.o)
+                0x00005598                String::replace(String const&, String const&)
  .text._ZN6String7reserveEj
-                0x000055d2       0x38 libraries\core.a(WString.cpp.o)
-                0x000055d2                String::reserve(unsigned int)
+                0x000057a2       0x38 libraries\core.a(WString.cpp.o)
+                0x000057a2                String::reserve(unsigned int)
  .text._ZN6String6concatEPKcj
-                0x0000560a       0x5a libraries\core.a(WString.cpp.o)
-                0x0000560a                String::concat(char const*, unsigned int)
+                0x000057da       0x5a libraries\core.a(WString.cpp.o)
+                0x000057da                String::concat(char const*, unsigned int)
  .text._ZN6String6concatEm
-                0x00005664       0x64 libraries\core.a(WString.cpp.o)
-                0x00005664                String::concat(unsigned long)
+                0x00005834       0x64 libraries\core.a(WString.cpp.o)
+                0x00005834                String::concat(unsigned long)
  .text._ZN6String6concatEl
-                0x000056c8       0x64 libraries\core.a(WString.cpp.o)
-                0x000056c8                String::concat(long)
+                0x00005898       0x64 libraries\core.a(WString.cpp.o)
+                0x00005898                String::concat(long)
  .text._ZN6String6concatEj
-                0x0000572c       0x5a libraries\core.a(WString.cpp.o)
-                0x0000572c                String::concat(unsigned int)
+                0x000058fc       0x5a libraries\core.a(WString.cpp.o)
+                0x000058fc                String::concat(unsigned int)
  .text._ZN6String6concatEi
-                0x00005786       0x62 libraries\core.a(WString.cpp.o)
-                0x00005786                String::concat(int)
+                0x00005956       0x62 libraries\core.a(WString.cpp.o)
+                0x00005956                String::concat(int)
  .text._ZN6String6concatEh
-                0x000057e8       0x58 libraries\core.a(WString.cpp.o)
-                0x000057e8                String::concat(unsigned char)
+                0x000059b8       0x58 libraries\core.a(WString.cpp.o)
+                0x000059b8                String::concat(unsigned char)
  .text._ZN6String6concatEc
-                0x00005840       0x28 libraries\core.a(WString.cpp.o)
-                0x00005840                String::concat(char)
+                0x00005a10       0x28 libraries\core.a(WString.cpp.o)
+                0x00005a10                String::concat(char)
  .text._ZN6String6concatEPKc
-                0x00005868       0x20 libraries\core.a(WString.cpp.o)
-                0x00005868                String::concat(char const*)
+                0x00005a38       0x20 libraries\core.a(WString.cpp.o)
+                0x00005a38                String::concat(char const*)
  .text._ZN6String6concatERKS_
-                0x00005888       0x10 libraries\core.a(WString.cpp.o)
-                0x00005888                String::concat(String const&)
+                0x00005a58       0x10 libraries\core.a(WString.cpp.o)
+                0x00005a58                String::concat(String const&)
  .text._ZN6String10invalidateEv
-                0x00005898       0x24 libraries\core.a(WString.cpp.o)
-                0x00005898                String::invalidate()
+                0x00005a68       0x24 libraries\core.a(WString.cpp.o)
+                0x00005a68                String::invalidate()
  .text._ZplRK15StringSumHelperm
-                0x000058bc       0x22 libraries\core.a(WString.cpp.o)
-                0x000058bc                operator+(StringSumHelper const&, unsigned long)
+                0x00005a8c       0x22 libraries\core.a(WString.cpp.o)
+                0x00005a8c                operator+(StringSumHelper const&, unsigned long)
  .text._ZplRK15StringSumHelperl
-                0x000058de       0x22 libraries\core.a(WString.cpp.o)
-                0x000058de                operator+(StringSumHelper const&, long)
+                0x00005aae       0x22 libraries\core.a(WString.cpp.o)
+                0x00005aae                operator+(StringSumHelper const&, long)
  .text._ZplRK15StringSumHelperj
-                0x00005900       0x22 libraries\core.a(WString.cpp.o)
-                0x00005900                operator+(StringSumHelper const&, unsigned int)
+                0x00005ad0       0x22 libraries\core.a(WString.cpp.o)
+                0x00005ad0                operator+(StringSumHelper const&, unsigned int)
  .text._ZplRK15StringSumHelperi
-                0x00005922       0x22 libraries\core.a(WString.cpp.o)
-                0x00005922                operator+(StringSumHelper const&, int)
+                0x00005af2       0x22 libraries\core.a(WString.cpp.o)
+                0x00005af2                operator+(StringSumHelper const&, int)
  .text._ZplRK15StringSumHelperh
-                0x00005944       0x22 libraries\core.a(WString.cpp.o)
-                0x00005944                operator+(StringSumHelper const&, unsigned char)
+                0x00005b14       0x22 libraries\core.a(WString.cpp.o)
+                0x00005b14                operator+(StringSumHelper const&, unsigned char)
  .text._ZplRK15StringSumHelperc
-                0x00005966       0x22 libraries\core.a(WString.cpp.o)
-                0x00005966                operator+(StringSumHelper const&, char)
+                0x00005b36       0x22 libraries\core.a(WString.cpp.o)
+                0x00005b36                operator+(StringSumHelper const&, char)
  .text._ZplRK15StringSumHelperPKc
-                0x00005988       0x38 libraries\core.a(WString.cpp.o)
-                0x00005988                operator+(StringSumHelper const&, char const*)
+                0x00005b58       0x38 libraries\core.a(WString.cpp.o)
+                0x00005b58                operator+(StringSumHelper const&, char const*)
  .text._ZplRK15StringSumHelperRK6String
-                0x000059c0       0x2c libraries\core.a(WString.cpp.o)
-                0x000059c0                operator+(StringSumHelper const&, String const&)
+                0x00005b90       0x2c libraries\core.a(WString.cpp.o)
+                0x00005b90                operator+(StringSumHelper const&, String const&)
  .text._ZN6String4copyEPKcj
-                0x000059ec       0x42 libraries\core.a(WString.cpp.o)
-                0x000059ec                String::copy(char const*, unsigned int)
+                0x00005bbc       0x42 libraries\core.a(WString.cpp.o)
+                0x00005bbc                String::copy(char const*, unsigned int)
  .text._ZN6StringC1EPKc
-                0x00005a2e       0x34 libraries\core.a(WString.cpp.o)
-                0x00005a2e                String::String(char const*)
+                0x00005bfe       0x34 libraries\core.a(WString.cpp.o)
+                0x00005bfe                String::String(char const*)
  .text._ZN6StringC2EPKc
-                0x00005a62       0x34 libraries\core.a(WString.cpp.o)
-                0x00005a62                String::String(char const*)
+                0x00005c32       0x34 libraries\core.a(WString.cpp.o)
+                0x00005c32                String::String(char const*)
  .text._ZN6StringaSEPKc
-                0x00005a96       0x32 libraries\core.a(WString.cpp.o)
-                0x00005a96                String::operator=(char const*)
+                0x00005c66       0x32 libraries\core.a(WString.cpp.o)
+                0x00005c66                String::operator=(char const*)
  .text._ZN6StringC1Emh
-                0x00005ac8       0x64 libraries\core.a(WString.cpp.o)
-                0x00005ac8                String::String(unsigned long, unsigned char)
+                0x00005c98       0x64 libraries\core.a(WString.cpp.o)
+                0x00005c98                String::String(unsigned long, unsigned char)
  .text._ZN6StringC2Emh
-                0x00005b2c       0x64 libraries\core.a(WString.cpp.o)
-                0x00005b2c                String::String(unsigned long, unsigned char)
+                0x00005cfc       0x64 libraries\core.a(WString.cpp.o)
+                0x00005cfc                String::String(unsigned long, unsigned char)
  .text._ZN6StringC1Elh
-                0x00005b90       0x64 libraries\core.a(WString.cpp.o)
-                0x00005b90                String::String(long, unsigned char)
+                0x00005d60       0x64 libraries\core.a(WString.cpp.o)
+                0x00005d60                String::String(long, unsigned char)
  .text._ZN6StringC2Elh
-                0x00005bf4       0x64 libraries\core.a(WString.cpp.o)
-                0x00005bf4                String::String(long, unsigned char)
+                0x00005dc4       0x64 libraries\core.a(WString.cpp.o)
+                0x00005dc4                String::String(long, unsigned char)
  .text._ZN6StringC1Ejh
-                0x00005c58       0x62 libraries\core.a(WString.cpp.o)
-                0x00005c58                String::String(unsigned int, unsigned char)
+                0x00005e28       0x62 libraries\core.a(WString.cpp.o)
+                0x00005e28                String::String(unsigned int, unsigned char)
  .text._ZN6StringC2Ejh
-                0x00005cba       0x62 libraries\core.a(WString.cpp.o)
-                0x00005cba                String::String(unsigned int, unsigned char)
+                0x00005e8a       0x62 libraries\core.a(WString.cpp.o)
+                0x00005e8a                String::String(unsigned int, unsigned char)
  .text._ZN6StringC1Eih
-                0x00005d1c       0x62 libraries\core.a(WString.cpp.o)
-                0x00005d1c                String::String(int, unsigned char)
+                0x00005eec       0x62 libraries\core.a(WString.cpp.o)
+                0x00005eec                String::String(int, unsigned char)
  .text._ZN6StringC2Eih
-                0x00005d7e       0x62 libraries\core.a(WString.cpp.o)
-                0x00005d7e                String::String(int, unsigned char)
+                0x00005f4e       0x62 libraries\core.a(WString.cpp.o)
+                0x00005f4e                String::String(int, unsigned char)
  .text._ZN6StringC1Ehh
-                0x00005de0       0x64 libraries\core.a(WString.cpp.o)
-                0x00005de0                String::String(unsigned char, unsigned char)
+                0x00005fb0       0x64 libraries\core.a(WString.cpp.o)
+                0x00005fb0                String::String(unsigned char, unsigned char)
  .text._ZN6StringC2Ehh
-                0x00005e44       0x64 libraries\core.a(WString.cpp.o)
-                0x00005e44                String::String(unsigned char, unsigned char)
+                0x00006014       0x64 libraries\core.a(WString.cpp.o)
+                0x00006014                String::String(unsigned char, unsigned char)
  .text._ZN6StringC1Ec
-                0x00005ea8       0x34 libraries\core.a(WString.cpp.o)
-                0x00005ea8                String::String(char)
+                0x00006078       0x34 libraries\core.a(WString.cpp.o)
+                0x00006078                String::String(char)
  .text._ZN6StringC2Ec
-                0x00005edc       0x34 libraries\core.a(WString.cpp.o)
-                0x00005edc                String::String(char)
+                0x000060ac       0x34 libraries\core.a(WString.cpp.o)
+                0x000060ac                String::String(char)
  .text._ZNK6String9substringEjj
-                0x00005f10       0x8e libraries\core.a(WString.cpp.o)
-                0x00005f10                String::substring(unsigned int, unsigned int) const
+                0x000060e0       0x8e libraries\core.a(WString.cpp.o)
+                0x000060e0                String::substring(unsigned int, unsigned int) const
  .text._ZNK6String9substringEj
-                0x00005f9e       0x18 libraries\core.a(WString.cpp.o)
-                0x00005f9e                String::substring(unsigned int) const
+                0x0000616e       0x18 libraries\core.a(WString.cpp.o)
+                0x0000616e                String::substring(unsigned int) const
  .text._ZN6StringaSERKS_
-                0x00005fb6       0x2e libraries\core.a(WString.cpp.o)
-                0x00005fb6                String::operator=(String const&)
+                0x00006186       0x2e libraries\core.a(WString.cpp.o)
+                0x00006186                String::operator=(String const&)
  .text._ZN6StringC1ERKS_
-                0x00005fe4       0x16 libraries\core.a(WString.cpp.o)
-                0x00005fe4                String::String(String const&)
+                0x000061b4       0x16 libraries\core.a(WString.cpp.o)
+                0x000061b4                String::String(String const&)
  .text._ZN6StringC2ERKS_
-                0x00005ffa       0x16 libraries\core.a(WString.cpp.o)
-                0x00005ffa                String::String(String const&)
+                0x000061ca       0x16 libraries\core.a(WString.cpp.o)
+                0x000061ca                String::String(String const&)
  .text._ZN6StringD1Ev
-                0x00006010        0xc libraries\core.a(WString.cpp.o)
-                0x00006010                String::~String()
+                0x000061e0        0xc libraries\core.a(WString.cpp.o)
+                0x000061e0                String::~String()
  .text._ZN6StringD2Ev
-                0x0000601c        0xc libraries\core.a(WString.cpp.o)
-                0x0000601c                String::~String()
+                0x000061ec        0xc libraries\core.a(WString.cpp.o)
+                0x000061ec                String::~String()
  .text.avr-libc
-                0x00006028      0x26a libraries\core.a(malloc.c.o)
-                0x00006028                malloc
-                0x00006162                free
+                0x000061f8      0x26a libraries\core.a(malloc.c.o)
+                0x000061f8                malloc
+                0x00006332                free
  .text.avr-libc
-                0x00006292      0x1c2 libraries\core.a(realloc.c.o)
-                0x00006292                realloc
- .text.libgcc   0x00006454       0x3e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
-                0x00006454                __mulsi3
- .text.libgcc   0x00006492       0x28 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
-                0x00006492                __udivmodhi4
- .text.libgcc   0x000064ba       0x44 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
-                0x000064ba                __udivmodsi4
- .text.libgcc   0x000064fe        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .text.libgcc   0x000064fe        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
- .text.libgcc   0x000064fe        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
- .text.libgcc   0x000064fe       0x38 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
-                0x000064fe                __prologue_saves__
- .text.libgcc   0x00006536       0x36 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
-                0x00006536                __epilogue_restores__
- .text.libgcc   0x0000656c        0xc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
-                0x00006570                __tablejump__
-                0x0000656c                __tablejump2__
+                0x00006462      0x1c2 libraries\core.a(realloc.c.o)
+                0x00006462                realloc
+ .text.libgcc   0x00006624       0x3e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+                0x00006624                __mulsi3
+ .text.libgcc   0x00006662       0x28 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+                0x00006662                __udivmodhi4
+ .text.libgcc   0x0000668a       0x44 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+                0x0000668a                __udivmodsi4
+ .text.libgcc   0x000066ce        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x000066ce        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000066ce        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .text.libgcc   0x000066ce       0x38 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+                0x000066ce                __prologue_saves__
+ .text.libgcc   0x00006706       0x36 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+                0x00006706                __epilogue_restores__
+ .text.libgcc   0x0000673c        0xc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+                0x00006740                __tablejump__
+                0x0000673c                __tablejump2__
  .text.avr-libc
-                0x00006578       0x4e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
-                0x00006578                atol
+                0x00006748       0x4e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+                0x00006748                atol
  .text.avr-libc
-                0x000065c6       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
-                0x000065c6                isspace
+                0x00006796       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+                0x00006796                isspace
  .text.avr-libc
-                0x000065d6       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
-                0x000065d6                tolower
+                0x000067a6       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+                0x000067a6                tolower
  .text.avr-libc
-                0x000065e6       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
-                0x000065e6                toupper
+                0x000067b6       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+                0x000067b6                toupper
  .text.avr-libc
-                0x000065f6       0x1a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
-                0x000065f6                memcmp
+                0x000067c6       0x1a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+                0x000067c6                memcmp
  .text.avr-libc
-                0x00006610       0x12 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
-                0x00006610                memcpy
+                0x000067e0       0x12 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+                0x000067e0                memcpy
  .text.avr-libc
-                0x00006622       0x24 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
-                0x00006622                memmove
+                0x000067f2       0x24 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+                0x000067f2                memmove
  .text.avr-libc
-                0x00006646       0x16 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
-                0x00006646                strchr
+                0x00006816       0x16 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+                0x00006816                strchr
  .text.avr-libc
-                0x0000665c       0x12 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
-                0x0000665c                strcmp
+                0x0000682c       0x12 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+                0x0000682c                strcmp
  .text.avr-libc
-                0x0000666e        0xe d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
-                0x0000666e                strcpy
+                0x0000683e        0xe d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+                0x0000683e                strcpy
  .text.avr-libc
-                0x0000667c       0x1c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
-                0x0000667c                strncmp
+                0x0000684c       0x1c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+                0x0000684c                strncmp
  .text.avr-libc
-                0x00006698       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
-                0x00006698                strncpy
+                0x00006868       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+                0x00006868                strncpy
  .text.avr-libc
-                0x000066b6       0x16 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
-                0x000066b6                strrchr
+                0x00006886       0x16 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+                0x00006886                strrchr
  .text.avr-libc
-                0x000066cc       0x34 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
-                0x000066cc                strstr
+                0x0000689c       0x34 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+                0x0000689c                strstr
  .text.avr-libc
-                0x00006700       0x42 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
-                0x00006700                itoa
+                0x000068d0       0x42 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+                0x000068d0                itoa
  .text.avr-libc
-                0x00006742       0x68 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
-                0x00006742                ltoa
+                0x00006912       0x68 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                0x00006912                ltoa
  .text.avr-libc
-                0x000067aa       0x2a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
-                0x000067aa                __mulsi_const_10
+                0x0000697a       0x2a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+                0x0000697a                __mulsi_const_10
  .text.avr-libc
-                0x000067d4       0x4a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
-                0x000067d4                ultoa
+                0x000069a4       0x4a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                0x000069a4                ultoa
  .text.avr-libc
-                0x0000681e       0x2c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
-                0x0000681e                utoa
+                0x000069ee       0x2c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+                0x000069ee                utoa
  .text.avr-libc
-                0x0000684a        0x6 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
-                0x0000684e                __ctype_istrue
-                0x0000684a                __ctype_isfalse
+                0x00006a1a        0x6 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+                0x00006a1e                __ctype_istrue
+                0x00006a1a                __ctype_isfalse
  .text.avr-libc
-                0x00006850       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
-                0x00006850                strrev
-                0x00006870                . = ALIGN (0x2)
+                0x00006a20       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+                0x00006a20                strrev
+                0x00006a40                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00006870        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
-                0x00006870                exit
-                0x00006870                _exit
+ .fini9         0x00006a40        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+                0x00006a40                exit
+                0x00006a40                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1066,11 +1070,11 @@ LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00006870        0x4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .fini0         0x00006a40        0x4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
  *(.fini0)
-                0x00006874                _etext = .
+                0x00006a44                _etext = .
 
-.data           0x00800200      0x1a8 load address 0x00006874
+.data           0x00800200      0x19c load address 0x00006a44
                 0x00800200                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800200        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
@@ -1079,251 +1083,252 @@ LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
  .data          0x00800217       0x20 obj\Debug\libraries\Wire.o
                 0x00800217                vtable for TwoWire
                 0x00800227                vtable for Stream
- .data          0x00800237       0x1f obj\Debug\main.o
-                0x00800244                lastLight
- .data          0x00800256        0x0 libraries\core.a(WInterrupts.c.o)
- .data          0x00800256        0x0 libraries\core.a(wiring.c.o)
- .data          0x00800256        0x0 libraries\core.a(wiring_analog.c.o)
- .data          0x00800256        0x0 libraries\core.a(wiring_digital.c.o)
- .data          0x00800256        0x0 libraries\core.a(wiring_pulse.c.o)
- .data          0x00800256        0x0 libraries\core.a(HardwareSerial.cpp.o)
- .data          0x00800256        0x0 libraries\core.a(IPAddress.cpp.o)
- .data          0x00800256        0xe libraries\core.a(Print.cpp.o)
- .data          0x00800264        0x1 libraries\core.a(WString.cpp.o)
- .data          0x00800265        0x0 libraries\core.a(malloc.c.o)
- .data          0x00800265        0x0 libraries\core.a(realloc.c.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .data          0x00800265        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .data          0x00800265        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
-                0x00800265                __thenan_sf
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .data          0x0080026d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .data          0x0080026d      0x100 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
-                0x0080026d                __clz_tab
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
- .data          0x0080036d        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .data          0x00800237       0x12 obj\Debug\main.o
+                0x00800237                lastLight
+ .data          0x00800249        0x0 libraries\core.a(WInterrupts.c.o)
+ .data          0x00800249        0x0 libraries\core.a(wiring.c.o)
+ .data          0x00800249        0x0 libraries\core.a(wiring_analog.c.o)
+ .data          0x00800249        0x0 libraries\core.a(wiring_digital.c.o)
+ .data          0x00800249        0x0 libraries\core.a(wiring_pulse.c.o)
+ .data          0x00800249        0x0 libraries\core.a(HardwareSerial.cpp.o)
+ .data          0x00800249        0x0 libraries\core.a(IPAddress.cpp.o)
+ .data          0x00800249        0xe libraries\core.a(Print.cpp.o)
+ .data          0x00800257        0x1 libraries\core.a(WString.cpp.o)
+ .data          0x00800258        0x0 libraries\core.a(malloc.c.o)
+ .data          0x00800258        0x0 libraries\core.a(realloc.c.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .data          0x00800258        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .data          0x00800258        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+                0x00800258                __thenan_sf
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .data          0x00800260        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00800260      0x100 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+                0x00800260                __clz_tab
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+ .data          0x00800360        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
  *(.data*)
  .data.analog_reference
-                0x0080036d        0x1 libraries\core.a(wiring_analog.c.o)
-                0x0080036d                analog_reference
+                0x00800360        0x1 libraries\core.a(wiring_analog.c.o)
+                0x00800360                analog_reference
  .data.__malloc_margin
-                0x0080036e        0x2 libraries\core.a(malloc.c.o)
-                0x0080036e                __malloc_margin
+                0x00800361        0x2 libraries\core.a(malloc.c.o)
+                0x00800361                __malloc_margin
  .data.__malloc_heap_start
-                0x00800370        0x2 libraries\core.a(malloc.c.o)
-                0x00800370                __malloc_heap_start
+                0x00800363        0x2 libraries\core.a(malloc.c.o)
+                0x00800363                __malloc_heap_start
  .data.__malloc_heap_end
-                0x00800372        0x2 libraries\core.a(malloc.c.o)
-                0x00800372                __malloc_heap_end
+                0x00800365        0x2 libraries\core.a(malloc.c.o)
+                0x00800365                __malloc_heap_end
  *(.rodata)
  *(.rodata*)
  .rodata._ZTV14HardwareSerial
-                0x00800374       0x10 libraries\core.a(HardwareSerial.cpp.o)
-                0x00800374                vtable for HardwareSerial
+                0x00800367       0x10 libraries\core.a(HardwareSerial.cpp.o)
+                0x00800367                vtable for HardwareSerial
  .rodata._ZTV6Stream
-                0x00800384       0x10 libraries\core.a(HardwareSerial.cpp.o)
+                0x00800377       0x10 libraries\core.a(HardwareSerial.cpp.o)
  .rodata._ZTV9IPAddress
-                0x00800394        0x6 libraries\core.a(IPAddress.cpp.o)
-                0x00800394                vtable for IPAddress
+                0x00800387        0x6 libraries\core.a(IPAddress.cpp.o)
+                0x00800387                vtable for IPAddress
  .rodata._ZTV9Printable
-                0x0080039a        0x6 libraries\core.a(IPAddress.cpp.o)
-                0x0080039a                vtable for Printable
+                0x0080038d        0x6 libraries\core.a(IPAddress.cpp.o)
+                0x0080038d                vtable for Printable
  .rodata._ZTV5Print
-                0x008003a0        0x8 libraries\core.a(Print.cpp.o)
-                0x008003a0                vtable for Print
+                0x00800393        0x8 libraries\core.a(Print.cpp.o)
+                0x00800393                vtable for Print
  *(.gnu.linkonce.d*)
-                0x008003a8                . = ALIGN (0x2)
-                0x008003a8                _edata = .
-                0x008003a8                PROVIDE (__data_end, .)
+                0x0080039c                . = ALIGN (0x2)
+ *fill*         0x0080039b        0x1 00
+                0x0080039c                _edata = .
+                0x0080039c                PROVIDE (__data_end, .)
 
-.bss            0x008003a8      0x5af
-                0x008003a8                PROVIDE (__bss_start, .)
+.bss            0x0080039c      0x5af
+                0x0080039c                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x008003a8        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
- .bss           0x008003a8        0x0 obj\Debug\fuse.o
- .bss           0x008003a8       0x6e obj\Debug\libraries\twi.o
- .bss           0x00800416       0x56 obj\Debug\libraries\Wire.o
-                0x00800438                TwoWire::txAddress
-                0x00800437                TwoWire::rxBufferLength
-                0x0080045e                TwoWire::user_onReceive
-                0x0080045a                TwoWire::txBufferLength
-                0x00800459                TwoWire::txBufferIndex
-                0x00800460                Wire
-                0x00800439                TwoWire::txBuffer
-                0x0080045c                TwoWire::user_onRequest
-                0x00800436                TwoWire::rxBufferIndex
-                0x00800416                TwoWire::rxBuffer
-                0x0080045b                TwoWire::transmitting
- .bss           0x0080046c      0x21f obj\Debug\main.o
-                0x00800474                validRead
-                0x00800472                rotL
-                0x00800470                rotR
-                0x00800683                rotSeek
-                0x00800676                accelVal
-                0x0080046c                speedR
-                0x00800682                inter
-                0x0080046e                speedL
-                0x00800476                str
-                0x0080067c                calbAccelVal
- .bss           0x0080068b        0x0 libraries\core.a(WInterrupts.c.o)
- .bss           0x0080068b        0x0 libraries\core.a(wiring.c.o)
- .bss           0x0080068b        0x0 libraries\core.a(wiring_analog.c.o)
- .bss           0x0080068b        0x0 libraries\core.a(wiring_digital.c.o)
- .bss           0x0080068b        0x0 libraries\core.a(wiring_pulse.c.o)
- .bss           0x0080068b        0x0 libraries\core.a(HardwareSerial.cpp.o)
- .bss           0x0080068b        0x0 libraries\core.a(IPAddress.cpp.o)
- .bss           0x0080068b        0x0 libraries\core.a(Print.cpp.o)
- .bss           0x0080068b        0x0 libraries\core.a(WString.cpp.o)
- .bss           0x0080068b        0x0 libraries\core.a(malloc.c.o)
- .bss           0x0080068b        0x0 libraries\core.a(realloc.c.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
- .bss           0x0080068b        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .bss           0x0080039c        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x0080039c        0x0 obj\Debug\fuse.o
+ .bss           0x0080039c       0x6e obj\Debug\libraries\twi.o
+ .bss           0x0080040a       0x56 obj\Debug\libraries\Wire.o
+                0x0080042c                TwoWire::txAddress
+                0x0080042b                TwoWire::rxBufferLength
+                0x00800452                TwoWire::user_onReceive
+                0x0080044e                TwoWire::txBufferLength
+                0x0080044d                TwoWire::txBufferIndex
+                0x00800454                Wire
+                0x0080042d                TwoWire::txBuffer
+                0x00800450                TwoWire::user_onRequest
+                0x0080042a                TwoWire::rxBufferIndex
+                0x0080040a                TwoWire::rxBuffer
+                0x0080044f                TwoWire::transmitting
+ .bss           0x00800460      0x21f obj\Debug\main.o
+                0x00800468                validRead
+                0x00800466                rotL
+                0x00800464                rotR
+                0x00800677                rotSeek
+                0x0080066a                accelVal
+                0x00800460                speedR
+                0x00800676                inter
+                0x00800462                speedL
+                0x0080046a                str
+                0x00800670                calbAccelVal
+ .bss           0x0080067f        0x0 libraries\core.a(WInterrupts.c.o)
+ .bss           0x0080067f        0x0 libraries\core.a(wiring.c.o)
+ .bss           0x0080067f        0x0 libraries\core.a(wiring_analog.c.o)
+ .bss           0x0080067f        0x0 libraries\core.a(wiring_digital.c.o)
+ .bss           0x0080067f        0x0 libraries\core.a(wiring_pulse.c.o)
+ .bss           0x0080067f        0x0 libraries\core.a(HardwareSerial.cpp.o)
+ .bss           0x0080067f        0x0 libraries\core.a(IPAddress.cpp.o)
+ .bss           0x0080067f        0x0 libraries\core.a(Print.cpp.o)
+ .bss           0x0080067f        0x0 libraries\core.a(WString.cpp.o)
+ .bss           0x0080067f        0x0 libraries\core.a(malloc.c.o)
+ .bss           0x0080067f        0x0 libraries\core.a(realloc.c.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ctors.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_tablejump.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(atol.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(isspace.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(tolower.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(toupper.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcmp.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memmove.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strchr.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcmp.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strcpy.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncmp.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strncpy.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrchr.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strstr.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(mulsi10.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(utoa.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+ .bss           0x0080067f        0x0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
  *(.bss*)
- .bss.intFunc   0x0080068b       0x10 libraries\core.a(WInterrupts.c.o)
+ .bss.intFunc   0x0080067f       0x10 libraries\core.a(WInterrupts.c.o)
  .bss.timer0_overflow_count
-                0x0080069b        0x4 libraries\core.a(wiring.c.o)
-                0x0080069b                timer0_overflow_count
+                0x0080068f        0x4 libraries\core.a(wiring.c.o)
+                0x0080068f                timer0_overflow_count
  .bss.timer0_millis
-                0x0080069f        0x4 libraries\core.a(wiring.c.o)
-                0x0080069f                timer0_millis
+                0x00800693        0x4 libraries\core.a(wiring.c.o)
+                0x00800693                timer0_millis
  .bss.timer0_fract
-                0x008006a3        0x1 libraries\core.a(wiring.c.o)
+                0x00800697        0x1 libraries\core.a(wiring.c.o)
  .bss.rx_buffer
-                0x008006a4       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x008006a4                rx_buffer
+                0x00800698       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x00800698                rx_buffer
  .bss.tx_buffer
-                0x008006e8       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x008006e8                tx_buffer
+                0x008006dc       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x008006dc                tx_buffer
  .bss.rx_buffer1
-                0x0080072c       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x0080072c                rx_buffer1
+                0x00800720       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x00800720                rx_buffer1
  .bss.tx_buffer1
-                0x00800770       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x00800770                tx_buffer1
+                0x00800764       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x00800764                tx_buffer1
  .bss.rx_buffer2
-                0x008007b4       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x008007b4                rx_buffer2
+                0x008007a8       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x008007a8                rx_buffer2
  .bss.tx_buffer2
-                0x008007f8       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x008007f8                tx_buffer2
+                0x008007ec       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x008007ec                tx_buffer2
  .bss.rx_buffer3
-                0x0080083c       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x0080083c                rx_buffer3
+                0x00800830       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x00800830                rx_buffer3
  .bss.tx_buffer3
-                0x00800880       0x44 libraries\core.a(HardwareSerial.cpp.o)
-                0x00800880                tx_buffer3
- .bss.Serial    0x008008c4       0x22 libraries\core.a(HardwareSerial.cpp.o)
-                0x008008c4                Serial
- .bss.Serial1   0x008008e6       0x22 libraries\core.a(HardwareSerial.cpp.o)
-                0x008008e6                Serial1
- .bss.Serial2   0x00800908       0x22 libraries\core.a(HardwareSerial.cpp.o)
-                0x00800908                Serial2
- .bss.Serial3   0x0080092a       0x22 libraries\core.a(HardwareSerial.cpp.o)
-                0x0080092a                Serial3
+                0x00800874       0x44 libraries\core.a(HardwareSerial.cpp.o)
+                0x00800874                tx_buffer3
+ .bss.Serial    0x008008b8       0x22 libraries\core.a(HardwareSerial.cpp.o)
+                0x008008b8                Serial
+ .bss.Serial1   0x008008da       0x22 libraries\core.a(HardwareSerial.cpp.o)
+                0x008008da                Serial1
+ .bss.Serial2   0x008008fc       0x22 libraries\core.a(HardwareSerial.cpp.o)
+                0x008008fc                Serial2
+ .bss.Serial3   0x0080091e       0x22 libraries\core.a(HardwareSerial.cpp.o)
+                0x0080091e                Serial3
  .bss._ZL11INADDR_NONE
-                0x0080094c        0x6 libraries\core.a(IPAddress.cpp.o)
+                0x00800940        0x6 libraries\core.a(IPAddress.cpp.o)
  .bss._ZZN6StringixEjE19dummy_writable_char
-                0x00800952        0x1 libraries\core.a(WString.cpp.o)
+                0x00800946        0x1 libraries\core.a(WString.cpp.o)
  *(COMMON)
- COMMON         0x00800953        0x4 libraries\core.a(malloc.c.o)
-                0x00800953                __brkval
-                0x00800955                __flp
-                0x00800957                PROVIDE (__bss_end, .)
-                0x00006874                __data_load_start = LOADADDR (.data)
-                0x00006a1c                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800947        0x4 libraries\core.a(malloc.c.o)
+                0x00800947                __brkval
+                0x00800949                __flp
+                0x0080094b                PROVIDE (__bss_end, .)
+                0x00006a44                __data_load_start = LOADADDR (.data)
+                0x00006be0                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800957        0x0
-                0x00800957                PROVIDE (__noinit_start, .)
+.noinit         0x0080094b        0x0
+                0x0080094b                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800957                PROVIDE (__noinit_end, .)
-                0x00800957                _end = .
-                0x00800957                PROVIDE (__heap_start, .)
+                0x0080094b                PROVIDE (__noinit_end, .)
+                0x0080094b                _end = .
+                0x0080094b                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -1440,7 +1445,7 @@ LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
                 0x00000870       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
 
 .debug_pubnames
-                0x00000000     0x16f2
+                0x00000000     0x1726
  *(.debug_pubnames)
  .debug_pubnames
                 0x00000000       0x1d obj\Debug\fuse.o
@@ -1449,209 +1454,209 @@ LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
  .debug_pubnames
                 0x000000f5      0x378 obj\Debug\libraries\Wire.o
  .debug_pubnames
-                0x0000046d      0x143 obj\Debug\main.o
+                0x0000046d      0x177 obj\Debug\main.o
  .debug_pubnames
-                0x000005b0       0xb2 libraries\core.a(WInterrupts.c.o)
+                0x000005e4       0xb2 libraries\core.a(WInterrupts.c.o)
  .debug_pubnames
-                0x00000662       0x8d libraries\core.a(wiring.c.o)
+                0x00000696       0x8d libraries\core.a(wiring.c.o)
  .debug_pubnames
-                0x000006ef       0x5a libraries\core.a(wiring_analog.c.o)
+                0x00000723       0x5a libraries\core.a(wiring_analog.c.o)
  .debug_pubnames
-                0x00000749       0xda libraries\core.a(wiring_digital.c.o)
+                0x0000077d       0xda libraries\core.a(wiring_digital.c.o)
  .debug_pubnames
-                0x00000823       0x1e libraries\core.a(wiring_pulse.c.o)
+                0x00000857       0x1e libraries\core.a(wiring_pulse.c.o)
  .debug_pubnames
-                0x00000841      0x2c5 libraries\core.a(HardwareSerial.cpp.o)
+                0x00000875      0x2c5 libraries\core.a(HardwareSerial.cpp.o)
  .debug_pubnames
-                0x00000b06      0x13d libraries\core.a(IPAddress.cpp.o)
+                0x00000b3a      0x13d libraries\core.a(IPAddress.cpp.o)
  .debug_pubnames
-                0x00000c43      0x200 libraries\core.a(Print.cpp.o)
+                0x00000c77      0x200 libraries\core.a(Print.cpp.o)
  .debug_pubnames
-                0x00000e43      0x5bf libraries\core.a(WString.cpp.o)
+                0x00000e77      0x5bf libraries\core.a(WString.cpp.o)
  .debug_pubnames
-                0x00001402       0x7f libraries\core.a(malloc.c.o)
+                0x00001436       0x7f libraries\core.a(malloc.c.o)
  .debug_pubnames
-                0x00001481       0x1e libraries\core.a(realloc.c.o)
+                0x000014b5       0x1e libraries\core.a(realloc.c.o)
  .debug_pubnames
-                0x0000149f       0x23 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                0x000014d3       0x23 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
  .debug_pubnames
-                0x000014c2       0x2c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                0x000014f6       0x2c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
  .debug_pubnames
-                0x000014ee       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                0x00001522       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
  .debug_pubnames
-                0x0000150d       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+                0x00001541       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
  .debug_pubnames
-                0x0000152c       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+                0x00001560       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
  .debug_pubnames
-                0x0000154a       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                0x0000157e       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
  .debug_pubnames
-                0x00001568       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+                0x0000159c       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
  .debug_pubnames
-                0x00001586       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+                0x000015ba       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
  .debug_pubnames
-                0x000015a4       0x21 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+                0x000015d8       0x21 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
  .debug_pubnames
-                0x000015c5       0x22 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                0x000015f9       0x22 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
  .debug_pubnames
-                0x000015e7       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                0x0000161b       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
  .debug_pubnames
-                0x00001607       0x22 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+                0x0000163b       0x22 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
  .debug_pubnames
-                0x00001629       0x24 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+                0x0000165d       0x24 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
  .debug_pubnames
-                0x0000164d       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+                0x00001681       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
  .debug_pubnames
-                0x0000166c       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+                0x000016a0       0x1f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
  .debug_pubnames
-                0x0000168b       0x21 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+                0x000016bf       0x21 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
  .debug_pubnames
-                0x000016ac       0x26 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                0x000016e0       0x26 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
  .debug_pubnames
-                0x000016d2       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+                0x00001706       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
 
-.debug_info     0x00000000     0xc965
+.debug_info     0x00000000     0xcb17
  *(.debug_info)
  .debug_info    0x00000000       0xae obj\Debug\fuse.o
  .debug_info    0x000000ae      0x540 obj\Debug\libraries\twi.o
  .debug_info    0x000005ee     0x18a6 obj\Debug\libraries\Wire.o
- .debug_info    0x00001e94      0x52e obj\Debug\main.o
- .debug_info    0x000023c2      0x2d7 libraries\core.a(WInterrupts.c.o)
- .debug_info    0x00002699      0x37a libraries\core.a(wiring.c.o)
- .debug_info    0x00002a13      0x289 libraries\core.a(wiring_analog.c.o)
- .debug_info    0x00002c9c      0x5d3 libraries\core.a(wiring_digital.c.o)
- .debug_info    0x0000326f      0x347 libraries\core.a(wiring_pulse.c.o)
- .debug_info    0x000035b6     0x1f1f libraries\core.a(HardwareSerial.cpp.o)
- .debug_info    0x000054d5      0x897 libraries\core.a(IPAddress.cpp.o)
- .debug_info    0x00005d6c     0x1b4b libraries\core.a(Print.cpp.o)
- .debug_info    0x000078b7     0x21e1 libraries\core.a(WString.cpp.o)
- .debug_info    0x00009a98      0x229 libraries\core.a(malloc.c.o)
- .debug_info    0x00009cc1      0x194 libraries\core.a(realloc.c.o)
- .debug_info    0x00009e55       0xb1 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_info    0x00009f06      0x47a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_info    0x0000a380      0x485 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_info    0x0000a805      0x3fc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
- .debug_info    0x0000ac01      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
- .debug_info    0x0000ae80      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_info    0x0000b0ff      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
- .debug_info    0x0000b37e      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
- .debug_info    0x0000b5fd      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
- .debug_info    0x0000b87c      0x207 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_info    0x0000ba83      0x2b0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_info    0x0000bd33      0x12c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_info    0x0000be5f      0x206 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
- .debug_info    0x0000c065      0x117 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_info    0x0000c17c      0x2df d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_info    0x0000c45b      0x251 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_info    0x0000c6ac      0x210 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .debug_info    0x0000c8bc       0xa9 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .debug_info    0x00001e94      0x6e0 obj\Debug\main.o
+ .debug_info    0x00002574      0x2d7 libraries\core.a(WInterrupts.c.o)
+ .debug_info    0x0000284b      0x37a libraries\core.a(wiring.c.o)
+ .debug_info    0x00002bc5      0x289 libraries\core.a(wiring_analog.c.o)
+ .debug_info    0x00002e4e      0x5d3 libraries\core.a(wiring_digital.c.o)
+ .debug_info    0x00003421      0x347 libraries\core.a(wiring_pulse.c.o)
+ .debug_info    0x00003768     0x1f1f libraries\core.a(HardwareSerial.cpp.o)
+ .debug_info    0x00005687      0x897 libraries\core.a(IPAddress.cpp.o)
+ .debug_info    0x00005f1e     0x1b4b libraries\core.a(Print.cpp.o)
+ .debug_info    0x00007a69     0x21e1 libraries\core.a(WString.cpp.o)
+ .debug_info    0x00009c4a      0x229 libraries\core.a(malloc.c.o)
+ .debug_info    0x00009e73      0x194 libraries\core.a(realloc.c.o)
+ .debug_info    0x0000a007       0xb1 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x0000a0b8      0x47a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000a532      0x485 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_info    0x0000a9b7      0x3fc d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_info    0x0000adb3      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_info    0x0000b032      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_info    0x0000b2b1      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_info    0x0000b530      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_info    0x0000b7af      0x27f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_info    0x0000ba2e      0x207 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_info    0x0000bc35      0x2b0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_info    0x0000bee5      0x12c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_info    0x0000c011      0x206 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x0000c217      0x117 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_info    0x0000c32e      0x2df d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_info    0x0000c60d      0x251 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_info    0x0000c85e      0x210 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x0000ca6e       0xa9 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev   0x00000000     0x33ab
+.debug_abbrev   0x00000000     0x33c9
  *(.debug_abbrev)
  .debug_abbrev  0x00000000       0x73 obj\Debug\fuse.o
  .debug_abbrev  0x00000073      0x164 obj\Debug\libraries\twi.o
  .debug_abbrev  0x000001d7      0x31f obj\Debug\libraries\Wire.o
- .debug_abbrev  0x000004f6      0x1e6 obj\Debug\main.o
- .debug_abbrev  0x000006dc       0xe7 libraries\core.a(WInterrupts.c.o)
- .debug_abbrev  0x000007c3      0x17d libraries\core.a(wiring.c.o)
- .debug_abbrev  0x00000940      0x117 libraries\core.a(wiring_analog.c.o)
- .debug_abbrev  0x00000a57      0x167 libraries\core.a(wiring_digital.c.o)
- .debug_abbrev  0x00000bbe       0xf8 libraries\core.a(wiring_pulse.c.o)
- .debug_abbrev  0x00000cb6      0x48e libraries\core.a(HardwareSerial.cpp.o)
- .debug_abbrev  0x00001144      0x296 libraries\core.a(IPAddress.cpp.o)
- .debug_abbrev  0x000013da      0x336 libraries\core.a(Print.cpp.o)
- .debug_abbrev  0x00001710      0x343 libraries\core.a(WString.cpp.o)
- .debug_abbrev  0x00001a53      0x10d libraries\core.a(malloc.c.o)
- .debug_abbrev  0x00001b60       0xc9 libraries\core.a(realloc.c.o)
- .debug_abbrev  0x00001c29       0x5d d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_abbrev  0x00001c86      0x1ea d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_abbrev  0x00001e70      0x21b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_abbrev  0x0000208b      0x216 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
- .debug_abbrev  0x000022a1      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
- .debug_abbrev  0x000023fb      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_abbrev  0x00002555      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
- .debug_abbrev  0x000026af      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
- .debug_abbrev  0x00002809      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
- .debug_abbrev  0x00002963      0x148 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_abbrev  0x00002aab      0x17f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_abbrev  0x00002c2a       0xad d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_abbrev  0x00002cd7      0x157 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
- .debug_abbrev  0x00002e2e       0xc4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_abbrev  0x00002ef2      0x1c0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_abbrev  0x000030b2      0x154 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_abbrev  0x00003206      0x13b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .debug_abbrev  0x00003341       0x6a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .debug_abbrev  0x000004f6      0x204 obj\Debug\main.o
+ .debug_abbrev  0x000006fa       0xe7 libraries\core.a(WInterrupts.c.o)
+ .debug_abbrev  0x000007e1      0x17d libraries\core.a(wiring.c.o)
+ .debug_abbrev  0x0000095e      0x117 libraries\core.a(wiring_analog.c.o)
+ .debug_abbrev  0x00000a75      0x167 libraries\core.a(wiring_digital.c.o)
+ .debug_abbrev  0x00000bdc       0xf8 libraries\core.a(wiring_pulse.c.o)
+ .debug_abbrev  0x00000cd4      0x48e libraries\core.a(HardwareSerial.cpp.o)
+ .debug_abbrev  0x00001162      0x296 libraries\core.a(IPAddress.cpp.o)
+ .debug_abbrev  0x000013f8      0x336 libraries\core.a(Print.cpp.o)
+ .debug_abbrev  0x0000172e      0x343 libraries\core.a(WString.cpp.o)
+ .debug_abbrev  0x00001a71      0x10d libraries\core.a(malloc.c.o)
+ .debug_abbrev  0x00001b7e       0xc9 libraries\core.a(realloc.c.o)
+ .debug_abbrev  0x00001c47       0x5d d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x00001ca4      0x1ea d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00001e8e      0x21b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x000020a9      0x216 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x000022bf      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x00002419      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x00002573      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x000026cd      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_abbrev  0x00002827      0x15a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_abbrev  0x00002981      0x148 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_abbrev  0x00002ac9      0x17f d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00002c48       0xad d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00002cf5      0x157 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x00002e4c       0xc4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00002f10      0x1c0 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x000030d0      0x154 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00003224      0x13b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x0000335f       0x6a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
 
-.debug_line     0x00000000     0x64a0
+.debug_line     0x00000000     0x65bf
  *(.debug_line)
  .debug_line    0x00000000       0x84 obj\Debug\fuse.o
  .debug_line    0x00000084      0x589 obj\Debug\libraries\twi.o
  .debug_line    0x0000060d      0x514 obj\Debug\libraries\Wire.o
- .debug_line    0x00000b21      0x6e9 obj\Debug\main.o
- .debug_line    0x0000120a      0x3e0 libraries\core.a(WInterrupts.c.o)
- .debug_line    0x000015ea      0x3dd libraries\core.a(wiring.c.o)
- .debug_line    0x000019c7      0x31d libraries\core.a(wiring_analog.c.o)
- .debug_line    0x00001ce4      0x32d libraries\core.a(wiring_digital.c.o)
- .debug_line    0x00002011      0x1e8 libraries\core.a(wiring_pulse.c.o)
- .debug_line    0x000021f9      0xb69 libraries\core.a(HardwareSerial.cpp.o)
- .debug_line    0x00002d62      0x45c libraries\core.a(IPAddress.cpp.o)
- .debug_line    0x000031be      0x75a libraries\core.a(Print.cpp.o)
- .debug_line    0x00003918     0x113e libraries\core.a(WString.cpp.o)
- .debug_line    0x00004a56      0x32a libraries\core.a(malloc.c.o)
- .debug_line    0x00004d80      0x277 libraries\core.a(realloc.c.o)
- .debug_line    0x00004ff7       0xa7 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_line    0x0000509e      0x2af d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_line    0x0000534d      0x239 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_line    0x00005586      0x1d5 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
- .debug_line    0x0000575b       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
- .debug_line    0x0000582e       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_line    0x00005901       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
- .debug_line    0x000059d4       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
- .debug_line    0x00005aa7       0xcb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
- .debug_line    0x00005b72      0x135 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_line    0x00005ca7      0x109 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_line    0x00005db0       0x90 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_line    0x00005e40      0x133 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
- .debug_line    0x00005f73       0xa5 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_line    0x00006018      0x18a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_line    0x000061a2      0x14b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_line    0x000062ed      0x137 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .debug_line    0x00006424       0x7c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .debug_line    0x00000b21      0x808 obj\Debug\main.o
+ .debug_line    0x00001329      0x3e0 libraries\core.a(WInterrupts.c.o)
+ .debug_line    0x00001709      0x3dd libraries\core.a(wiring.c.o)
+ .debug_line    0x00001ae6      0x31d libraries\core.a(wiring_analog.c.o)
+ .debug_line    0x00001e03      0x32d libraries\core.a(wiring_digital.c.o)
+ .debug_line    0x00002130      0x1e8 libraries\core.a(wiring_pulse.c.o)
+ .debug_line    0x00002318      0xb69 libraries\core.a(HardwareSerial.cpp.o)
+ .debug_line    0x00002e81      0x45c libraries\core.a(IPAddress.cpp.o)
+ .debug_line    0x000032dd      0x75a libraries\core.a(Print.cpp.o)
+ .debug_line    0x00003a37     0x113e libraries\core.a(WString.cpp.o)
+ .debug_line    0x00004b75      0x32a libraries\core.a(malloc.c.o)
+ .debug_line    0x00004e9f      0x277 libraries\core.a(realloc.c.o)
+ .debug_line    0x00005116       0xa7 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000051bd      0x2af d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_line    0x0000546c      0x239 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_line    0x000056a5      0x1d5 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_line    0x0000587a       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_line    0x0000594d       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_line    0x00005a20       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_line    0x00005af3       0xd3 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_line    0x00005bc6       0xcb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_line    0x00005c91      0x135 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_line    0x00005dc6      0x109 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00005ecf       0x90 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00005f5f      0x133 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00006092       0xa5 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_line    0x00006137      0x18a d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_line    0x000062c1      0x14b d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_line    0x0000640c      0x137 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x00006543       0x7c d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
 
-.debug_frame    0x00000000     0x10b0
+.debug_frame    0x00000000     0x10f0
  *(.debug_frame)
  .debug_frame   0x00000000       0xc0 obj\Debug\libraries\twi.o
  .debug_frame   0x000000c0      0x1d0 obj\Debug\libraries\Wire.o
- .debug_frame   0x00000290      0x100 obj\Debug\main.o
- .debug_frame   0x00000390       0xb0 libraries\core.a(WInterrupts.c.o)
- .debug_frame   0x00000440       0x70 libraries\core.a(wiring.c.o)
- .debug_frame   0x000004b0       0x40 libraries\core.a(wiring_analog.c.o)
- .debug_frame   0x000004f0       0x50 libraries\core.a(wiring_digital.c.o)
- .debug_frame   0x00000540       0x20 libraries\core.a(wiring_pulse.c.o)
- .debug_frame   0x00000560      0x1a0 libraries\core.a(HardwareSerial.cpp.o)
- .debug_frame   0x00000700       0xe0 libraries\core.a(IPAddress.cpp.o)
- .debug_frame   0x000007e0      0x1c0 libraries\core.a(Print.cpp.o)
- .debug_frame   0x000009a0      0x4a0 libraries\core.a(WString.cpp.o)
- .debug_frame   0x00000e40       0x30 libraries\core.a(malloc.c.o)
- .debug_frame   0x00000e70       0x20 libraries\core.a(realloc.c.o)
- .debug_frame   0x00000e90       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_frame   0x00000eb0       0x40 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_frame   0x00000ef0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_frame   0x00000f10       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
- .debug_frame   0x00000f30       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
- .debug_frame   0x00000f50       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_frame   0x00000f70       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
- .debug_frame   0x00000f90       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
- .debug_frame   0x00000fb0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
- .debug_frame   0x00000fd0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_frame   0x00000ff0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_frame   0x00001010       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
- .debug_frame   0x00001030       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_frame   0x00001050       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_frame   0x00001070       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_frame   0x00001090       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_frame   0x00000290      0x140 obj\Debug\main.o
+ .debug_frame   0x000003d0       0xb0 libraries\core.a(WInterrupts.c.o)
+ .debug_frame   0x00000480       0x70 libraries\core.a(wiring.c.o)
+ .debug_frame   0x000004f0       0x40 libraries\core.a(wiring_analog.c.o)
+ .debug_frame   0x00000530       0x50 libraries\core.a(wiring_digital.c.o)
+ .debug_frame   0x00000580       0x20 libraries\core.a(wiring_pulse.c.o)
+ .debug_frame   0x000005a0      0x1a0 libraries\core.a(HardwareSerial.cpp.o)
+ .debug_frame   0x00000740       0xe0 libraries\core.a(IPAddress.cpp.o)
+ .debug_frame   0x00000820      0x1c0 libraries\core.a(Print.cpp.o)
+ .debug_frame   0x000009e0      0x4a0 libraries\core.a(WString.cpp.o)
+ .debug_frame   0x00000e80       0x30 libraries\core.a(malloc.c.o)
+ .debug_frame   0x00000eb0       0x20 libraries\core.a(realloc.c.o)
+ .debug_frame   0x00000ed0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000ef0       0x40 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000f30       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000f50       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_frame   0x00000f70       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_frame   0x00000f90       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_frame   0x00000fb0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_frame   0x00000fd0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_frame   0x00000ff0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_frame   0x00001010       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_frame   0x00001030       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00001050       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00001070       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00001090       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_frame   0x000010b0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x000010d0       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
 
-.debug_str      0x00000000     0x2590
+.debug_str      0x00000000     0x25e9
  *(.debug_str)
  .debug_str     0x00000000       0x95 obj\Debug\fuse.o
                                  0xce (size before relaxing)
@@ -1659,62 +1664,62 @@ LOAD d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
                                 0x28c (size before relaxing)
  .debug_str     0x00000267      0xebd obj\Debug\libraries\Wire.o
                                0x1024 (size before relaxing)
- .debug_str     0x00001124      0x1d5 obj\Debug\main.o
-                                0x30c (size before relaxing)
- .debug_str     0x000012f9       0xf5 libraries\core.a(WInterrupts.c.o)
+ .debug_str     0x00001124      0x22e obj\Debug\main.o
+                                0x3ae (size before relaxing)
+ .debug_str     0x00001352       0xf5 libraries\core.a(WInterrupts.c.o)
                                 0x17f (size before relaxing)
- .debug_str     0x000013ee       0xaa libraries\core.a(wiring.c.o)
+ .debug_str     0x00001447       0xaa libraries\core.a(wiring.c.o)
                                 0x152 (size before relaxing)
- .debug_str     0x00001498       0xa7 libraries\core.a(wiring_analog.c.o)
+ .debug_str     0x000014f1       0xa7 libraries\core.a(wiring_analog.c.o)
                                 0x150 (size before relaxing)
- .debug_str     0x0000153f       0xe6 libraries\core.a(wiring_digital.c.o)
+ .debug_str     0x00001598       0xe6 libraries\core.a(wiring_digital.c.o)
                                 0x1bd (size before relaxing)
- .debug_str     0x00001625       0x6d libraries\core.a(wiring_pulse.c.o)
+ .debug_str     0x0000167e       0x6d libraries\core.a(wiring_pulse.c.o)
                                 0x177 (size before relaxing)
- .debug_str     0x00001692      0x3d0 libraries\core.a(HardwareSerial.cpp.o)
+ .debug_str     0x000016eb      0x3d0 libraries\core.a(HardwareSerial.cpp.o)
                                 0xf42 (size before relaxing)
- .debug_str     0x00001a62      0x1e8 libraries\core.a(IPAddress.cpp.o)
+ .debug_str     0x00001abb      0x1e8 libraries\core.a(IPAddress.cpp.o)
                                 0x356 (size before relaxing)
- .debug_str     0x00001c4a      0x385 libraries\core.a(Print.cpp.o)
+ .debug_str     0x00001ca3      0x385 libraries\core.a(Print.cpp.o)
                                 0xc09 (size before relaxing)
- .debug_str     0x00001fcf      0x1b8 libraries\core.a(WString.cpp.o)
+ .debug_str     0x00002028      0x1b8 libraries\core.a(WString.cpp.o)
                                 0x9a5 (size before relaxing)
- .debug_str     0x00002187       0xd6 libraries\core.a(malloc.c.o)
+ .debug_str     0x000021e0       0xd6 libraries\core.a(malloc.c.o)
                                 0x155 (size before relaxing)
- .debug_str     0x0000225d       0x5e libraries\core.a(realloc.c.o)
+ .debug_str     0x000022b6       0x5e libraries\core.a(realloc.c.o)
                                 0x119 (size before relaxing)
- .debug_str     0x000022bb       0x80 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+ .debug_str     0x00002314       0x80 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
                                  0xfe (size before relaxing)
- .debug_str     0x0000233b      0x147 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+ .debug_str     0x00002394      0x147 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
                                 0x206 (size before relaxing)
- .debug_str     0x00002482       0x27 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+ .debug_str     0x000024db       0x27 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
                                 0x1bf (size before relaxing)
- .debug_str     0x000024a9       0x35 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
+ .debug_str     0x00002502       0x35 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_div_sf.o)
                                 0x1c8 (size before relaxing)
- .debug_str     0x000024de        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
+ .debug_str     0x00002537        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_gt_sf.o)
                                 0x195 (size before relaxing)
- .debug_str     0x000024e6        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+ .debug_str     0x0000253f        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
                                 0x195 (size before relaxing)
- .debug_str     0x000024ee        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
+ .debug_str     0x00002547        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_lt_sf.o)
                                 0x195 (size before relaxing)
- .debug_str     0x000024f6        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
+ .debug_str     0x0000254f        0x8 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_le_sf.o)
                                 0x195 (size before relaxing)
- .debug_str     0x000024fe        0xb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
+ .debug_str     0x00002557        0xb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unord_sf.o)
                                 0x198 (size before relaxing)
- .debug_str     0x00002509       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+ .debug_str     0x00002562       0x1e d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
                                 0x17b (size before relaxing)
- .debug_str     0x00002527        0xa d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+ .debug_str     0x00002580        0xa d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
                                 0x19e (size before relaxing)
  .debug_str     0x00000000      0x103 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_str     0x00002531       0x14 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
+ .debug_str     0x0000258a       0x14 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_usi_to_sf.o)
                                 0x177 (size before relaxing)
- .debug_str     0x00002545       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+ .debug_str     0x0000259e       0x20 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
                                 0x111 (size before relaxing)
- .debug_str     0x00002565       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+ .debug_str     0x000025be       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
                                 0x19d (size before relaxing)
- .debug_str     0x00002575        0xb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+ .debug_str     0x000025ce        0xb d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
                                 0x17f (size before relaxing)
- .debug_str     0x00002580       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_str     0x000025d9       0x10 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
                                 0x163 (size before relaxing)
  .debug_str     0x00000000       0xf4 d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
 
@@ -1788,8 +1793,8 @@ IPAddress::IPAddress()                            libraries\core.a(IPAddress.cpp
 IPAddress::IPAddress(unsigned char const*)        libraries\core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned char const*)        libraries\core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) libraries\core.a(IPAddress.cpp.o)
-IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) libraries\core.a(IPAddress.cpp.o)
                                                   obj\Debug\main.o
+IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) libraries\core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned long)               libraries\core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned long)               libraries\core.a(IPAddress.cpp.o)
 IPAddress::operator=(unsigned char const*)        libraries\core.a(IPAddress.cpp.o)
@@ -1819,7 +1824,6 @@ Print::println(Printable const&)                  libraries\core.a(Print.cpp.o)
 Print::println(String const&)                     libraries\core.a(Print.cpp.o)
 Print::println(__FlashStringHelper const*)        libraries\core.a(Print.cpp.o)
 Print::println(char const*)                       libraries\core.a(Print.cpp.o)
-                                                  obj\Debug\main.o
 Print::println(char)                              libraries\core.a(Print.cpp.o)
 Print::println(double, int)                       libraries\core.a(Print.cpp.o)
 Print::println(int, int)                          libraries\core.a(Print.cpp.o)
@@ -1907,12 +1911,16 @@ String::~String()                                 libraries\core.a(WString.cpp.o
 TwoWire::TwoWire()                                obj\Debug\libraries\Wire.o
 TwoWire::TwoWire()                                obj\Debug\libraries\Wire.o
 TwoWire::available()                              obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 TwoWire::begin()                                  obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 TwoWire::begin(int)                               obj\Debug\libraries\Wire.o
 TwoWire::begin(unsigned char)                     obj\Debug\libraries\Wire.o
 TwoWire::beginTransmission(int)                   obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 TwoWire::beginTransmission(unsigned char)         obj\Debug\libraries\Wire.o
 TwoWire::endTransmission()                        obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 TwoWire::endTransmission(unsigned char)           obj\Debug\libraries\Wire.o
 TwoWire::flush()                                  obj\Debug\libraries\Wire.o
 TwoWire::onReceive(void (*)(int))                 obj\Debug\libraries\Wire.o
@@ -1921,7 +1929,9 @@ TwoWire::onRequest(void (*)())                    obj\Debug\libraries\Wire.o
 TwoWire::onRequestService()                       obj\Debug\libraries\Wire.o
 TwoWire::peek()                                   obj\Debug\libraries\Wire.o
 TwoWire::read()                                   obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 TwoWire::requestFrom(int, int)                    obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 TwoWire::requestFrom(int, int, int)               obj\Debug\libraries\Wire.o
 TwoWire::requestFrom(unsigned char, unsigned char) obj\Debug\libraries\Wire.o
 TwoWire::requestFrom(unsigned char, unsigned char, unsigned char) obj\Debug\libraries\Wire.o
@@ -1935,9 +1945,12 @@ TwoWire::txBufferIndex                            obj\Debug\libraries\Wire.o
 TwoWire::txBufferLength                           obj\Debug\libraries\Wire.o
 TwoWire::user_onReceive                           obj\Debug\libraries\Wire.o
 TwoWire::user_onRequest                           obj\Debug\libraries\Wire.o
+TwoWire::write(int)                               obj\Debug\main.o
 TwoWire::write(unsigned char const*, unsigned int) obj\Debug\libraries\Wire.o
 TwoWire::write(unsigned char)                     obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 Wire                                              obj\Debug\libraries\Wire.o
+                                                  obj\Debug\main.o
 __addsf3                                          d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
                                                   libraries\core.a(Print.cpp.o)
 __bad_interrupt                                   d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
@@ -2212,7 +2225,6 @@ digital_pin_to_timer_PGM                          libraries\core.a(wiring_digita
 exit                                              d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
                                                   d:/programme/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
 followLine()                                      obj\Debug\main.o
-followLineV2()                                    obj\Debug\main.o
 free                                              libraries\core.a(malloc.c.o)
                                                   libraries\core.a(realloc.c.o)
                                                   libraries\core.a(WString.cpp.o)
@@ -2241,6 +2253,7 @@ memmove                                           d:/programme/winavr/bin/../lib
                                                   libraries\core.a(WString.cpp.o)
 micros                                            libraries\core.a(wiring.c.o)
 millis                                            libraries\core.a(wiring.c.o)
+onFwd(int, int, bool)                             obj\Debug\main.o
 onTouch()                                         obj\Debug\main.o
 operator+(StringSumHelper const&, String const&)  libraries\core.a(WString.cpp.o)
 operator+(StringSumHelper const&, char const*)    libraries\core.a(WString.cpp.o)
@@ -2259,6 +2272,7 @@ port_to_mode_PGM                                  libraries\core.a(wiring_digita
 port_to_output_PGM                                libraries\core.a(wiring_digital.c.o)
 pulseIn                                           libraries\core.a(wiring_pulse.c.o)
                                                   obj\Debug\main.o
+readFrom(int, int*)                               obj\Debug\main.o
 realloc                                           libraries\core.a(realloc.c.o)
                                                   libraries\core.a(WString.cpp.o)
 rechts(int, bool)                                 obj\Debug\main.o
@@ -2266,6 +2280,7 @@ rotL                                              obj\Debug\main.o
 rotR                                              obj\Debug\main.o
 rotSeek                                           obj\Debug\main.o
 rotateL()                                         obj\Debug\main.o
+rotateMoto(int, int, int, int, bool)              obj\Debug\main.o
 rotateR()                                         obj\Debug\main.o
 rx_buffer                                         libraries\core.a(HardwareSerial.cpp.o)
 rx_buffer1                                        libraries\core.a(HardwareSerial.cpp.o)
@@ -2340,3 +2355,4 @@ vtable for Print                                  libraries\core.a(Print.cpp.o)
 vtable for Printable                              libraries\core.a(IPAddress.cpp.o)
 vtable for Stream                                 obj\Debug\libraries\Wire.o
 vtable for TwoWire                                obj\Debug\libraries\Wire.o
+writeTo(int, unsigned char)                       obj\Debug\main.o

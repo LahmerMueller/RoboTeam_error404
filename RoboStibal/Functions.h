@@ -55,9 +55,90 @@ void links(int speed, bool direct)
     }
 }
 
-void rotateMoto(int moto, bool withInter)
+void onFwd(int moto, int speed, bool direct)
 {
-    if()
+    if(moto == 0)
+    {
+        links(speed, direct);
+    }
+    else if(moto == 1)
+    {
+        rechts(speed, direct);
+    }
+    else if(moto == 2)
+    {
+        rechts(speed, direct);
+        links(speed, direct);
+    }
+}
+
+void rotateMoto(int moto, int speed, int direct, int grad, bool withInter = false)
+{
+    int my_rotR;
+    if(withInter)
+    {
+        my_rotR = rotR;
+        while((rotR - my_rotR) < grad && !anySensor())
+        {
+            onFwd(moto, speed, direct);
+        }
+    }
+    else if(!withInter)
+    {
+        my_rotR = rotR;
+        while((rotR - my_rotR) < grad)
+        {
+            onFwd(moto, speed, direct);
+        }
+    }
+}
+
+void fahreCm(int moto, int speed, bool direct, int cm, bool withInter = false)
+{
+    int grad = cm * DPROP;
+    int my_rotR;
+
+    if(withInter)
+    {
+        my_rotR = rotR;
+        while((rotR - my_rotR) < grad && !anySensor())
+        {
+            onFwd(moto, speed, direct);
+        }
+    }
+    else if(!withInter)
+    {
+        my_rotR = rotR;
+        while((rotR - my_rotR) < grad)
+        {
+            onFwd(moto, speed, direct);
+        }
+    }
+}
+
+void turn(int speed, bool turnDirect, int grad, bool withInter = false)
+{
+    int motoGrad = grad * TPROP;
+    int my_rotR;
+
+    if(withInter)
+    {
+        my_rotR = rotR;
+        while((rotR - my_rotR) < motoGrad && !anySensor())
+        {
+            onFwd(RIGHT, speed, !turnDirect);
+            onFwd(LEFT, speed, turnDirect);
+        }
+    }
+    else if(!withInter)
+    {
+        my_rotR = rotR;
+        while((rotR - my_rotR) < motoGrad)
+        {
+            onFwd(RIGHT, speed, !turnDirect);
+            onFwd(LEFT, speed, turnDirect);
+        }
+    }
 }
 
 void followLine()
