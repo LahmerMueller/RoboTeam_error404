@@ -72,6 +72,31 @@ void onFwd(int moto, int speed, bool direct)
     }
 }
 
+unsigned int ultraschall(byte trig, byte pwm, bool *validRead, boolean raw = false)
+{
+    unsigned int pulse = 0;
+
+    digitalWrite(trig, LOW);
+    digitalWrite(trig, HIGH);
+
+    pulse = pulseIn(pwm, LOW);
+
+    *validRead = true;
+    if(pulse > 50000 || pulse < 0)
+    {
+        *validRead = false;
+    }
+
+    if(raw)
+    {
+        return pulse;
+    }
+    else
+    {
+        return pulse / 50;
+    }
+}
+
 void rotateMoto(int moto, int speed, int direct, int grad, bool withInter = false)
 {
     int my_rotR;
@@ -294,32 +319,41 @@ void onTouch()
 {
     if(!T1 || !T2)
     {
+        bool flaschDirect;
+        onFwd(STRAIGHT, 0, HIGH);
 
-    }
-}
+        if(ultraschall(TRIG1, PWM1, validRead) > 25 && ultraschall(TRIG2, PWM2, validRead) > 25)
+        {
+            flaschDirect = RIGHT;
+        }
+        else
+        {
+            flaschDirect = LEFT;
+        }
 
-unsigned int ultraschall(byte trig, byte pwm, bool *validRead, boolean raw = false)
-{
-    unsigned int pulse = 0;
+        fahreCm(STRAIGHT, 75, LOW, 10);
+        turn(75, flaschDirect, 90);
+        fahreCm(STRAIGHT, 75, HIGH, 20);
+        turn(75, !flaschDirect, 90);
+        fahreCm(STRAIGHT, 75, HIGH, 40);
+        turn(75, !flaschDirect, 80);
 
-    digitalWrite(trig, LOW);
-    digitalWrite(trig, HIGH);
-
-    pulse = pulseIn(pwm, LOW);
-
-    *validRead = true;
-    if(pulse > 50000 || pulse < 0)
-    {
-        *validRead = false;
-    }
-
-    if(raw)
-    {
-        return pulse;
-    }
-    else
-    {
-        return pulse / 50;
+        if(flaschDirect == RIGHT)
+        {
+            while(L6 && L5 && L4)
+            {
+                onFwd(STRAIGHT, 50, HIGH);
+            }
+            turn(75, flaschDirect, 20);
+        }
+        else
+        {
+            while(L1 && L2 && L3)
+            {
+                onFwd(STRAIGHT, 50, HIGH);
+            }
+            turn(75, flaschDirect, 20);
+        }
     }
 }
 
