@@ -27,6 +27,15 @@ bool anySensor()
     return false;
 }
 
+bool anyBlack()
+{
+    if(!L1 || !L2 || !L3 || !L4 || !L5 || !L6)
+    {
+        return true;
+    }
+    return false;
+}
+
 void rechts(int speed, bool direct)
 {
     if(speed == 0)
@@ -198,6 +207,7 @@ void followLine()
         {
             lastLight = ONLINE;
             rotSeek = rotR;
+            inter = anySensor();
             while((rotR - rotSeek) < 150 && !inter)
             {
                 rechts(50, HIGH);
@@ -213,6 +223,7 @@ void followLine()
             }
         }
     }
+
     if(!L6)
     {
         if(!L1 || !L2)
@@ -340,21 +351,62 @@ void onTouch()
 
         if(flaschDirect == RIGHT)
         {
-            while(L6 && L5 && L4)
+            while(!anyBlack())
             {
                 onFwd(STRAIGHT, 50, HIGH);
             }
-            turn(75, flaschDirect, 20);
+            if(!L1 || !L2 || !L3)
+            {
+                fahreCm(STRAIGHT, 50, HIGH, 5);
+                turn(75, flaschDirect, 20);
+            }
+            else if(!L4 || !L5 || !L6)
+            {
+                turn(75, flaschDirect, 20);
+            }
         }
         else
         {
-            while(L1 && L2 && L3)
+            while(!anyBlack())
             {
                 onFwd(STRAIGHT, 50, HIGH);
             }
-            turn(75, flaschDirect, 20);
+            if(!L4 || !L5 || !L6)
+            {
+                fahreCm(STRAIGHT, 50, HIGH, 5);
+                turn(75, flaschDirect, 20);
+            }
+            else if(!L1 || !L2 || !L3)
+            {
+                turn(75, flaschDirect, 20);
+            }
         }
     }
 }
+
+void onTouchV2()
+{
+    if((!T1 || !T2)/* || (!T1 && lastLight != LEFT) || (!T2 && lastLight != RIGHT)*/)
+    {
+        fahreCm(STRAIGHT, 50, LOW, 4);
+        turn(80, LEFT, 45);
+        fahreCm(STRAIGHT, 75, HIGH, 6);
+
+        while(!anyBlack())
+        {
+            if(T3)
+            {
+                onFwd(RIGHT, -130, LOW);
+                onFwd(LEFT, 50, HIGH);
+            }
+            else if(!T3)
+            {
+                turn(50, LEFT, 5);
+            }
+        }
+    }
+}
+
+void doseFinden();
 
 #endif // FUNCTIONS_H_INCLUDED

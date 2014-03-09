@@ -23,11 +23,14 @@
 
 #define T1 digitalRead(26)
 #define T2 digitalRead(27)
+#define T3 digitalRead(28)
 
 #define TRIG1 37
 #define PWM1 38
 #define TRIG2 39
 #define PWM2 40
+
+//Servo myservo;
 
 const int werte[2][4] = {{100, 50, 0, -100},
                          {-100, 0, 50, 100}};

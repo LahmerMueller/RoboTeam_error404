@@ -1,5 +1,6 @@
-#include <Wire.h>
 #include <WProgram.h> //import main Arduino header file
+#include <Wire.h>
+//#include <Servo.h>
 #include "Defs.h"
 #include "Functions.h"
 #include "Accel_ADXL345.h"
@@ -25,6 +26,7 @@ void setup()
     pinMode(25, INPUT);
     pinMode(26, INPUT_PULLUP);
     pinMode(27, INPUT_PULLUP);
+    pinMode(28, INPUT_PULLUP);
 
     attachInterrupt(5, rotateR, FALLING);
     attachInterrupt(4, rotateL, FALLING);
@@ -77,7 +79,7 @@ int main()
 
         /*rechts(100, HIGH);
         links(100, HIGH);*/
-        onTouch();
+        onTouchV2();
     }
     /*int myrotR = rotR;
     while((rotR - myrotR) < 360)
