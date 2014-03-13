@@ -175,18 +175,114 @@ void turn(int speed, bool turnDirect, int grad, bool withInter = false)
     }
 }
 
+int sharp(bool direct)
+{
+    int val = 0;
+    if(direct == RIGHT)
+    {
+        val = analogRead(A14);
+        return val;
+    }
+    else if(direct == LEFT)
+    {
+        val = analogRead(A15);
+        return val;
+    }
+    return val;
+}
+
+void doseFinden()
+{
+    dosDirect = LEFT;
+
+    while(T1 || T2)
+    {
+        onFwd(STRAIGHT, 100, HIGH);
+    }
+    fahreCm(STRAIGHT, 50, LOW, 5);
+    turn(50, LEFT, 90);
+    onFwd(STRAIGHT, 50, LOW);
+    delay(2000);
+
+    while(sharp(dosDirect) < DISTANCE)
+    {
+        onFwd(LEFT, 35, HIGH);
+        onFwd(RIGHT, 65, HIGH);
+
+        if(!T1 && !T2)
+        {
+            fahreCm(STRAIGHT, 50, LOW, 5);
+            turn(50, dosDirect, 90);
+            fahreCm(STRAIGHT, 50, HIGH, 10);
+            turn(50, !dosDirect, 60);
+            while(T1 || T2)
+            {
+                onFwd(STRAIGHT, 50, HIGH);
+            }
+            fahreCm(STRAIGHT, 50, LOW, 5);
+            turn(50, dosDirect, 180);
+            onFwd(STRAIGHT, 50, LOW);
+            delay(3000);
+            dosDirect = !dosDirect;
+        }
+    }
+    /*else if(sharp() >= DISTANCE)
+    {*/
+    turn(50, dosDirect, 90);
+    onFwd(STRAIGHT, 50, LOW);
+    delay(10000);
+    while(T1 || T2)
+    {
+        onFwd(STRAIGHT, 50, HIGH);
+    }
+    fahreCm(STRAIGHT, 50, HIGH, 10);
+    turn(50, LEFT, 90);
+    fahreCm(STRAIGHT, 50, HIGH, 20);
+    turn(50, RIGHT, 90);
+    while(T1 || T2)
+    {
+        onFwd(STRAIGHT, 50, HIGH);
+    }
+    delay(2000);
+    fahreCm(STRAIGHT, 50, LOW, 2);
+    turn(50, RIGHT, 90);
+
+    while(!anyBlack())
+    {
+        onFwd(STRAIGHT, 50, HIGH);
+    }
+
+    fahreCm(STRAIGHT, 50, HIGH, 5);
+
+    fahreCm(STRAIGHT, 100, LOW, 30);
+    //}
+    onFwd(STRAIGHT, 0, LOW);
+    delay(9000);
+}
+
 void followLine()
 {
+    Serial.print(lastLight);
+    Serial.println(rotR - rotSeek);
     if(!L2 || !L3 || !L4 || !L5)
     {
         lastLight = ONLINE;
     }
+    else if(L1 && L2 && L3 && L4 && L5 && L6 && lastLight == ONLINE)
+    {
+        lastLight = OFFLINE;
+        rotSeek = rotR;
+    }
 
-    if(lastLight != ONLINE && (rotR - rotSeek) > 25)
+    if(lastLight == OFFLINE && (rotR - rotSeek) > 1000)
+    {
+        doseFinden();
+    }
+    else if((lastLight == RIGHT || lastLight == LEFT) && (rotR - rotSeek) > 25)
     {
         if(lastLight == RIGHT)
         {
-            lastLight = ONLINE;
+            lastLight = OFFLINE;
             rotSeek = rotR;
             inter = anySensor();
             while((rotR - rotSeek) < 150 && !inter)
@@ -205,7 +301,7 @@ void followLine()
         }
         else if(lastLight == LEFT)
         {
-            lastLight = ONLINE;
+            lastLight = OFFLINE;
             rotSeek = rotR;
             inter = anySensor();
             while((rotR - rotSeek) < 150 && !inter)
@@ -222,6 +318,7 @@ void followLine()
                 inter = anySensor();
             }
         }
+        rotSeek = rotR;
     }
 
     if(!L6)
@@ -330,56 +427,79 @@ void onTouch()
 {
     if(!T1 || !T2)
     {
-        bool flaschDirect;
-        onFwd(STRAIGHT, 0, HIGH);
+        if(!T1 && !T2)
+        {
+            bool flaschDirect = LEFT;
+            onFwd(STRAIGHT, 0, HIGH);
 
-        if(ultraschall(TRIG1, PWM1, validRead) > 25 && ultraschall(TRIG2, PWM2, validRead) > 25)
-        {
-            flaschDirect = RIGHT;
-        }
-        else
-        {
-            flaschDirect = LEFT;
-        }
+            /*if(ultraschall(TRIG1, PWM1, validRead) > 25 && ultraschall(TRIG2, PWM2, validRead) > 25)
+            {
+                flaschDirect = RIGHT;
+            }
+            else
+            {
+                flaschDirect = LEFT;
+            }*/
 
-        fahreCm(STRAIGHT, 75, LOW, 10);
-        turn(75, flaschDirect, 90);
-        fahreCm(STRAIGHT, 75, HIGH, 20);
-        turn(75, !flaschDirect, 90);
-        fahreCm(STRAIGHT, 75, HIGH, 40);
-        turn(75, !flaschDirect, 80);
+            fahreCm(STRAIGHT, 75, LOW, 10);
+            turn(75, flaschDirect, 90);
+            fahreCm(STRAIGHT, 75, HIGH, 25);
+            turn(75, !flaschDirect, 90);
+            fahreCm(STRAIGHT, 75, HIGH, 40);
+            turn(75, !flaschDirect, 80);
 
-        if(flaschDirect == RIGHT)
-        {
-            while(!anyBlack())
+            if(flaschDirect == RIGHT)
             {
-                onFwd(STRAIGHT, 50, HIGH);
+                while(!anyBlack())
+                {
+                    onFwd(STRAIGHT, 50, HIGH);
+                }
+                if(!L1 || !L2 || !L3)
+                {
+                    fahreCm(STRAIGHT, 50, HIGH, 10);
+                    turn(75, flaschDirect, 90);
+                    //turn(75, flaschDirect, 50, true);
+                    onFwd(STRAIGHT, 0, LOW);
+                    turn(75, !flaschDirect, 100, true);
+                    onFwd(STRAIGHT, 0, LOW);
+                }
+                else if(!L4 || !L5 || !L6)
+                {
+                    turn(75, flaschDirect, 60);
+                }
             }
-            if(!L1 || !L2 || !L3)
+            else
             {
-                fahreCm(STRAIGHT, 50, HIGH, 5);
-                turn(75, flaschDirect, 20);
-            }
-            else if(!L4 || !L5 || !L6)
-            {
-                turn(75, flaschDirect, 20);
+                while(!anyBlack())
+                {
+                    onFwd(STRAIGHT, 50, HIGH);
+                }
+                if(!L4 || !L5 || !L6)
+                {
+                    fahreCm(STRAIGHT, 50, HIGH, 10);
+                    turn(75, flaschDirect, 90);
+                    //turn(75, flaschDirect, 50, true);
+                    onFwd(STRAIGHT, 0, LOW);
+                    turn(75, !flaschDirect, 100, true);
+                    onFwd(STRAIGHT, 0, LOW);
+                }
+                else if(!L1 || !L2 || !L3)
+                {
+                    turn(75, flaschDirect, 60);
+                }
             }
         }
-        else
+        else if(!T1 && T2 && anyBlack() && lastLight != RIGHT && lastLight != LEFT)
         {
-            while(!anyBlack())
-            {
-                onFwd(STRAIGHT, 50, HIGH);
-            }
-            if(!L4 || !L5 || !L6)
-            {
-                fahreCm(STRAIGHT, 50, HIGH, 5);
-                turn(75, flaschDirect, 20);
-            }
-            else if(!L1 || !L2 || !L3)
-            {
-                turn(75, flaschDirect, 20);
-            }
+            fahreCm(STRAIGHT, 50, LOW, 4);
+            turn(100, RIGHT, 5);
+            fahreCm(RIGHT, 50, HIGH, 6);
+        }
+        else if(T1 && !T2 && anyBlack() && lastLight != RIGHT && lastLight != LEFT)
+        {
+            fahreCm(STRAIGHT, 50, LOW, 4);
+            turn(100, LEFT, 5);
+            fahreCm(LEFT, 50, HIGH, 6);
         }
     }
 }
@@ -406,7 +526,5 @@ void onTouchV2()
         }
     }
 }
-
-void doseFinden();
 
 #endif // FUNCTIONS_H_INCLUDED

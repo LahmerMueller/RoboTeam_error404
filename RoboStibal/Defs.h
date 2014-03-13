@@ -5,6 +5,7 @@
 #define DPROP 12.5
 
 #define STRAIGHT 2
+#define OFFLINE 3
 #define ONLINE 2
 #define RIGHT 1
 #define LEFT 0
@@ -30,6 +31,8 @@
 #define TRIG2 39
 #define PWM2 40
 
+#define DISTANCE 300
+
 //Servo myservo;
 
 const int werte[2][4] = {{100, 50, 0, -100},
@@ -49,5 +52,7 @@ int calbAccelVal[3];
 int lastLight = 3;
 bool inter = false;
 int rotSeek;
+
+bool dosDirect;
 
 #endif // DEFS_H_INCLUDED

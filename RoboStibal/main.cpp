@@ -62,7 +62,19 @@ int main()
 
         Serial.println();
         delay(100);*/
+
         followLine();
+        onTouch();
+
+        /*if(!T3)
+        {
+            Serial.println(sharp());
+            Serial.println();
+            Serial.println(sharp());
+        }
+        while(!T3){};*/
+
+        //Serial.println(sharp());
 
         /*while(rotR < 75)
         {
@@ -79,7 +91,6 @@ int main()
 
         /*rechts(100, HIGH);
         links(100, HIGH);*/
-        onTouchV2();
     }
     /*int myrotR = rotR;
     while((rotR - myrotR) < 360)
