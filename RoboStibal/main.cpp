@@ -64,7 +64,7 @@ int main()
         delay(100);*/
 
         followLine();
-        onTouch();
+        onTouchV2();
 
         /*if(!T3)
         {

@@ -284,38 +284,38 @@ void followLine()
         {
             lastLight = OFFLINE;
             rotSeek = rotR;
-            inter = anySensor();
+            inter = anyBlack();
             while((rotR - rotSeek) < 150 && !inter)
             {
                 rechts(50, LOW);
                 links(50, HIGH);
-                inter = anySensor();
+                inter = anyBlack();
             }
             rotSeek = rotR;
             while((rotR - rotSeek) < 150 && !inter)
             {
                 rechts(50, HIGH);
                 links(50, LOW);
-                inter = anySensor();
+                inter = anyBlack();
             }
         }
         else if(lastLight == LEFT)
         {
             lastLight = OFFLINE;
             rotSeek = rotR;
-            inter = anySensor();
+            inter = anyBlack();
             while((rotR - rotSeek) < 150 && !inter)
             {
                 rechts(50, HIGH);
                 links(50, LOW);
-                inter = anySensor();
+                inter = anyBlack();
             }
             rotSeek = rotR;
             while((rotR - rotSeek) < 150 && !inter)
             {
                 rechts(50, LOW);
                 links(50, HIGH);
-                inter = anySensor();
+                inter = anyBlack();
             }
         }
         rotSeek = rotR;
@@ -509,19 +509,26 @@ void onTouchV2()
     if((!T1 || !T2)/* || (!T1 && lastLight != LEFT) || (!T2 && lastLight != RIGHT)*/)
     {
         fahreCm(STRAIGHT, 50, LOW, 4);
-        turn(80, LEFT, 45);
-        fahreCm(STRAIGHT, 75, HIGH, 6);
-
-        while(!anyBlack())
+        turn(50, LEFT, 45);
+        //fahreCm(STRAIGHT, 75, HIGH, 6);
+        int my_distance;
+        int my_rotR;
+        while(true)
         {
-            if(T3)
+            my_distance = sharp(RIGHT);
+            if(my_distance == DISTANCE)
             {
-                onFwd(RIGHT, -130, LOW);
-                onFwd(LEFT, 50, HIGH);
+                onFwd(RIGHT, 75, LOW);
+                onFwd(LEFT, 100, HIGH);
             }
-            else if(!T3)
+            if(sharp(RIGHT) < DISTANCE)
             {
-                turn(50, LEFT, 5);
+                onFwd(STRAIGHT, 50, HIGH);
+            }
+            else
+            {
+                onFwd(RIGHT, 50, LOW);
+                onFwd(LEFT, 100, HIGH);
             }
         }
     }
