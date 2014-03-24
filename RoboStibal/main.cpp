@@ -1,6 +1,6 @@
 #include <WProgram.h> //import main Arduino header file
 #include <Wire.h>
-//#include <Servo.h>
+#include <Servo.h>
 #include "Defs.h"
 #include "Functions.h"
 #include "Accel_ADXL345.h"
@@ -9,6 +9,8 @@ void setup()
 {
     Serial.begin(9600);
     Wire.begin();
+    myservo.attach(9);
+    myservo.write(20);
 
     pinMode(E1, OUTPUT);
     pinMode(M1, OUTPUT);
@@ -63,8 +65,10 @@ int main()
         Serial.println();
         delay(100);*/
 
-        followLine();
-        onTouchV2();
+        ///followLine();
+        ///onTouchV2();
+
+        doseFinden();
 
         /*if(!T3)
         {

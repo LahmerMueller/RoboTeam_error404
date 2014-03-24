@@ -26,10 +26,10 @@
 #define T2 digitalRead(27)
 #define T3 digitalRead(28)
 
-#define TRIG1 37
-#define PWM1 38
-#define TRIG2 39
-#define PWM2 40
+#define TRIG2 37
+#define PWM2 38
+#define TRIG1 39
+#define PWM1 40
 
 #define DISTANCE 300
 
@@ -54,5 +54,7 @@ bool inter = false;
 int rotSeek;
 
 bool dosDirect;
+
+Servo myservo;
 
 #endif // DEFS_H_INCLUDED

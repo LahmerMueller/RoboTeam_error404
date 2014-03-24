@@ -228,8 +228,10 @@ void doseFinden()
     }
     /*else if(sharp() >= DISTANCE)
     {*/
-    turn(50, dosDirect, 90);
-    onFwd(STRAIGHT, 50, LOW);
+    turn(50, !dosDirect, 60);
+
+
+    /*onFwd(STRAIGHT, 50, LOW);
     delay(10000);
     while(T1 || T2)
     {
@@ -254,7 +256,7 @@ void doseFinden()
 
     fahreCm(STRAIGHT, 50, HIGH, 5);
 
-    fahreCm(STRAIGHT, 100, LOW, 30);
+    fahreCm(STRAIGHT, 100, LOW, 30);*/
     //}
     onFwd(STRAIGHT, 0, LOW);
     delay(9000);
@@ -506,30 +508,75 @@ void onTouch()
 
 void onTouchV2()
 {
-    if((!T1 || !T2)/* || (!T1 && lastLight != LEFT) || (!T2 && lastLight != RIGHT)*/)
+    if(!T1 || !T2)
     {
-        fahreCm(STRAIGHT, 50, LOW, 4);
-        turn(50, LEFT, 45);
-        //fahreCm(STRAIGHT, 75, HIGH, 6);
-        int my_distance;
-        int my_rotR;
-        while(true)
+        onFwd(STRAIGHT, 50, HIGH);
+        delay(150);
+
+        if(!T1 && T2)
         {
-            my_distance = sharp(RIGHT);
-            if(my_distance == DISTANCE)
+            fahreCm(STRAIGHT, 50, LOW, 10);
+            turn(50, LEFT, 20, true);
+
+            rotSeek = rotSeek + 760;
+        }
+        else if(T1 && !T2)
+        {
+            fahreCm(STRAIGHT, 50, LOW, 10);
+            turn(50, RIGHT, 20, true);
+
+            rotSeek = rotSeek + 760;
+        }
+        else if(!T1 && !T2)
+        {
+            onFwd(STRAIGHT, 0, LOW);
+            bool flaschDirect = LEFT;
+
+            if(ultraschall(TRIG1, PWM1, validRead, true) > ultraschall(TRIG2, PWM2, validRead, true))
             {
-                onFwd(RIGHT, 75, LOW);
-                onFwd(LEFT, 100, HIGH);
+                flaschDirect = RIGHT;
             }
-            if(sharp(RIGHT) < DISTANCE)
+
+            fahreCm(STRAIGHT, 50, LOW, 4);
+            turn(50, flaschDirect, 55);
+            int my_distance;
+            int my_rotR = rotR;
+            int my_rotL = rotL;
+
+            while((flaschDirect ? (rotR - my_rotR) : (rotL - my_rotL)) < 180 || !anyBlack())
             {
-                onFwd(STRAIGHT, 50, HIGH);
+                if(!T1 || !T2)
+                {
+                    fahreCm(STRAIGHT, 50, LOW, 2);
+                    turn(50, flaschDirect, 7);
+
+                    flaschDirect ? my_rotR = my_rotR + 160 : my_rotL = my_rotL + 160;
+
+                    if((flaschDirect ? (rotR - my_rotR) : (rotL - my_rotL)) < 0)
+                    {
+                        flaschDirect ? my_rotR = rotR : my_rotL = rotL;
+                    }
+                }
+
+                my_distance = sharp(!flaschDirect);
+                if(my_distance == DISTANCE)
+                {
+                    onFwd(!flaschDirect, 75, LOW);
+                    onFwd(flaschDirect, 100, HIGH);
+                }
+                if(sharp(!flaschDirect) < DISTANCE)
+                {
+                    onFwd(STRAIGHT, 50, HIGH);
+                }
+                else
+                {
+                    onFwd(!flaschDirect, 50, LOW);
+                    onFwd(flaschDirect, 100, HIGH);
+                }
             }
-            else
-            {
-                onFwd(RIGHT, 50, LOW);
-                onFwd(LEFT, 100, HIGH);
-            }
+            onFwd(STRAIGHT, 0, LOW);
+            fahreCm(STRAIGHT, 50 , HIGH, 10);
+            turn(50, flaschDirect, 30);
         }
     }
 }

@@ -66,6 +66,8 @@
 		<Unit filename="libraries/Print.h" />
 		<Unit filename="libraries/Printable.h" />
 		<Unit filename="libraries/Server.h" />
+		<Unit filename="libraries/Servo.cpp" />
+		<Unit filename="libraries/Servo.h" />
 		<Unit filename="libraries/Stream.h" />
 		<Unit filename="libraries/USBAPI.h" />
 		<Unit filename="libraries/USBCore.h" />
