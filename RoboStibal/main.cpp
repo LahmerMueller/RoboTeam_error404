@@ -65,10 +65,12 @@ int main()
         Serial.println();
         delay(100);*/
 
-        ///followLine();
-        ///onTouchV2();
+        followLine();
+        onTouchV2();
 
-        doseFinden();
+        ///doseFinden();
+
+        //Serial.println(sharp(MIDDLE));
 
         /*if(!T3)
         {

@@ -77,9 +77,10 @@
 	<inttypes.h>
 	"Stream.h"
 
-1394575581 source:d:\roboter\roboteam_error404\roboteam_error404\robostibal\main.cpp
+1395760206 source:d:\roboter\roboteam_error404\roboteam_error404\robostibal\main.cpp
 	<WProgram.h>
 	<Wire.h>
+	<Servo.h>
 	"Defs.h"
 	"Functions.h"
 	"Accel_ADXL345.h"
@@ -138,9 +139,9 @@
 	<stdarg.h>
 	"Arduino.h"
 
-1394614973 d:\roboter\roboteam_error404\roboteam_error404\robostibal\defs.h
+1395759345 d:\roboter\roboteam_error404\roboteam_error404\robostibal\defs.h
 
-1394620176 d:\roboter\roboteam_error404\roboteam_error404\robostibal\functions.h
+1395761557 d:\roboter\roboteam_error404\roboteam_error404\robostibal\functions.h
 
 1393936401 d:\roboter\roboteam_error404\roboteam_error404\robostibal\accel_adxl345.h
 
@@ -296,5 +297,13 @@
 	"Servo.h"
 
 1389210400 d:\programmieren\roboter\roboteam_error404\robostibal\libraries\servo.h
+	<inttypes.h>
+
+1395754228 source:d:\roboter\roboteam_error404\roboteam_error404\robostibal\libraries\servo.cpp
+	<avr/interrupt.h>
+	<Arduino.h>
+	"Servo.h"
+
+1395754228 d:\roboter\roboteam_error404\roboteam_error404\robostibal\libraries\servo.h
 	<inttypes.h>
 

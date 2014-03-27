@@ -6,6 +6,7 @@
 
 #define STRAIGHT 2
 #define OFFLINE 3
+#define MIDDLE 2
 #define ONLINE 2
 #define RIGHT 1
 #define LEFT 0

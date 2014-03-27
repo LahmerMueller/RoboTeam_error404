@@ -175,7 +175,7 @@ void turn(int speed, bool turnDirect, int grad, bool withInter = false)
     }
 }
 
-int sharp(bool direct)
+int sharp(int direct)
 {
     int val = 0;
     if(direct == RIGHT)
@@ -188,19 +188,25 @@ int sharp(bool direct)
         val = analogRead(A15);
         return val;
     }
+    else if(direct == MIDDLE)
+    {
+        val = analogRead(A13);
+        return val;
+    }
+
     return val;
 }
 
 void doseFinden()
 {
-    dosDirect = LEFT;
+    dosDirect = RIGHT;
 
     while(T1 || T2)
     {
         onFwd(STRAIGHT, 100, HIGH);
     }
     fahreCm(STRAIGHT, 50, LOW, 5);
-    turn(50, LEFT, 90);
+    turn(50, RIGHT, 90);
     onFwd(STRAIGHT, 50, LOW);
     delay(2000);
 
@@ -230,7 +236,68 @@ void doseFinden()
     {*/
     turn(50, !dosDirect, 60);
 
+    /*int my_rotL = rotL;
+    while((rotL - my_rotL) < 360)
+    {
+        onFwd(RIGHT, 20, LOW);
+        onFwd(LEFT, 50, LOW);
+    }
+    onFwd(STRAIGHT, 0, HIGH);*/
+    int my_grad = 0;
+    while(sharp(MIDDLE) < DISTANCE)
+    {
+        turn(50, LEFT, 1);
+        my_grad++;
+    }
 
+    fahreCm(STRAIGHT, 50, LOW, 7);
+    myservo.write(160);
+    delay(2000);
+
+    turn(50, LEFT, 120 - my_grad);
+    while(T1 || T2)
+    {
+        onFwd(STRAIGHT, 50, HIGH);
+    }
+    fahreCm(STRAIGHT, 50, LOW, 4);
+    turn(50, RIGHT, 86);
+
+    while(!anyBlack())
+    {
+        onFwd(STRAIGHT, 50, HIGH);
+        if(!T1 && !T2)
+        {
+            fahreCm(STRAIGHT, 50, LOW, 4);
+            turn(50, RIGHT, 90);
+        }
+    }
+
+    while(L1)
+    {
+        onFwd(RIGHT, 50, HIGH);
+    }
+    fahreCm(STRAIGHT, 50, LOW, 10);
+    turn(50, LEFT, 180);
+    onFwd(STRAIGHT, 0, LOW);
+
+    /*turn(100, LEFT, 90);
+    while(T1 || T2)
+    {
+        onFwd(STRAIGHT, 50, HIGH);
+    }
+
+    fahreCm(STRAIGHT, 50, LOW, 4);
+    turn(50, LEFT, 100);
+    onFwd(STRAIGHT, 0, LOW);*/
+
+    myservo.write(20);
+    delay(2000);
+
+    fahreCm(STRAIGHT, 50, LOW, 25);
+    fahreCm(STRAIGHT, 50, HIGH, 10);
+    onFwd(STRAIGHT, 0, LOW);
+
+    delay(8000);
     /*onFwd(STRAIGHT, 50, LOW);
     delay(10000);
     while(T1 || T2)
