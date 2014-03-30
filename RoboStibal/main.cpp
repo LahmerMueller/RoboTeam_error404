@@ -1,9 +1,9 @@
 #include <WProgram.h> //import main Arduino header file
 #include <Wire.h>
 #include <Servo.h>
+#include "Accel_ADXL345.h"
 #include "Defs.h"
 #include "Functions.h"
-#include "Accel_ADXL345.h"
 
 void setup()
 {
@@ -45,15 +45,45 @@ int main()
     init(); //Don't forget this!
 
     setup();
-    Serial.print(1);
 
+
+    /*int ground = 0;
+    int ramp = 0;
+
+    while(T1 && T2);
+    readFrom(ADXL345, accelVal);
+    ground = accelVal[2];
+    while(!T1 || !T2);
+    delay(2000);
+    while(T1 && T2);
+    readFrom(ADXL345, accelVal);
+    ramp = accelVal[2];
+    while(!T1 || !T2);
+
+    Serial.println((ground + ramp)/2);*/
+    unsigned long my_time;
+
+    my_time = millis();
     while(true)
     {
         /*readFrom(ADXL345, accelVal);
-        sprintf(str, "%d %d %d", accelVal[0] - calbAccelVal[0], accelVal[1] - calbAccelVal[1], accelVal[2] - calbAccelVal[2]);
-        Serial.println(str);
+        serialWrite(accelVal[2]);*/
+        //Serial.println(sizeof(int));
+        /*serialWrite(accelVal[2]);
+        serialWrite(accelVal[3]);*/
 
-        delay(500);*/
+        /*if((millis() - my_time) > 100)
+        {
+            char str[50];
+            readFrom(ADXL345, accelVal);
+            sprintf(str, "%d %d %d", accelVal[0], accelVal[1], accelVal[2]);
+            Serial.println(str);
+            my_time = millis();
+        }*/
+        //delay(500);
+
+        //serialWrite(-36);
+        //Serial.write(-127);
 
         /*serialWrite(312);
         delay(1000);*/
@@ -68,7 +98,7 @@ int main()
         followLine();
         onTouchV2();
 
-        ///doseFinden();
+        //doseFinden();
 
         //Serial.println(sharp(MIDDLE));
 
@@ -112,5 +142,23 @@ int main()
     links(-135, LOW);
     delay(200);
     onFwd(STRAIGHT, 0, LOW);*/
+    /*char str[20];
+    int msg = 20;
+    int result;
+    byte test1;
+    byte test2;
+    sprintf(str, "%x", msg);
+    Serial.println(msg);
+
+    test1 = (byte)(msg >> 8);
+    //Serial.println(test1);
+    test2 = (byte) msg;
+    //Serial.println(test2);
+
+    result = (int) test1;
+    Serial.println(result);
+    result = (result << 8) | test2;
+    Serial.println(result);*/
+
     return 0;
 }

@@ -4,7 +4,7 @@
 void serialWrite(int msg)
 {
     Serial.write((byte)(msg >> 8));
-    Serial.write((byte) msg);
+    Serial.write(msg);
     Serial.println();
 }
 
@@ -331,8 +331,6 @@ void doseFinden()
 
 void followLine()
 {
-    Serial.print(lastLight);
-    Serial.println(rotR - rotSeek);
     if(!L2 || !L3 || !L4 || !L5)
     {
         lastLight = ONLINE;
@@ -451,9 +449,9 @@ void followLine()
         if(speedR == speedL)
         {
             digitalWrite(M1, HIGH);
-            analogWrite(E1, 155);
+            analogWrite(E1, 180);
             digitalWrite(M2, HIGH);
-            analogWrite(E2, 155);
+            analogWrite(E2, 180);
         }
         else
         {
@@ -634,11 +632,12 @@ void onTouchV2()
                 if(sharp(!flaschDirect) < DISTANCE)
                 {
                     onFwd(STRAIGHT, 50, HIGH);
+
                 }
                 else
                 {
-                    onFwd(!flaschDirect, 50, LOW);
-                    onFwd(flaschDirect, 100, HIGH);
+                    onFwd(!flaschDirect, 100, LOW);
+                    onFwd(flaschDirect, 0, HIGH);
                 }
             }
             onFwd(STRAIGHT, 0, LOW);

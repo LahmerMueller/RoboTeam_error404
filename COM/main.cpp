@@ -1,26 +1,33 @@
 #include <iostream>
 #include <windows.h>
-#include <irrlicht.h>
+#include <stdio.h>
+
 
 using namespace std;
-using namespace irr;
 
-int serialRead(HANDLE hwnd)
+
+short serialRead(HANDLE hwnd)
 {
-    int result;
-    BYTE buffer;
+    signed short result;
+    BYTE buffer1;
+    BYTE buffer2;
     DWORD bytesRead;
 
-    ReadFile(hwnd, &buffer, 1, &bytesRead, NULL);
-    result = (int)buffer << 8;
-    ReadFile(hwnd, &buffer, 1, &bytesRead, NULL);
-    result = result | (int)buffer;
+    ReadFile(hwnd, &buffer1, 1, &bytesRead, NULL);
+    ReadFile(hwnd, &buffer2, 1, &bytesRead, NULL);
+    result = (((short)buffer1) << 8) | buffer2;
 
     return result;
 }
 
 int main()
 {
+    system("PAUSE");
+
+    FILE *stream;
+
+    stream = fopen("messwerte.dat", "w");
+
     HANDLE hwnd;
     DCB PortDCB;
 
@@ -55,32 +62,21 @@ int main()
         return 1;
     }
 
-    IrrlichtDevice *device = createDevice(video::EDT_OPENGL,
-            core::dimension2d<u32>(600, 400), 16, false, false, false);
-
-    video::IVideoDriver* driver = device->getVideoDriver();
-
-    driver->getMaterial2D().TextureLayer[0].BilinearFilter=true;
-	driver->getMaterial2D().AntiAliasing=video::EAAM_FULL_BASIC;
-
     BYTE buffer;
     DWORD bytesRead;
     int msg = 0;
 
-    while(true)
+    for(int i = 0; i < 5000; i++)
     {
+        //ReadFile(hwnd, &buffer, 1, &bytesRead, NULL);
+        //fprintf(stream, "%d %d\n", i, serialRead(hwnd));
         ReadFile(hwnd, &buffer, 1, &bytesRead, NULL);
         if(buffer == '\n')
         {
-            cout << serialRead(hwnd) << endl;
+            fprintf(stream, "%d %d\n", i, serialRead(hwnd));
+            Sleep(1);
         }
-
-
-        driver->beginScene(true, true, video::SColor(255,255,255,255));
-
-        driver->draw2DLine(core::position2d<s32>(96, 100), core::position2d<s32>(96, 205), video::SColor(255, 0, 0, 0));
-
-        driver->endScene();
     }
-    device->drop();
+
+    fclose(stream);
 }

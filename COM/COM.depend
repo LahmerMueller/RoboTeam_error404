@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1392931122 source:d:\programmieren\roboter\roboteam_error404\com\main.cpp
+1396012438 source:d:\programmieren\roboter\roboteam_error404\com\main.cpp
 	<iostream>
 	<windows.h>
+	<stdio.h>
 
 1393091616 source:d:\roboter\roboteam_error404\roboteam_error404\com\main.cpp
 	<iostream>
