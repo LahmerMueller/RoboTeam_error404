@@ -61,9 +61,22 @@ int main()
     while(!T1 || !T2);
 
     Serial.println((ground + ramp)/2);*/
-    unsigned long my_time;
+    /*unsigned long my_time;
+
+    my_time = millis();*/
+
+    /*turn(50, RIGHT, 180);
+    onFwd(STRAIGHT, 0, HIGH);
+    return 1;*/
+
+    onFwd(STRAIGHT, 100, HIGH);
 
     my_time = millis();
+    rotRotR = rotR;
+    rotRotL = rotL;
+
+    LEDStatus = HIGH;
+
     while(true)
     {
         /*readFrom(ADXL345, accelVal);
@@ -97,10 +110,31 @@ int main()
 
         followLine();
         onTouchV2();
+        silberStreifen();
 
         //doseFinden();
 
+        /*while(sharp(MIDDLE) < DISTANCE)
+        {
+            digitalWrite(13, HIGH);
+        }
+
+        digitalWrite(13, LOW);*/
+
         //Serial.println(sharp(MIDDLE));
+
+        /**if(millis() - my_time > 100)
+        {
+            if(rotL - rotRotL < 10)
+            {
+                //fahreCm(STRAIGHT, 100, HIGH, 6);
+                digitalWrite(13, LEDStatus);
+            }
+
+            rotRotL = rotL;
+            my_time = millis();
+            LEDStatus = !LEDStatus;
+        }*/
 
         /*if(!T3)
         {

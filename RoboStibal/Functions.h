@@ -36,6 +36,15 @@ bool anyBlack()
     return false;
 }
 
+bool anyBlackV2()
+{
+    if(!L1 || !L2 || !L3 || !L4 || !L5 /*|| !L6*/)
+    {
+        return true;
+    }
+    return false;
+}
+
 void rechts(int speed, bool direct)
 {
     if(speed == 0)
@@ -153,24 +162,28 @@ void fahreCm(int moto, int speed, bool direct, int cm, bool withInter = false)
 void turn(int speed, bool turnDirect, int grad, bool withInter = false)
 {
     int motoGrad = grad * TPROP;
+    //int motoGrad = grad;
     int my_rotR;
+    int my_rotL;
 
     if(withInter)
     {
         my_rotR = rotR;
-        while((rotR - my_rotR) < motoGrad && !anySensor())
+        my_rotL = rotL;
+        while(((rotR - my_rotR) < motoGrad || (rotL - my_rotL) < motoGrad) && !anySensor())
         {
-            onFwd(RIGHT, speed, !turnDirect);
-            onFwd(LEFT, speed, turnDirect);
+            onFwd(RIGHT, speed * ((rotR - my_rotR) < motoGrad), !turnDirect);
+            onFwd(LEFT, speed * ((rotL - my_rotL) < motoGrad), turnDirect);
         }
     }
     else if(!withInter)
     {
         my_rotR = rotR;
-        while((rotR - my_rotR) < motoGrad)
+        my_rotL = rotL;
+        while((rotR - my_rotR) < motoGrad || (rotL - my_rotL) < motoGrad)
         {
-            onFwd(RIGHT, speed, !turnDirect);
-            onFwd(LEFT, speed, turnDirect);
+            onFwd(RIGHT, speed * ((rotR - my_rotR) < motoGrad), !turnDirect);
+            onFwd(LEFT, speed * ((rotL - my_rotL) < motoGrad), turnDirect);
         }
     }
 }
@@ -200,15 +213,18 @@ int sharp(int direct)
 void doseFinden()
 {
     dosDirect = RIGHT;
+    bool raumDirect = dosDirect;
 
     while(T1 || T2)
     {
-        onFwd(STRAIGHT, 100, HIGH);
+        //onFwd(RIGHT, 100 * (T1 ? 1 : 0), HIGH);
+        //onFwd(LEFT, 100 * (T2 ? 1 : 0), HIGH);
+        onFwd(STRAIGHT, 25, HIGH);
     }
     fahreCm(STRAIGHT, 50, LOW, 5);
-    turn(50, RIGHT, 90);
+    turn(50, dosDirect, 90);
     onFwd(STRAIGHT, 50, LOW);
-    delay(2000);
+    delay(5000);
 
     while(sharp(dosDirect) < DISTANCE)
     {
@@ -217,24 +233,28 @@ void doseFinden()
 
         if(!T1 && !T2)
         {
-            fahreCm(STRAIGHT, 50, LOW, 5);
+            fahreCm(STRAIGHT, 50, LOW, 6);
             turn(50, dosDirect, 90);
-            fahreCm(STRAIGHT, 50, HIGH, 10);
-            turn(50, !dosDirect, 60);
+            fahreCm(STRAIGHT, 50, HIGH, 15);
+            turn(50, !dosDirect, 90);
             while(T1 || T2)
             {
                 onFwd(STRAIGHT, 50, HIGH);
             }
-            fahreCm(STRAIGHT, 50, LOW, 5);
+            fahreCm(STRAIGHT, 50, LOW, 6);
             turn(50, dosDirect, 180);
             onFwd(STRAIGHT, 50, LOW);
             delay(3000);
             dosDirect = !dosDirect;
         }
     }
+
+    fahreCm(STRAIGHT, 50, LOW, 3);
     /*else if(sharp() >= DISTANCE)
     {*/
     turn(50, !dosDirect, 60);
+
+    onFwd(STRAIGHT, 0, HIGH);
 
     /*int my_rotL = rotL;
     while((rotL - my_rotL) < 360)
@@ -243,41 +263,75 @@ void doseFinden()
         onFwd(LEFT, 50, LOW);
     }
     onFwd(STRAIGHT, 0, HIGH);*/
-    int my_grad = 0;
+    //int my_grad = 0;
     while(sharp(MIDDLE) < DISTANCE)
     {
-        turn(50, LEFT, 1);
-        my_grad++;
+        onFwd(!dosDirect, 1, LOW);
+        onFwd(dosDirect, 1, HIGH);
+        //my_grad++;
     }
 
-    fahreCm(STRAIGHT, 50, LOW, 7);
+    //turn(50, dosDirect, 5);
+
+    fahreCm(STRAIGHT, 50, LOW, 10);
+
+    while(sharp(MIDDLE) < DISTANCE)
+    {
+        onFwd(!dosDirect, 1, LOW);
+        onFwd(dosDirect, 1, HIGH);
+        //my_grad++;
+    }
+
+    //turn(50, dosDirect, 5);
+
+    fahreCm(STRAIGHT, 50, LOW, 10);
+
+    while(sharp(MIDDLE) < DISTANCE)
+    {
+        onFwd(!dosDirect, 1, LOW);
+        onFwd(dosDirect, 1, HIGH);
+        //my_grad++;
+    }
+
+    onFwd(STRAIGHT, 0, LOW);
     myservo.write(160);
     delay(2000);
 
-    turn(50, LEFT, 120 - my_grad);
+    //turn(50, LEFT, 120 - my_grad);
     while(T1 || T2)
     {
         onFwd(STRAIGHT, 50, HIGH);
     }
-    fahreCm(STRAIGHT, 50, LOW, 4);
-    turn(50, RIGHT, 86);
+    fahreCm(STRAIGHT, 50, LOW, 6);
+    turn(50, raumDirect, 86);
 
     while(!anyBlack())
     {
         onFwd(STRAIGHT, 50, HIGH);
         if(!T1 && !T2)
         {
-            fahreCm(STRAIGHT, 50, LOW, 4);
-            turn(50, RIGHT, 90);
+            fahreCm(STRAIGHT, 50, LOW, 6);
+            turn(50, raumDirect, 90);
         }
     }
 
-    while(L1)
+    /*while(L1)
     {
         onFwd(RIGHT, 50, HIGH);
-    }
+        onFwd(LEFT, 0, LOW);
+    }*/
+    /*while(raumDirect ? L6 : L1)
+    {
+        onFwd(!raumDirect, 0, LOW);
+        onFwd(raumDirect, 50, HIGH);
+    }*/
+
+    turn(50, !raumDirect, 60);
+    fahreCm(STRAIGHT, 50, LOW, 3);
+    //fahreCm(!raumDirect, 50, LOW, 10);
+
     fahreCm(STRAIGHT, 50, LOW, 10);
-    turn(50, LEFT, 180);
+    turn(50, !raumDirect, 180);
     onFwd(STRAIGHT, 0, LOW);
 
     /*turn(100, LEFT, 90);
@@ -293,8 +347,8 @@ void doseFinden()
     myservo.write(20);
     delay(2000);
 
-    fahreCm(STRAIGHT, 50, LOW, 25);
-    fahreCm(STRAIGHT, 50, HIGH, 10);
+    fahreCm(STRAIGHT, 50, LOW, 30);
+    fahreCm(STRAIGHT, 50, HIGH, 20);
     onFwd(STRAIGHT, 0, LOW);
 
     delay(8000);
@@ -341,28 +395,47 @@ void followLine()
         rotSeek = rotR;
     }
 
-    if(lastLight == OFFLINE && (rotR - rotSeek) > 1000)
+    if(lastLight == OFFLINE && (rotR - rotSeek) > 825)
     {
-        doseFinden();
+        /*int gotLine = 0;
+        turn(50, LEFT, 45, true);
+        gotLine += anyBlack() ? 1 : 0;
+        turn(50, RIGHT, 90, true);
+        gotLine += anyBlack() ? 1 : 0;
+        turn(50, LEFT, 45, true);
+        gotLine += anyBlack() ? 1 : 0;
+        if(gotLine == 0)
+        {*/
+        digitalWrite(13, HIGH);
+            doseFinden();
+        //}
     }
-    else if((lastLight == RIGHT || lastLight == LEFT) && (rotR - rotSeek) > 25)
+    else if((lastLight == RIGHT || lastLight == LEFT) && (rotR - rotSeek) > 10)
     {
         if(lastLight == RIGHT)
         {
             lastLight = OFFLINE;
-            rotSeek = rotR;
+            rotSeek = rotL;
             inter = anyBlack();
-            while((rotR - rotSeek) < 150 && !inter)
+            while((rotL - rotSeek) < 150 && !inter)
             {
-                rechts(50, LOW);
-                links(50, HIGH);
+                /*rechts(((rotL - rotSeek) / 6) - 155, HIGH);
+                links(100, HIGH);
+                inter = anyBlack();*/
+
+                onFwd(RIGHT, 50, LOW);
+                onFwd(LEFT, 50, HIGH);
                 inter = anyBlack();
             }
-            rotSeek = rotR;
-            while((rotR - rotSeek) < 150 && !inter)
+            rotSeek = rotL;
+            while((rotL - rotSeek) < 150 && !inter)
             {
-                rechts(50, HIGH);
+                /*rechts((50 - ((rotL - rotSeek) / 6)) - 155, LOW);
                 links(50, LOW);
+                inter = anyBlack();*/
+
+                onFwd(RIGHT, 50, HIGH);
+                onFwd(LEFT, 50, LOW);
                 inter = anyBlack();
             }
         }
@@ -373,15 +446,23 @@ void followLine()
             inter = anyBlack();
             while((rotR - rotSeek) < 150 && !inter)
             {
-                rechts(50, HIGH);
-                links(50, LOW);
+                /*rechts(100, HIGH);
+                links(((rotR - rotSeek) / 6) - 155, HIGH);
+                inter = anyBlack();*/
+
+                onFwd(RIGHT, 50, HIGH);
+                onFwd(LEFT, 50, LOW);
                 inter = anyBlack();
             }
             rotSeek = rotR;
             while((rotR - rotSeek) < 150 && !inter)
             {
-                rechts(50, LOW);
-                links(50, HIGH);
+                /*rechts(50, LOW);
+                links((50 - ((rotR - rotSeek) / 6)) - 155, LOW);
+                inter = anyBlack();*/
+
+                onFwd(RIGHT, 50, LOW);
+                onFwd(LEFT, 50, HIGH);
                 inter = anyBlack();
             }
         }
@@ -410,10 +491,20 @@ void followLine()
     }
     else if(!L1)
     {
-        digitalWrite(M1, HIGH);
-        analogWrite(E1, 255);
-        digitalWrite(M2, LOW);
-        analogWrite(E2, 255);
+        if(!L5)
+        {
+            digitalWrite(M1, HIGH);
+            analogWrite(E1, 255);
+            digitalWrite(M2, LOW);
+            analogWrite(E2, 155);
+        }
+        else
+        {
+            digitalWrite(M1, HIGH);
+            analogWrite(E1, 255);
+            digitalWrite(M2, LOW);
+            analogWrite(E2, 255);
+        }
 
         lastLight = LEFT;
         rotSeek = rotR;
@@ -448,13 +539,48 @@ void followLine()
 
         if(speedR == speedL)
         {
-            digitalWrite(M1, HIGH);
-            analogWrite(E1, 180);
-            digitalWrite(M2, HIGH);
-            analogWrite(E2, 180);
+            /*if(straightFwd != ONSTRAIGHT)
+            {
+                rotRotR = rotR;
+                rotRotL = rotL;
+                my_time = millis();
+
+                straightFwd = ONSTRAIGHT;
+            }
+
+            if(millis() - my_time > 100)
+            {
+                if(rotL - rotRotL < 10 || rotR - rotRotR < 10)
+                {
+                    digitalWrite(13, HIGH);
+                    //fahreCm(STRAIGHT, 100, HIGH, 2);
+                    onFwd(STRAIGHT, 100, HIGH);
+                    delay(200);
+                }
+                else
+                {
+                    digitalWrite(13, LOW);
+                }
+
+                rotRotR = rotR;
+                rotRotL = rotL;
+                my_time = millis();
+                LEDStatus = !LEDStatus;
+
+                straightFwd = OFFSTRAIGHT;
+            }
+            else
+            {*/
+                digitalWrite(M1, HIGH);
+                analogWrite(E1, 180);
+                digitalWrite(M2, HIGH);
+                analogWrite(E2, 180);
+            //}
         }
         else
         {
+            //straightFwd = OFFSTRAIGHT;
+
             if(speedR > 0)
             {
                 digitalWrite(M1, HIGH);
@@ -595,12 +721,12 @@ void onTouchV2()
         else if(!T1 && !T2)
         {
             onFwd(STRAIGHT, 0, LOW);
-            bool flaschDirect = LEFT;
+            bool flaschDirect = RIGHT;
 
-            if(ultraschall(TRIG1, PWM1, validRead, true) > ultraschall(TRIG2, PWM2, validRead, true))
+            /**if(ultraschall(TRIG1, PWM1, validRead, true) > ultraschall(TRIG2, PWM2, validRead, true))
             {
                 flaschDirect = RIGHT;
-            }
+            }*/
 
             fahreCm(STRAIGHT, 50, LOW, 4);
             turn(50, flaschDirect, 55);
@@ -608,7 +734,7 @@ void onTouchV2()
             int my_rotR = rotR;
             int my_rotL = rotL;
 
-            while((flaschDirect ? (rotR - my_rotR) : (rotL - my_rotL)) < 180 || !anyBlack())
+            while((flaschDirect ? (rotR - my_rotR) : (rotL - my_rotL)) < 180 || !anyBlackV2())
             {
                 if(!T1 || !T2)
                 {
@@ -644,6 +770,18 @@ void onTouchV2()
             fahreCm(STRAIGHT, 50 , HIGH, 10);
             turn(50, flaschDirect, 30);
         }
+    }
+}
+
+void silberStreifen()
+{
+    if(!S1)
+    {
+        fahreCm(STRAIGHT, 25, HIGH, 6);
+        //digitalWrite(13, LEDStatus);
+        //LEDStatus = !LEDStatus;
+
+        lastLight = OFFLINE;
     }
 }
 
