@@ -1,7 +1,7 @@
 #ifndef DEFS_H_INCLUDED
 #define DEFS_H_INCLUDED
 
-#define TPROP 2.667
+#define TPROP 3.006
 #define DPROP 12.5
 
 #define STRAIGHT 2
@@ -10,6 +10,9 @@
 #define ONLINE 2
 #define RIGHT 1
 #define LEFT 0
+
+#define OFFSTRAIGHT 0
+#define ONSTRAIGHT 1
 
 #define E1 4
 #define M1 5
@@ -26,6 +29,8 @@
 #define T1 digitalRead(26)
 #define T2 digitalRead(27)
 #define T3 digitalRead(28)
+
+#define S1 digitalRead(21)
 
 #define TRIG2 37
 #define PWM2 38
@@ -55,6 +60,11 @@ bool inter = false;
 int rotSeek;
 
 bool dosDirect;
+bool LEDStatus;
+bool straightFwd;
+
+int my_time = 0;
+int rotRotL, rotRotR;
 
 Servo myservo;
 
