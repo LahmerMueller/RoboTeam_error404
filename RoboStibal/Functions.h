@@ -594,7 +594,7 @@ void followLine()
             else
             {
                 digitalWrite(M1, (speedL < 0));
-                analogWrite(E1, 10);
+                analogWrite(E1, 100);
             }
 
             if(speedL > 0)
@@ -610,7 +610,7 @@ void followLine()
             else
             {
                 digitalWrite(M2, (speedR < 0));
-                analogWrite(E2, 10);
+                analogWrite(E2, 100);
             }
         }
     }
