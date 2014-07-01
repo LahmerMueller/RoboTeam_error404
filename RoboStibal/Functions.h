@@ -469,6 +469,49 @@ void followLine()
         rotSeek = rotR;
     }
 
+    #ifdef LEFTCROSS
+    if(!L1)
+    {
+        if(!L6 || !L5)
+        {
+            digitalWrite(M2, LOW);
+            analogWrite(E2, 155);
+            digitalWrite(M1, HIGH);
+            analogWrite(E1, 255);
+        }
+        else
+        {
+            digitalWrite(M2, LOW);
+            analogWrite(E2, 255);
+            digitalWrite(M1, HIGH);
+            analogWrite(E1, 255);
+        }
+
+        lastLight = LEFT;
+        rotSeek = rotR;
+    }
+    else if(!L6)
+    {
+        if(!L2)
+        {
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 255);
+            digitalWrite(M1, LOW);
+            analogWrite(E1, 155);
+        }
+        else
+        {
+            digitalWrite(M2, HIGH);
+            analogWrite(E2, 255);
+            digitalWrite(M1, LOW);
+            analogWrite(E1, 255);
+        }
+
+        lastLight = RIGHT;
+        rotSeek = rotR;
+    }
+
+    #else // RIGHTCROSS
     if(!L6)
     {
         if(!L1 || !L2)
@@ -509,6 +552,7 @@ void followLine()
         lastLight = LEFT;
         rotSeek = rotR;
     }
+    #endif // RIGHTCROSS
     else
     {
         speedR = 0;
