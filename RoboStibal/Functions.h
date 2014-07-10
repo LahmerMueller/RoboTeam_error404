@@ -212,7 +212,7 @@ int sharp(int direct)
 
 void doseFinden()
 {
-    dosDirect = RIGHT;
+    dosDirect = DOSE;
     bool raumDirect = dosDirect;
 
     while(T1 || T2)
@@ -660,7 +660,7 @@ void followLine()
     }
 }
 
-void onTouch()
+/*void onTouch()
 {
     if(!T1 || !T2)
     {
@@ -669,14 +669,14 @@ void onTouch()
             bool flaschDirect = LEFT;
             onFwd(STRAIGHT, 0, HIGH);
 
-            /*if(ultraschall(TRIG1, PWM1, validRead) > 25 && ultraschall(TRIG2, PWM2, validRead) > 25)
+            if(ultraschall(TRIG1, PWM1, validRead) > 25 && ultraschall(TRIG2, PWM2, validRead) > 25)
             {
                 flaschDirect = RIGHT;
             }
             else
             {
                 flaschDirect = LEFT;
-            }*/
+            }
 
             fahreCm(STRAIGHT, 75, LOW, 10);
             turn(75, flaschDirect, 90);
@@ -739,7 +739,7 @@ void onTouch()
             fahreCm(LEFT, 50, HIGH, 6);
         }
     }
-}
+}*/
 
 void onTouchV2()
 {
@@ -765,7 +765,7 @@ void onTouchV2()
         else if(!T1 && !T2)
         {
             onFwd(STRAIGHT, 0, LOW);
-            bool flaschDirect = RIGHT;
+            bool flaschDirect = FLASCHE;
 
             /**if(ultraschall(TRIG1, PWM1, validRead, true) > ultraschall(TRIG2, PWM2, validRead, true))
             {

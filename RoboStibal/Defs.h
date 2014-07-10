@@ -1,7 +1,9 @@
 #ifndef DEFS_H_INCLUDED
 #define DEFS_H_INCLUDED
 
-#define LEFTCROSS
+//#define LEFTCROSS
+#define FLASCHE RIGHT
+#define DOSE RIGHT
 
 #define TPROP 3.006
 #define DPROP 12.5
